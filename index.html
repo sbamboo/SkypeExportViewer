@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skype Export Viewer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Include the ProgressDrop-JS library from this github through CDN -->
+    <script src="https://cdn.jsdelivr.net/gh/sbamboo/progressdrop_js/dist/a0.0.5/progressdrop.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sbamboo/progressdrop_js/dist/a0.0.5/progressdrop.min.css">
+
+    <!-- Include the JSZip library from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+
+    <!-- Include the TarballJS library from this github through CDN -->
+    <script src="https://cdn.jsdelivr.net/gh/sbamboo/progressdrop_js/dist/tarballjs/tarball.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="skype.svg" alt="Skype Logo" class="skype-logo">
+            <h1>Skype Export Viewer</h1>
+        </header>
+
+        <div id="progressContainer"></div>
+
+        <div class="upload-section">
+            <div class="upload-left">
+                <button id="uploadBtn">Upload a skype export archive</button>
+                <input type="file" id="fileInput" accept=".tar" style="display: none;">
+            </div>
+            <div class="separator"></div>
+            <div class="upload-right">
+                <button id="fetchBtn">Fetch a skype export archive</button>
+                <input type="text" id="urlInput" placeholder="Enter URL to .tar file">
+            </div>
+        </div>
+
+        <p class="info-text">Your data is never uploaded to a server and exists only in your web browser until the page is reloaded or closed.</p>
+
+        <hr>
+
+        <div class="viewer">
+            <div class="tabs" id="tabsContainer">
+                <!-- Tabs will be dynamically added here -->
+            </div>
+            <div class="tab-content" id="tabContent">
+                <!-- Tab content will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
