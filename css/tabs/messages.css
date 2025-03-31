@@ -188,3 +188,10 @@
 .message-event-historydisclosed-update-false > .event-initiator {
     color: #a07a7a;
 }
+
+/* .emoticon is image make it height same as parents fontSize */
+.emoticon {
+    height: 1em;
+    vertical-align: middle;
+    margin-right: 2px;
+}

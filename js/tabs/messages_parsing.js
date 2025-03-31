@@ -53,7 +53,54 @@ async function parseMessageContent(content, mediaFiles) {
         }
     }
 
-    return escapeHtml(content);
+    // Process <ss> tags asynchronously
+    if (content.includes("<ss")) {
+        const matches = [...content.matchAll(/<ss[^>]*>([\s\S]*?)<\/ss>/g)];
+        for (const match of matches) {
+            const parsedContent = await parseSSTag(match[0]);
+            content = content.replace(match[0], parsedContent);
+        }
+    }
+
+    // Presever line breaks by replacing \n with <br> tags
+    content = content.replace(/\n/g, "<br>");
+
+    //return escapeHtml(content);
+    return content;
+}
+
+async function parseSSTag(xmlString) {
+    // Find the "type" attribute in the <ss> tag if not found, use the html-content, then send this to parseEmoticonString
+    if (xmlString.includes("type=")) {
+        // Extract type attribute and send to parseEmoticonString
+        const typeMatch = xmlString.match(/type="([^"]+)"/);
+        if (typeMatch) {
+            const type = typeMatch[1];
+            console.log(`Checking type... (${type})`);
+            const typeEmoticonMatch = await parseEmoticon(type, EMOTICON_MAPPING);
+            // if typeEmoticonMatch is not null, return the emoticon
+            if (typeEmoticonMatch !== null) {
+                console.log(`Type matched! (${type})`);
+                return typeEmoticonMatch;
+            }
+            console.log(`Type did not match! (${type})`);
+        }
+    }
+
+    // If no type attribute or type was not found, extract the content inside the <ss> tag and send to parseEmoticonString
+    const contentMatch = xmlString.match(/<ss[^>]*>([\s\S]*?)<\/ss>/);
+    if (contentMatch) {
+        console.log(`Checking content... (${contentMatch[1]})`);
+        let content = contentMatch[1];
+        
+        content = parseEmoticonStringExtracting(content, EMOTICON_MAPPING);
+
+        // Return the parsed string
+        return content;
+    }
+
+    // If no type is found, return the original string
+    return escapeHtml(xmlString);
 }
 
 async function parsePartlist(xmlString) {
