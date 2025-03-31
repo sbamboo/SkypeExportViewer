@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skype Export Viewer</title>
-    
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/tabs/messages.css">
-    <link rel="stylesheet" href="./css/tabs/media.css">
-    <link rel="stylesheet" href="./css/tabs/endpoints.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Include the ProgressDrop-JS library from this github through CDN -->
     <script src="https://cdn.jsdelivr.net/gh/sbamboo/progressdrop_js/dist/a0.0.5/progressdrop.min.js"></script>
@@ -43,25 +39,18 @@
 
         <p class="info-text">Your data is never uploaded to a server and exists only in your web browser until the page is reloaded or closed.</p>
 
-        <div id="viewerWrapper" style="display:none;">
-            <hr>
+        <hr>
 
-            <div class="viewer">
-                <div class="tabs" id="tabsContainer">
-                    <!-- Tabs will be dynamically added here -->
-                </div>
-                <div class="tab-contents" id="tabContentsContainer">
-                    <!-- Tab content will be dynamically loaded here -->
-                </div>
+        <div class="viewer">
+            <div class="tabs" id="tabsContainer">
+                <!-- Tabs will be dynamically added here -->
             </div>
-
+            <div class="tab-content" id="tabContent">
+                <!-- Tab content will be dynamically loaded here -->
+            </div>
         </div>
     </div>
 
-    <script src="./js/tabs/messages_parsing.js"></script>
-    <script src="./js/tabs/messages.js"></script>
-    <script src="./js/tabs/media.js"></script>
-    <script src="./js/tabs/endpoints.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

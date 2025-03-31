@@ -1,0 +1,190 @@
+.messages-tab-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 625px;
+}
+
+.conversation-list-wrapper, .message-view {
+    height: 100%;
+}
+
+.conversation-list-wrapper {
+    width: 300px;
+    border-right: 1px solid #ddd;
+    background: #f8f8f8;
+}
+
+.conversation-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 520px;
+}
+
+.export-info {
+    padding: 15px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    height: 72px;
+}
+
+.export-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.conversation-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.conversation-item:hover {
+    background: #f0f0f0;
+}
+
+.conversation-item.active {
+    background: #e3f2fd;
+}
+
+.conversation-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.conversation-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+.message-view {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    height: 605px;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 4px;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+.message-header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.message-author {
+    font-weight: bold;
+    color: #333;
+}
+
+.message-time {
+    color: #666;
+}
+
+.format-toggle {
+    padding: 4px 8px;
+    font-size: 12px;
+    background: #e0e0e0;
+    color: #333;
+    border-radius: 3px;
+}
+
+.message-content {
+    color: #333;
+    line-height: 1.4;
+    margin-top: 8px;
+}
+
+.message-content.raw {
+    font-family: monospace;
+    white-space: pre-wrap;
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.call-info {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.call-status {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.call-status.started {
+    color: #4caf50;
+}
+
+.call-status.ended {
+    color: #f44336;
+}
+
+.call-status.missed {
+    color: #ff9800;
+}
+
+.participants {
+    color: #666;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.participant {
+    margin: 2px 0;
+}
+
+.export-info {
+    padding: 15px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.export-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.event-initiator, .event-target {
+    color: #666;
+}
+
+.message-ci-tag {
+    font-size: 12px;
+    color: #999;
+    margin-left: 5px;
+}
+
+.message-event-historydisclosed-update-true {
+    /* color mostly same but abit bluer still verry close to #333*/
+    color: #406c6d;
+}
+.message-event-historydisclosed-update-true > .event-initiator {
+    color: #678e8f;
+}
+
+.message-event-historydisclosed-update-false {
+    /* color mostly same but abit redder still verry close to #333*/
+    color: #774d4d;
+}
+.message-event-historydisclosed-update-false > .event-initiator {
+    color: #a07a7a;
+}
