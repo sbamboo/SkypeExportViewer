@@ -41,7 +41,7 @@ In the shortcuts the first entry is usually the *prefered-shortcut*. (The main v
 | thinking | "Thinking" | ![Thinking](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/thinking_40x40.gif) | `(think)` | `:-?` `:?` `:=?` |
 | zipper_mouth_face | "Zipper mouth face" | ![Zipper mouth face](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/zipper_mouth_face_40x40.gif) | `(zippermouthface)` |  |
 | wondering | "Wondering" | ![Wondering](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/wondering_40x40.gif) | `(wonder)` |  |
-| speechless | "Speechless" | ![Speechless](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/speechless_40x40.gif) | `(speechless)` | `:|` `:-|` `:=|` |
+| speechless | "Speechless" | ![Speechless](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/speechless_40x40.gif) | `(speechless)` | `:\|` `:-\|` `:=\|` |
 | expressionless | "Expressionless" | ![Expressionless](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/expressionless_40x40.gif) | `(expressionless)` |  |
 | face_without_mouth | "Face Without Mouth" | ![Face Without Mouth](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/face_without_mouth_40x40.gif) | `(blankface)` |  |
 | smirking | "Smirking" | ![Smirking](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/smirking_40x40.gif) | `(smirk)` |  |
@@ -64,7 +64,7 @@ In the shortcuts the first entry is usually the *prefered-shortcut*. (The main v
 | face_with_cowboy_hat | "Face with cowboy hat" | ![Face with cowboy hat](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/face_with_cowboy_hat_40x40.gif) | `(facewithcowboyhat)` `(cowboyhatface)` |  |
 | party | "Party" | ![Party](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/party_40x40.gif) | `(party)` |  |
 | cool | "Cool" | ![Cool](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/cool_40x40.gif) | `(cool)` |  |
-| nerdy | "Nerdy" | ![Nerdy](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/nerdy_40x40.gif) | `(nerd)` `(nerdy)` | `8-|` `B-|` `8|` `B|` `8=|` `B=|` |
+| nerdy | "Nerdy" | ![Nerdy](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/nerdy_40x40.gif) | `(nerd)` `(nerdy)` | `8-\|` `B-\|` `8\|` `B\|` `8=\|` `B=\|` |
 | face_with_monocle | "Face with monocle" | ![Face with monocle](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/face_with_monocle_40x40.gif) | `(facewithmonocle)` |  |
 | confused | "Confused" | ![Confused](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/confused_40x40.gif) | `(confused)` |  |
 | sad | "Sad" | ![Sad](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/sad_40x40.gif) | `(sad)` | `:<` `:-<` |
@@ -288,7 +288,7 @@ In the shortcuts the first entry is usually the *prefered-shortcut*. (The main v
 | relieved | "Relieved" | ![Relieved](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/relieved_40x40.gif) | `(whew)` `(phew)` |  |
 | too_much_information | "Too much information" | ![Too much information](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/too_much_information_40x40.gif) | `(tmi)` |  |
 | call | "Call" | ![Call](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/call_40x40.gif) | `(call)` |  |
-| punch | "Punch" | ![Punch](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/punch_40x40.gif) | `(punch)` | `*|` `*-|` |
+| punch | "Punch" | ![Punch](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/punch_40x40.gif) | `(punch)` | `*\|` `*-\|` |
 | talk_to_the_hand | "Talk to the hand" | ![Talk to the hand](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/talk_to_the_hand_40x40.gif) | `(talktothehand)` |  |
 | whistle | "Whistle" | ![Whistle](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/whistle_40x40.gif) | `(whistle)` `(seeti)` |  |
 | slap | "Slap" | ![Slap](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/slap_40x40.gif) | `(slap)` `(thappad)` |  |
@@ -633,7 +633,7 @@ In the shortcuts the first entry is usually the *prefered-shortcut*. (The main v
 
 | ID | Name | URL | Shortcuts | Textmojis |
 |----|------|-----|-----------|-----------|
-| monkey | "Monkey" | ![Monkey](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/monkey_40x40.gif) | `(monkey)` `(ape)` `:(|)` |  |
+| monkey | "Monkey" | ![Monkey](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/monkey_40x40.gif) | `(monkey)` `(ape)` `:(\|)` |  |
 | gorilla | "Gorilla" | ![Gorilla](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/gorilla_40x40.gif) | `(gorilla)` |  |
 | orangutan_scratching | "Orangutan scratching" | ![Orangutan scratching](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/orangutan_scratching_40x40.gif) | `(orangutanscratch)` `(orangutanscratching)` |  |
 | dog | "Dog" | ![Dog](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons/dog_40x40.gif) | `(dog)` `(and)` | `:o3` |
