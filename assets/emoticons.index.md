@@ -1,4 +1,6 @@
 # Skype Emoticons
+This is a list of all skype emoticons according to [support.microsoft.com/en-us/skype/what-is-the-full-list-of-emoticons](https://support.microsoft.com/en-us/skype/what-is-the-full-list-of-emoticons-01af0c65-529f-4a4d-8e3a-a393033a359a)
+
 Emoticons are stored under [/assets/emoticons](https://github.com/sbamboo/SkypeExportViewer/tree/main/assets/emoticons), a json index can be found at [emoticons.index.json](https://github.com/sbamboo/SkypeExportViewer/blob/main/assets/emoticons.index.json)<br>
 <i>(Please note categories are all lowercase in the json index)</i>
 
