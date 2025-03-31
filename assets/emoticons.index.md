@@ -8,6 +8,27 @@ A json index with the original microsoft urls is avaliable at [ms.emoticons.inde
 
 In the shortcuts the first entry is usually the *prefered-shortcut*. (The main variation)
 
+## Categories
+- [Smilies](#smilies)
+- [Smilies - Skype Unique](#smilies---skype-unique)
+- [Hand Gestures](#hand-gestures)
+- [Hand Guestures - Skype Unique](#hand-guestures---skype-unique)
+- [People](#people)
+- [People - Skype Unique](#people---skype-unique)
+- [Animals and Nature](#animals-and-nature)
+- [Animals and Nature - Skype Unique](#animals-and-nature---skype-unique)
+- [Food](#food)
+- [Food - Skype Unique](#food---skype-unique)
+- [Travel and Places](#travel-and-places)
+- [Travel and Places - Skype Unique](#travel-and-places---skype-unique)
+- [Activities](#activities)
+- [Activities - Skype Unique](#activities---skype-unique)
+- [Objects](#objects)
+- [Objects - Skype Unique](#objects---skype-unique)
+- [Symbols](#symbols)
+- [Symbols - Skype Unique](#symbols---skype-unique)
+- [Hidden](#hidden)
+
 ## Smilies
 
 | ID | Name | URL | Shortcuts | Textmojis |
