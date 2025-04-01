@@ -77,8 +77,8 @@ def parse_html_and_json(html_file, json_file):
             shortcuts_textmoji = []
             shortcuts_p = []
             for shortcut in shortcuts:
-                if "(" in shortcut and ")" in shortcut:
-                    shortcuts_p.append(shortcut)
+                if shortcut.strip().startswith("(") and shortcut.strip().endswith(")"):
+                    shortcuts_p.append(shortcut.lower())
                 else:
                     shortcuts_textmoji.append(shortcut)
 
@@ -92,7 +92,7 @@ def parse_html_and_json(html_file, json_file):
     return result
 
 # Example usage:
-html_file = "example.html"
+html_file = "scrape.html"
 json_file = "data.json"
 output = parse_html_and_json(html_file, json_file)
 

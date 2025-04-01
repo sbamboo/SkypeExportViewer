@@ -1,3 +1,5 @@
+PARSED_MESSAGES = {};
+
 window.onload = () => {
     const container = document.getElementById("progressContainer");
     const loader = new ProgressLoader(container);
@@ -10,6 +12,10 @@ window.onload = () => {
     const tabsContainer = document.getElementById("tabsContainer")
     const tabContentsContainer = document.getElementById("tabContentsContainer")
 
+    const contactsUploadBtn = document.getElementById("contactsUploadBtn");
+    const numbersUploadBtn = document.getElementById("numbersUploadBtn");
+    const contactsFileInput = document.getElementById("contactsFileInput");
+    const numbersFileInput = document.getElementById("numbersFileInput");
 
     // Handle file upload
     uploadBtn.addEventListener("click", () => {
@@ -21,6 +27,14 @@ window.onload = () => {
             const file = e.target.files[0];
             handleTarFile(await new Blob([file], { type: "application/x-tar" }));
         }
+    });
+
+    contactsUploadBtn.addEventListener("click", () => {
+        contactsFileInput.click();
+    });
+
+    numbersUploadBtn.addEventListener("click", () => {
+        numbersFileInput.click();
     });
 
 
@@ -40,6 +54,69 @@ window.onload = () => {
     });
 
 
+    // Handle contacts file upload
+    contactsFileInput.addEventListener("change", async (e) => {
+        if (e.target.files.length > 0) {
+            const file = e.target.files[0];
+            const contacts_csv = await file.text();
+            
+            container.style.display = "block";
+
+            // Remove any child of tabsContainer that has the innerText "Contacts"
+            const tabs = tabsContainer.querySelectorAll(".tab");
+            tabs.forEach(tab => {
+                if (tab.innerText === "Contacts") {
+                    tab.remove();
+                }
+            });
+
+            // Remove any child of tabContentsContainer that has the class "contacts"
+            const contents = tabContentsContainer.querySelectorAll(".tab-content");
+            contents.forEach(content => {
+                if (content.classList.contains("contacts")) {
+                    content.remove();
+                }
+            });
+
+            // Show viewer-wrapper
+            viewerWrapper.style.display = "block";
+
+            createTab("Contacts", () => renderContactsTab(contacts_csv));
+        }
+    });
+
+
+    // Handle numbers file upload
+    numbersFileInput.addEventListener("change", async (e) => {
+        if (e.target.files.length > 0) {
+            const file = e.target.files[0];
+            const numbers_csv = await file.text();
+            
+            container.style.display = "block";
+
+            // Remove any child of tabsContainer that has the innerText "Numbers"
+            const tabs = tabsContainer.querySelectorAll(".tab");
+            tabs.forEach(tab => {
+                if (tab.innerText === "Numbers") {
+                    tab.remove();
+                }
+            });
+
+            // Remove any child of tabContentsContainer that has the class "numbers"
+            const contents = tabContentsContainer.querySelectorAll(".tab-content");
+            contents.forEach(content => {
+                if (content.classList.contains("numbers")) {
+                    content.remove();
+                }
+            });
+
+            // Show viewer-wrapper
+            viewerWrapper.style.display = "block";
+
+            createTab("Numbers", () => renderNumbersTab(numbers_csv));
+        }
+    });
+
     // Main tar file handler
     async function handleTarFile(tarBlob) {
         container.style.display = "block";
@@ -47,8 +124,22 @@ window.onload = () => {
             const files = await loader.untar(tarBlob, "Loading skype export...", true);
             
             // Clear previous tabs and contents
-            tabsContainer.innerHTML = "";
-            tabContentsContainer.innerHTML = "";
+            //// Remove all children from tabsContainer that does not have the innerText "Contacts" or "Numbers"
+            const tabs = tabsContainer.querySelectorAll(".tab");
+            tabs.forEach(tab => {
+                if (tab.innerText !== "Contacts" && tab.innerText !== "Numbers") {
+                    tab.remove();
+                }
+            });
+
+            //// Remove all children from tabContentsContainer that does not have the class "contacts" or "numbers"
+            const contents = tabContentsContainer.querySelectorAll(".tab-content");
+            contents.forEach(content => {
+                if (!content.classList.contains("contacts") && !content.classList.contains("numbers")) {
+                    content.remove();
+                }
+            });
+            PARSED_MESSAGES = {};
 
             // Get media files
             const mediaFiles = {};
@@ -58,10 +149,17 @@ window.onload = () => {
                 }
             }
 
+            // Temp save current tabs
+            const tempSaveCurrentTabs = tabsContainer.querySelectorAll(".tab");
+            const tempSaveCurrentContents = tabContentsContainer.querySelectorAll(".tab-content");
+            // Remove all children from tabsContainer and tabContentsContainer
+            tabsContainer.innerHTML = "";
+            tabContentsContainer.innerHTML = "";
+
             // Messages tab
             if (files["messages.json"]) {
                 const messages_json = JSON.parse(await files["messages.json"].text());
-                createTab("Messages", () => renderMessagesTab(messages_json,mediaFiles));
+                createTab("Messages", () => renderMessagesTab(messages_json,mediaFiles,PARSED_MESSAGES));
             }
 
             // Media tab
@@ -74,6 +172,18 @@ window.onload = () => {
                 const endpoints_json = JSON.parse(await files["endpoints.json"].text());
                 createTab("Endpoints", () => renderEndpointsTab(endpoints_json));
             }
+
+            // Add back contacts and numbers tabs from tempSave
+            tempSaveCurrentTabs.forEach(tab => {
+                if (tab.innerText === "Contacts" || tab.innerText === "Numbers") {
+                    tabsContainer.appendChild(tab);
+                }
+            });
+            tempSaveCurrentContents.forEach(content => {
+                if (content.classList.contains("contacts") || content.classList.contains("numbers")) {
+                    tabContentsContainer.appendChild(content);
+                }
+            });
 
             // Show viewer-wrapper
             viewerWrapper.style.display = "block";
@@ -99,6 +209,7 @@ window.onload = () => {
         // Add tab content to tabContentsContainer (hidden by default)
         const content = document.createElement("div");
         content.classList.add("tab-content");
+        content.classList.add(name.toLowerCase());
         content.style.display = "none";
         //// Begin loading content
         content.appendChild(contentResolver());

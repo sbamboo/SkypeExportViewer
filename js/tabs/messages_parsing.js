@@ -1,9 +1,90 @@
+const JSON_PLC = {
+    ":(": "$PLC_sad_PLC$",
+    ":{": "$PLC_movember_PLC$",
+};
+const JSON_PLC_MAN = {
+    ":?": "$PLC_think_PLC$",
+}
+
 async function parseMessageContent(content, mediaFiles) {
+
+    let mocovv = null;
+
+    // Preserve line breaks by replacing \n with <br> tags
+    content = content.replace(/\n/g, "<br/>");
+
+    // Process JSON message
+    if (content.trim().startsWith("{") && content.trim().endsWith("}")) {
+        // PLC json shortcuts
+        for (const key in JSON_PLC) {
+            if (content.includes(key)) {
+                content = content.replace(new RegExp(key, 'g'), JSON_PLC[key]);
+            }
+        }
+        
+        if (content.includes("newTranslationState")) {
+            // {"type":1,"data":{"newTranslationState":"<state>","messageTranslationLocale":"<locale>","isUpdate":<bool>,"isOldVersion":<bool>}}
+            // => Translation towards <locale> is <state>
+            content = `
+            <div class="message-translation-state">
+                <p class="message-translation-state-text">
+                    Translation towards <span class="message-translation-state-locale">${content.match(/"messageTranslationLocale":"([^"]+)"/)[1]}</span> is <span class="message-translation-state-status">${content.match(/"newTranslationState":"([^"]+)"/)[1]}</span>
+                </p>
+                <details class="collapsible message-translation-state-details">
+                    <summary class="message-translation-state-details-summary">Raw Data</summary>
+                    <p class="message-translation-state-details-text">${content}</p>
+                </details>
+            </div>
+            `;
+        }
+    }
+
+    // Process JSON-Array message
+    if (content.trim().startsWith("[") && content.trim().endsWith("]")) {
+
+        // Parse the JSON array
+        try {
+            // Parse the string as JSON array
+            const entries = JSON.parse(content.trim());
+
+            content = `
+            <div class="message-json-array">
+            `;
+            
+            // Iterate over each entry in the parsed array
+            entries.forEach(entry => {
+                // Check if contentType is 'application/vnd.microsoft.card.popup'
+                if (entry.contentType === 'application/vnd.microsoft.card.popup') {
+                    content += parseJsonMsgForAppCard(entry).replace(/:\?/g, "$PLC_think_PLC$"); // Send to function to generate HTML
+                }
+
+                // Check if has field "type" is "message/engagement"
+                else if (entry.type === "message/engagement") {
+                    content += parseJsonMsgForEngagementCard(entry).replace(/:\?/g, "$PLC_think_PLC$"); // Send to function to generate HTML
+                }
+            });
+
+            content += `</div>`;
+        } catch (e) {
+            console.error('Error while parsing JSON-Array message! Invalid JSON format:', e);
+        }
+
+        // PLC json shortcuts
+        for (const key in JSON_PLC) {
+            if (content.includes(key)) {
+                content = content.replace(new RegExp(key, 'g'), JSON_PLC[key]);
+            }
+        }
+    }
+
     // Process <partlist> tags asynchronously
     if (content.includes("<partlist")) {
         const matches = [...content.matchAll(/<partlist[^>]*>([\s\S]*?)<\/partlist>/g)];
         for (const match of matches) {
-            const parsedContent = await parsePartlist(match[0]);
+            const [mocovv2, parsedContent] = await parsePartlist(match[0]);
+            if (mocovv2 && mocovv2 !== null) {
+                mocovv = mocovv2;
+            }
             content = content.replace(match[0], parsedContent);
         }
     }
@@ -62,11 +143,23 @@ async function parseMessageContent(content, mediaFiles) {
         }
     }
 
-    // Presever line breaks by replacing \n with <br> tags
-    content = content.replace(/\n/g, "<br>");
+    // Process inline emoticons
+    content = await processHTMLString(content, EMOTICON_MAPPING);
+
+    // re-replace JSON_PLC shortcuts
+    for (const [key, value] of Object.entries(JSON_PLC)) {
+        if (content.includes(value)) {
+            content = content.replace(new RegExp(value.replace(/[.*+?^=!:${}()|\[\]\/\\]/g, '\\$&'), 'g'), key);
+        }
+    }
+    for (const [key, value] of Object.entries(JSON_PLC_MAN)) {
+        if (content.includes(value)) {
+            content = content.replace(new RegExp(value.replace(/[.*+?^=!:${}()|\[\]\/\\]/g, '\\$&'), 'g'), key);
+        }
+    }
 
     //return escapeHtml(content);
-    return content;
+    return [mocovv, content];
 }
 
 async function parseSSTag(xmlString) {
@@ -76,21 +169,20 @@ async function parseSSTag(xmlString) {
         const typeMatch = xmlString.match(/type="([^"]+)"/);
         if (typeMatch) {
             const type = typeMatch[1];
-            console.log(`Checking type... (${type})`);
+            //const typeEmoticonMatch = await parseEmoticon("("+type+")", EMOTICON_MAPPING);
             const typeEmoticonMatch = await parseEmoticon(type, EMOTICON_MAPPING);
             // if typeEmoticonMatch is not null, return the emoticon
             if (typeEmoticonMatch !== null) {
-                console.log(`Type matched! (${type})`);
+                //console.log(`Type matched! (${type})`);
                 return typeEmoticonMatch;
             }
-            console.log(`Type did not match! (${type})`);
+            //console.log(`Type did not match! (${type})`);
         }
     }
 
     // If no type attribute or type was not found, extract the content inside the <ss> tag and send to parseEmoticonString
     const contentMatch = xmlString.match(/<ss[^>]*>([\s\S]*?)<\/ss>/);
     if (contentMatch) {
-        console.log(`Checking content... (${contentMatch[1]})`);
         let content = contentMatch[1];
         
         content = parseEmoticonStringExtracting(content, EMOTICON_MAPPING);
@@ -121,29 +213,29 @@ async function parsePartlist(xmlString) {
 
             switch (type) {
                 case "started":
-                    return `<div class="call-info">
+                    return ["message-callinfo",`<div class="call-info">
                         <div class="call-status started">Call started</div>
                         <div class="participants">
                             ${participants.map((p) => `<div class="participant">${formatUserId(p.identity)}</div>`).join("")}
                         </div>
-                    </div>`;
+                    </div>`];
                 case "ended":
-                    return `<div class="call-info">
+                    return ["message-callinfo",`<div class="call-info">
                         <div class="call-status ended">Call ended</div>
                         <div class="participants">
                             ${participants.map((p) => `<div class="participant">${formatUserId(p.identity)}${p.duration ? ` (${formatDuration(p.duration)})` : ""}</div>`).join("")}
                         </div>
-                    </div>`;
+                    </div>`];
                 case "missed":
-                    return `<div class="call-info"><div class="call-status missed">Call missed</div></div>`;
+                    return ["message-callinfo",`<div class="call-info"><div class="call-status missed">Call missed</div></div>`];
                 default:
-                    return escapeHtml(xmlString);
+                    return [null, escapeHtml(xmlString)];
             }
         }
     } catch (e) {
         console.error("Error parsing partlist XML:", e);
     }
-    return escapeHtml(xmlString);
+    return [null, escapeHtml(xmlString)];
 }
 
 async function parseAddMember(xmlString) {
@@ -195,7 +287,7 @@ async function parseURIObject(xmlString, mediaFiles) {
         if (uriObject) {
             const type = uriObject.getAttribute("type");
             const uri = uriObject.getAttribute("uri");
-            const urlThumbnail = uriObject.getAttribute("url_thumbnail");
+            let urlThumbnail = uriObject.getAttribute("url_thumbnail");
             const docId = uriObject.getAttribute("doc_id");
 
             if (docId) {
@@ -227,8 +319,10 @@ async function parseURIObject(xmlString, mediaFiles) {
 
                                     const originalName = uriObject.querySelector("OriginalName")?.getAttribute("v") || "";
                                     const fileSize = uriObject.querySelector("FileSize")?.getAttribute("v") || "";
+                                    const htmlContent = uriObject.textContent.replace(/<OriginalName.*\/OriginalName>|<FileSize.*\/FileSize>|<meta.*\/meta>/g, "");
                                     const formattedSize = fileSize ? formatFileSize(fileSize) : "";
                                     
+                                    /*
                                     return `
                                         <div class="message-uriobject-${type.toLowerCase()}" data-uriobject-doc-id="${docId}">
                                             <div class="message-uriobject-thumbnail">
@@ -239,6 +333,20 @@ async function parseURIObject(xmlString, mediaFiles) {
                                                     <span class="message-uriobject-overlay-filename">${originalName}</span> <span class="message-uriobject-overlay-size">(${formattedSize})</span>
                                                 </p>
                                             </div>
+                                        </div>
+                                    `;
+                                    */
+                                    return `
+                                        <div class="message-uriobject-${type.toLowerCase()}" data-uriobject-doc-id="${docId}">
+                                            <div class="message-uriobject-thumbnail">
+                                                <img src="${blobUrl}" class="message-uriobject-resolved-media" alt="URIObject Thumbnail">
+                                            </div>
+                                            <details class="collapsible message-uriobject-overlay-wrapper">
+                                                <summary class="message-uriobject-overlay-file"><span class="message-uriobject-overlay-filename">${originalName}</span> <span class="message-uriobject-overlay-size">(${formattedSize})</span></summary>
+                                                <p class="message-uriobject-overlay-text">
+                                                    ${linkify(htmlContent)}
+                                                </p>
+                                            </details>
                                         </div>
                                     `;
                                 }
@@ -342,6 +450,54 @@ async function parseURIObject(xmlString, mediaFiles) {
                             console.error("Error decoding or parsing SWIFT data:", error);
                         }
                     }
+                } else if (type === "Video.2/CallRecording.1" && uri) {
+                    const title = uriObject.querySelector("Title")?.textContent || "Call Recording";
+                    const recordingContentUrl = uriObject.querySelector("RecordingContent item[type='video']")?.getAttribute("uri") || uri;
+                    const originalName = uriObject.querySelector("OriginalName")?.getAttribute("v") || "Recording";
+                    const recordingStatus = uriObject.querySelector("RecordingStatus")?.getAttribute("status") || "Unknown";
+                    const sessionEndReason = uriObject.querySelector("SessionEndReason")?.getAttribute("value") || "Unknown";
+                    const timestamp = uriObject.querySelector("RecordingContent")?.getAttribute("timestamp") || "";
+                    const duration = uriObject.querySelector("RecordingContent")?.getAttribute("duration") || "0";
+                    // If AMSDocumentID is present, it is doc_id so attempt media-extract and if found replace urlThumbnail
+                    const amsDocumentIdElement = uriObject.querySelector("Identifiers Id[type='AMSDocumentID']");
+                    if (amsDocumentIdElement) {
+                        const amsId = amsDocumentIdElement.getAttribute("value")
+                        for (mediaFile of Object.keys(mediaFiles)) {
+                            mediaFileName = mediaFile.split("/").pop();
+                            mediaFileExt = mediaFileName.split(".").pop();
+                            if (mediaFileName.startsWith(amsId) && mediaFileExt != "json") {
+                                const blobUrl = URL.createObjectURL(mediaFiles[mediaFile]);
+                                urlThumbnail = blobUrl;
+                                break;
+                            }
+                        }
+                    }
+                    
+                    return `
+                        <div class="message-uriobject-${type.toLowerCase()}" data-uriobject-doc-id="${docId}">
+                            <div class="message-uriobject-thumbnail">
+                                <img src="${urlThumbnail}" class="js-auto-replace-with-link-on-fail" alt="URIObject Thumbnail">
+                            </div>
+                            <div class="message-uriobject-overlay-wrapper">
+                                <p class="message-uriobject-title">${title}</p>
+                                <p class="message-uriobject-overlay-file">
+                                    <span class="message-uriobject-overlay-filename">${originalName}</span>
+                                    <span class="message-uriobject-overlay-duration">(${formatDuration(parseFloat(duration))})</span>
+                                    <span class="message-uriobject-overlay-timestamp">[${formatDate(timestamp)}]</span>
+                                </p>
+                            </div>
+                            <div class="message-uriobject-video">
+                                <video controls>
+                                    <source src="${recordingContentUrl}" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="message-uriobject-video-text">
+                                    <span class="message-uriobject-video-status">Status: ${recordingStatus}</span><br>
+                                    <span class="message-uriobject-video-endreason">End Reason: ${sessionEndReason}</span>
+                                </p>
+                            </div>
+                        </div>
+                    `;
                 }
             }
         }
@@ -384,6 +540,53 @@ function parseCITag(xmlString) {
 }
 
 
+async function processHTMLString(content, EMOTICON_MAPPING) {
+    const tagList = [];
+    const selfClosingTags = ['br', 'hr', 'img', 'input', 'meta', 'link'];
+
+    // Replace in-explicitly self-closing tags first
+    content = content.replace(new RegExp(`<(${selfClosingTags.join('|')})([^>]*)>`, 'g'), (match) => {
+        let index = tagList.length;
+        tagList.push(match);
+        return '$PLC' + index + 'PLC$'; // Replace with placeholder
+    });
+    
+    /*
+    // Regex to capture full HTML elements (ensuring minimal matching)
+    content = content.replace(/<([a-zA-Z0-9]+)([^>]*)>(.*?)?<\/\1>|<([a-zA-Z0-9]+)([^>]*)\/>/gs, (match) => {
+        let index = tagList.length;
+        tagList.push(match); // Save the full tag
+        return '$PLC' + index + 'PLC$'; // Replace with placeholder
+    });
+    */
+    // Regex to capture only outermost full HTML elements (including nested tags properly)
+    content = content.replace(/<([a-zA-Z0-9]+)([^>]*)>(.*?)<\/\1>/gs, (match, tagName, attrs, innerContent) => {
+        // Check if inner content contains tags, if so, skip this match
+        if (/<([a-zA-Z0-9]+)[^>]*>/g.test(innerContent)) {
+            return match; // Don't replace if the tag contains other tags (nested)
+        }
+
+        let index = tagList.length;
+        tagList.push(match);  // Save the full tag
+        return '$PLC' + index + 'PLC$';  // Replace with placeholder
+    });
+
+    // Process content through the emoticon parser
+    content = await parseEmoticonStringExtracting(content, EMOTICON_MAPPING);
+
+    // Replacing placeholders with original HTML elements
+    content = content.replace(/\$PLC(\d+)PLC\$/g, (_, index) => {
+        return tagList[index]}
+    );
+    //// Twice incase of nested tags
+    content = content.replace(/\$PLC(\d+)PLC\$/g, (_, index) => {
+        return tagList[index]}
+    );
+
+    return content;
+}
+
+
 function formatDate(dateInput) {
     const date = new Date(dateInput);
     
@@ -420,7 +623,10 @@ function escapeHtml(content) {
 function formatDuration(seconds) {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
-    return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+    //return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+    // show remaining seconds without leading zero and 2 decimals
+    return `${minutes}min, ${remainingSeconds.toFixed(2).replace(/\.?0+$/, '')}s`;
+
 }
 
 function formatFileSize(bytes) {

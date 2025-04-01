@@ -1,0 +1,13 @@
+details.collapsible {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+details.collapsible>summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details.collapsible>*:not(summary) {
+    margin-top: 10px;
+}

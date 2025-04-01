@@ -4,8 +4,8 @@
             "name": "Laugh",
             "shortcuts": [
                 "(laugh)",
-                "(lol)",
-                "(LOL)"
+                "(LOL)",
+                "(lol)"
             ],
             "textmojis": [
                 ":D",
@@ -1518,7 +1518,7 @@
             "shortcuts": [
                 "(movember)",
                 "(mo)",
-                "(November)",
+                "(november)",
                 "(moustache)",
                 "(mustache)",
                 "(bowman)"
@@ -1833,8 +1833,8 @@
         "ok": {
             "name": "Ok",
             "shortcuts": [
-                "(ok)",
                 "(OK)",
+                "(ok)",
                 "(okay)"
             ],
             "textmojis": [],
@@ -1935,8 +1935,8 @@
         "yes": {
             "name": "Yes",
             "shortcuts": [
-                "(y)",
                 "(Y)",
+                "(y)",
                 "(yes)"
             ],
             "textmojis": [],
@@ -2191,15 +2191,15 @@
             "url": "https://cxcs.microsoft.net/static/public/skype/neutral/65c9c96a-fcc4-4f6a-b563-d49126feab26/40693489bc9586769f1803ca11598211b07c4a7f.gif"
         }
     },
-    "gand_uestures_skype_unique": {
+    "hand_gestures_skype_unique": {
         "hi": {
             "name": "Hi",
             "shortcuts": [
                 "(wave)",
-                "(hi)",
                 "(HI)",
-                "(bye)",
-                "(BYE)"
+                "(hi)",
+                "(BYE)",
+                "(bye)"
             ],
             "textmojis": [],
             "url": "https://cxcs.microsoft.net/static/public/skype/neutral/8523c994-2de9-492a-a391-a2e795ee6703/e3ba46961a611ac5b94d5263760db725065f70fb.gif"
@@ -5014,10 +5014,11 @@
             "name": "Monkey",
             "shortcuts": [
                 "(monkey)",
-                "(ape)",
+                "(ape)"
+            ],
+            "textmojis": [
                 ":(|)"
             ],
-            "textmojis": [],
             "url": "https://cxcs.microsoft.net/static/public/skype/neutral/fb6345f0-f311-42cd-9abd-d91096dab5ae/cacd97c58c357f755cdc6f7445ad79dba1a1dee8.gif"
         },
         "gorilla": {
@@ -5729,8 +5730,8 @@
             "name": "snail",
             "shortcuts": [
                 "(snail)",
-                "(sn)",
-                "(SN)"
+                "(SN)",
+                "(sn)"
             ],
             "textmojis": [],
             "url": "https://cxcs.microsoft.net/static/public/skype/neutral/b2928d78-efe1-4e00-b3fa-dbfd261dc113/b1f7e48cd317db41931c192e1762164940e6d764.gif"
@@ -11019,7 +11020,7 @@
                 "(clippy)"
             ],
             "textmojis": [
-                "(paperclip"
+                "(paperclip)"
             ],
             "url": "https://cxcs.microsoft.net/static/public/skype/neutral/1c0a8aac-c412-42a1-b881-0c65a51500d7/23b47fb180a61de4c7d887330d64661b5571f814.gif"
         },
@@ -13945,17 +13946,17 @@
             "url": "https://cxcs.microsoft.net/static/public/skype/neutral/db4300a0-9d79-4133-a7d4-958570219fc9/f5ea6f98124f3015c64a218ddfe12e316b2800e6.gif"
         },
         "teams": {
-            "name": "teams",
+            "name": "Teams",
             "shortcuts": [
-                "(Teams)"
+                "(teams)"
             ],
             "textmojis": [],
             "url": "https://cxcs.microsoft.net/static/public/skype/neutral/a78bdf79-517d-4241-9542-ae0b32fedff0/844df2c805445b81bfc094b872b51a465bc365fd.gif"
         },
         "yammer": {
-            "name": "yammer",
+            "name": "Yammer",
             "shortcuts": [
-                "(Yammer)"
+                "(yammer)"
             ],
             "textmojis": [],
             "url": "https://cxcs.microsoft.net/static/public/skype/neutral/f203557a-8d1d-4254-84bc-b0fde10111f1/8e06f265250b26c906c3897cf92f34d019a8f2b8.gif"

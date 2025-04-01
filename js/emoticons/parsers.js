@@ -29,6 +29,10 @@ async function parseEmoticonStringExtracting(emoticonString, EMOTICON_MAPPING) {
         }
     }
 
+    if (emoticonString.includes(":)")) {
+        console.log(emoticonString);
+    }
+
     // Find all strings that are inside parentheses where the string contains no whitespace, then call parseEmoticon on the string with parentheses
     const emoticonRegex = /\(([^)]+)\)/g;
     // Make a unique array of parentheses-strings found in the emoticonString
@@ -37,8 +41,8 @@ async function parseEmoticonStringExtracting(emoticonString, EMOTICON_MAPPING) {
     for (const emoticon of emoticonStrings) {
         const parsedEmoticon = await parseEmoticon(emoticon, EMOTICON_MAPPING);
         if (parsedEmoticon) {
-            // Replace the emoticon string with the parsed emoticon
-            emoticonString = emoticonString.replace(emoticon, parsedEmoticon);
+            const regex = new RegExp(`\\(${emoticon.replace(/[()]/g, '')}\\)`, 'g');
+            emoticonString = emoticonString.replace(regex, parsedEmoticon);
         }
     }
 

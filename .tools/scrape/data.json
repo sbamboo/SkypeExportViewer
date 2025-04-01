@@ -1,0 +1,5550 @@
+{
+    "Smilies": {
+        "Laugh emoticon": [
+            ":D",
+            ":-D",
+            ":=D",
+            ":d",
+            ":-d",
+            ":=d",
+            "(laugh)",
+            ":>",
+            ":->",
+            "(lol)",
+            "(LOL)"
+        ],
+        "Grinning face with big eyes emoticon": [
+            "(grinningfacewithbigeyes)"
+        ],
+        "Happy Eyes emoticon": [
+            "(happyeyes)"
+        ],
+        "Beaming face with smiling eyes emoticon": [
+            "(beamingfacewithsmilingeyes)"
+        ],
+        "XD smiley emoticon": [
+            "(xd)"
+        ],
+        "Sweat grinning emoticon": [
+            "(sweatgrinning)"
+        ],
+        "Roll on the floor laughing emoticon": [
+            "(rofl)",
+            "(rotfl)"
+        ],
+        "Crying With Laughter emoticon": [
+            "(cwl)",
+            "(cryingwithlaughter)"
+        ],
+        "Smile emoticon": [
+            ":)",
+            ":-)",
+            ":=)",
+            "(smile)"
+        ],
+        "Upside down face emoticon": [
+            "(upsidedownface)"
+        ],
+        "Wink emoticon": [
+            ";)",
+            ";-)",
+            ";=)",
+            "(wink)"
+        ],
+        "Smile Eyes emoticon": [
+            "(smileeyes)"
+        ],
+        "Angel emoticon": [
+            "(angel)"
+        ],
+        "In love emoticon": [
+            "(inlove)",
+            "(love)",
+            ":]",
+            ":-]"
+        ],
+        "heart eyes emoticon": [
+            "(hearteyes)"
+        ],
+        "Star eyes emoticon": [
+            "(stareyes)"
+        ],
+        "Kiss emoticon": [
+            "(kiss)",
+            ":*",
+            ":-*",
+            ":=*",
+            "(xo)"
+        ],
+        "Kissing face with smiling eyes emoticon": [
+            "(kissingfacewithsmilingeyes)"
+        ],
+        "Cheeky emoticon": [
+            ":P",
+            ":-P",
+            ":=P",
+            ":p",
+            ":-p",
+            ":=p",
+            "(tongueout)"
+        ],
+        "Face with tongue emoticon": [
+            "(facewithtongue)"
+        ],
+        "Winking tongue out emoticon": [
+            "(winktongueout)"
+        ],
+        "Zany face emoticon": [
+            "(zanyface)"
+        ],
+        "Money mouth face emoticon": [
+            "(moneymouthface)"
+        ],
+        "Hugging face emoticon": [
+            "(huggingface)"
+        ],
+        "Giggle emoticon": [
+            "(chuckle)",
+            "(giggle)"
+        ],
+        "My lips are sealed emoticon": [
+            ":x",
+            ":-x",
+            ":#",
+            ":-#",
+            ":=x",
+            ":=X",
+            ":=#",
+            "(lipssealed)"
+        ],
+        "Thinking emoticon": [
+            "(think)",
+            ":-?",
+            ":?",
+            ":=?",
+            "*-)"
+        ],
+        "Zipper mouth face emoticon": [
+            "(zippermouthface)"
+        ],
+        "Wondering emoticon": [
+            ":^)",
+            "(wonder)"
+        ],
+        "Speechless emoticon": [
+            ":|",
+            ":-|",
+            ":=|",
+            "(speechless)"
+        ],
+        "Expressionless emoticon": [
+            "(expressionless)"
+        ],
+        "Face Without Mouth emoticon": [
+            "(blankface)"
+        ],
+        "Smirking emoticon": [
+            "(smirk)"
+        ],
+        "Unamused emoticon": [
+            "(unamused)"
+        ],
+        "It wasn't me emoticon": [
+            "(wasntme)",
+            "(wm)"
+        ],
+        "Grimacing face emoticon": [
+            "(grimacingface)"
+        ],
+        "Lying face emoticon": [
+            "(lyingface)"
+        ],
+        "Dream emoticon": [
+            "(dream)"
+        ],
+        "Pensive emoticon": [
+            "(pensive)"
+        ],
+        "Sleepy emoticon": [
+            "|-)",
+            "I-)",
+            "I=)",
+            "(snooze)",
+            "(sleepy)"
+        ],
+        "Face with medical mask emoticon": [
+            "(facewithmedicalmask)"
+        ],
+        "ill emoticon": [
+            "(ill)"
+        ],
+        "Face with head bandage emoticon": [
+            "(facewithheadbandage)"
+        ],
+        "Nauseated face emoticon": [
+            "(nauseatedface)"
+        ],
+        "Vomiting emoticon": [
+            "(puke)",
+            ":and",
+            ":-and",
+            ":=and",
+            "+o("
+        ],
+        "Hotface emoticon": [
+            "(hotface)"
+        ],
+        "Cold emoticon": [
+            "(shivering)",
+            "(cold)",
+            "(freezing)"
+        ],
+        "Woozy face emoticon": [
+            "(woozyface)"
+        ],
+        "Exploding head emoticon": [
+            "(explodinghead)"
+        ],
+        "Face with cowboy hat emoticon": [
+            "(facewithcowboyhat)",
+            "(cowboyhatface)"
+        ],
+        "Party emoticon": [
+            "(party)"
+        ],
+        "Cool emoticon": [
+            "(cool)",
+            "8-)",
+            "8=)",
+            "B-)",
+            "B=)"
+        ],
+        "Nerdy emoticon": [
+            "(nerd)",
+            "8-|",
+            "B-|",
+            "8|",
+            "B|",
+            "8=|",
+            "B=|",
+            "(nerdy)"
+        ],
+        "Face with monocle emoticon": [
+            "(facewithmonocle)"
+        ],
+        "Confused emoticon": [
+            "(confused)"
+        ],
+        "Sad emoticon": [
+            ":(",
+            ":-(",
+            ":=(",
+            "(sad)",
+            ":<",
+            ":-<"
+        ],
+        "Frowning face emoticon": [
+            "(frowningface)"
+        ],
+        "Hushed face emoticon": [
+            "(hushedface)"
+        ],
+        "Surprised emoticon": [
+            ":o",
+            ":-o",
+            ":=o",
+            "(surprised)"
+        ],
+        "Flushed emoticon": [
+            "(flushed)"
+        ],
+        "Pleading face emoticon": [
+            "(pleadingface)"
+        ],
+        "Frowning face with open mouth emoticon": [
+            "(frowningfacewithopenmouth)"
+        ],
+        "Anguished face emoticon": [
+            "(anguishedface)"
+        ],
+        "Fearful emoticon": [
+            "(fearful)"
+        ],
+        "Anxious face with sweat emoticon": [
+            "(anxiousfacewithsweat)"
+        ],
+        "Sad but relieved face emoticon": [
+            "(sadbutrelievedface)"
+        ],
+        "Cry emoticon": [
+            ";(",
+            ";-(",
+            ";=(",
+            "(cry)",
+            ":'("
+        ],
+        "Loudly crying emoticon": [
+            "(loudlycrying)"
+        ],
+        "Screaming with fear emoticon": [
+            "(screamingfear)"
+        ],
+        "Very confused emoticon": [
+            "(veryconfused)"
+        ],
+        "Disappointed emoticon": [
+            "(disappointed)"
+        ],
+        "Sweating emoticon": [
+            "(:|",
+            "(sweat)"
+        ],
+        "Weary emoticon": [
+            "(weary)"
+        ],
+        "Tired face emoticon": [
+            "(tiredface)"
+        ],
+        "Yawning face emoticon": [
+            "(yawningface)"
+        ],
+        "Face with steam from nose emoticon": [
+            "(facewithsteamfromnose)"
+        ],
+        "Angry face emoticon": [
+            "(angryface)"
+        ],
+        "Angry emoticon": [
+            "(angry)",
+            ":@",
+            ":-@",
+            ":=@",
+            "x(",
+            "x-(",
+            "X(",
+            "X-(",
+            "x=(",
+            "X=(",
+            ";@",
+            ";-@"
+        ],
+        "Swearing emoticon": [
+            "(swear)"
+        ],
+        "Devil emoticon": [
+            "(devil)"
+        ],
+        "Angry face with horns emoticon": [
+            "(angryfacewithhorns)"
+        ],
+        "Skull emoticon": [
+            "(skull)"
+        ],
+        "Skull and crossbones emoticon": [
+            "(skullandbones)"
+        ],
+        "Clown face emoticon": [
+            "(clownface)"
+        ],
+        "Ogre emoticon": [
+            "(ogre)"
+        ],
+        "Goblin emoticon": [
+            "(goblin)"
+        ],
+        "Ghost emoticon": [
+            "(ghost)"
+        ],
+        "Alien emoticon": [
+            "(alien)"
+        ],
+        "Alien monster emoticon": [
+            "(alienmonster)"
+        ],
+        "Smile robot emoticon": [
+            "(smilerobot)"
+        ],
+        "Smile cat emoticon": [
+            "(smilecat)"
+        ],
+        "Cat with tears of joy emoticon": [
+            "(catwithtearsofjoy)"
+        ],
+        "Heart eyes cat emoticon": [
+            "(hearteyescat)"
+        ],
+        "Cat with wry smile emoticon": [
+            "(catwithwrysmile)"
+        ],
+        "Kissing cat emoticon": [
+            "(kissingcat)"
+        ],
+        "Weary cat emoticon": [
+            "(wearycat)"
+        ],
+        "Sad cat emoticon": [
+            "(sadcat)"
+        ],
+        "Pouting cat emoticon": [
+            "(poutingcat)"
+        ],
+        "Monkey see no evil emoticon": [
+            "(seenoevil)"
+        ],
+        "Monkey hear no evil emoticon": [
+            "(hearnoevil)"
+        ],
+        "Monkey speak no evil emoticon": [
+            "(speaknoevil)"
+        ],
+        "Kissing lips emoticon": [
+            "(lips)"
+        ],
+        "Love letter emoticon": [
+            "(loveletter)"
+        ],
+        "Heart with arrow emoticon": [
+            "(heartwitharrow)"
+        ],
+        "Heart with ribbon emoticon": [
+            "(heartwithribbon)"
+        ],
+        "Sparkling heart emoticon": [
+            "(sparklingheart)"
+        ],
+        "Growing heart emoticon": [
+            "(growingheart)"
+        ],
+        "Beating heart emoticon": [
+            "(beatingheart)"
+        ],
+        "Revolving hearts emoticon": [
+            "(revolvinghearts)"
+        ],
+        "Two hearts emoticon": [
+            "(twohearts)"
+        ],
+        "Heart button emoticon": [
+            "(heartbutton)"
+        ],
+        "Heart exclamation emoticon": [
+            "(heartexclamation)"
+        ],
+        "Broken heart emoticon": [
+            "(brokenheart)"
+        ],
+        "Heart emoticon": [
+            "(heart)",
+            "<3"
+        ],
+        "Orange heart emoticon": [
+            "(orangeheart)"
+        ],
+        "Yellow heart emoticon": [
+            "(yellowheart)"
+        ],
+        "Green heart emoticon": [
+            "(greenheart)"
+        ],
+        "Blue heart emoticon": [
+            "(blueheart)"
+        ],
+        "Purple heart emoticon": [
+            "(purpleheart)"
+        ],
+        "Brown heart emoticon": [
+            "(heartbrown)",
+            "(brownheart)"
+        ],
+        "Black heart emoticon": [
+            "(blackheart)",
+            "(heartblack)"
+        ],
+        "White heart emoticon": [
+            "(heartwhite)",
+            "(whiteheart)"
+        ],
+        "Hundred points emoticon": [
+            "(hundredpoints)"
+        ],
+        "Anger symbol emoticon": [
+            "(angersymbol)"
+        ],
+        "Explosion emoticon": [
+            "(bang)"
+        ],
+        "Dizzy symbol emoticon": [
+            "(dizzysymbol)"
+        ],
+        "Droplets emoticon": [
+            "(droplets)"
+        ],
+        "Hole emoticon": [
+            "(hole)"
+        ],
+        "Bomb emoticon": [
+            "(bomb)",
+            "(explosion)",
+            "(explode)",
+            "@="
+        ],
+        "Speech bubble emoticon": [
+            "(speechbubble)"
+        ],
+        "Eye speech bubble emoticon": [
+            "(eyespeechbubble)",
+            "(eyeinspeechbubble)"
+        ],
+        "Left speech bubble emoticon": [
+            "(leftspeechbubble)"
+        ],
+        "Angry speech bubble emoticon": [
+            "(angryspeechbubble)"
+        ],
+        "Thought bubble emoticon": [
+            "(thoughtbubble)"
+        ],
+        "Zzz emoticon": [
+            "(zzz)"
+        ],
+        "Ukraine heart emoticon": [
+            "(ukraineheart)"
+        ]
+    },
+    "Smilies - Skype Unique": {
+        "Like emoticon": [
+            "(like)"
+        ],
+        "Happy Face emoticon": [
+            "(happyface)"
+        ],
+        "Hysterical emoticon": [
+            "(hysterical)"
+        ],
+        "Blush emoticon": [
+            ":$",
+            ":-$",
+            ":=$",
+            "(blush)"
+        ],
+        "Relieved emoticon": [
+            "(relieved)",
+            "(whew)"
+        ],
+        "Dull emoticon": [
+            "|-(",
+            "|(",
+            "|=(",
+            "(dull)"
+        ],
+        "Yawn emoticon": [
+            "(yawn)"
+        ],
+        "Doh! emoticon": [
+            "(doh)"
+        ],
+        "Worried emoticon": [
+            "(worry)",
+            ":S",
+            ":s",
+            ":-s",
+            ":-S",
+            ":=s",
+            ":=S",
+            "(worried)"
+        ],
+        "Mmmm emoticon": [
+            "(mm)",
+            "(mmm)",
+            "(mmmm)"
+        ],
+        "Love earth emoticon": [
+            "(loveearth)"
+        ],
+        "Rainbow smiley emoticon": [
+            "(rainbowsmile)"
+        ],
+        "Envy emoticon": [
+            "(envy)"
+        ],
+        "Make-up emoticon": [
+            "(makeup)",
+            "(kate)"
+        ],
+        "Happy emoticon": [
+            "(happy)"
+        ],
+        "Nodding emoticon": [
+            "(nod)"
+        ],
+        "Shake emoticon": [
+            "(shake)"
+        ],
+        "Waiting emoticon": [
+            "(waiting)",
+            "(forever)",
+            "(impatience)"
+        ],
+        "Emo emoticon": [
+            "(emo)"
+        ],
+        "Don't talk to me emoticon": [
+            "(donttalk)",
+            "(donttalktome)"
+        ],
+        "Idea emoticon": [
+            "(idea)",
+            ":i",
+            ":I",
+            "*-:)"
+        ],
+        "Talk emoticon": [
+            "(talk)"
+        ],
+        "Evil grin emoticon": [
+            "]:)",
+            ">:)",
+            "(evilgrin)",
+            "(evil)",
+            "(grin)",
+            "(eg)"
+        ],
+        "Banging head on wall emoticon": [
+            "(headbang)",
+            "(banghead)"
+        ],
+        "Global learning emoticon": [
+            "(learn)"
+        ],
+        "Listening to headphones emoticon": [
+            "(headphones)"
+        ],
+        "Morning after party emoticon": [
+            "(morningafter)",
+            "(hungover)"
+        ],
+        "Selfie emoticon": [
+            "(selfie)"
+        ],
+        "Spoiler alert emoticon": [
+            "(llsshock)"
+        ],
+        "Talk too much emoticon": [
+            "(ttm)",
+            "(bla)"
+        ],
+        "Tired emoticon": [
+            "(tired)"
+        ],
+        "Bandit emoticon": [
+            "(bandit)"
+        ],
+        "Blessing emoticon": [
+            "(nazar)"
+        ],
+        "Movember emoticon": [
+            "(movember)",
+            "(mo)",
+            "(November)",
+            "(moustache)",
+            "(mustache)",
+            "(bowman)",
+            ":{"
+        ],
+        "Mystery Skype emoticon": [
+            "(mysteryskype)"
+        ],
+        "Day of the dead female emoticon": [
+            "(dotdfemale)",
+            "(dotdf)"
+        ],
+        "Day of the dead male emoticon": [
+            "(dotdmale)",
+            "(dotdm)"
+        ],
+        "Selfie Diwali emoticon": [
+            "(selfiediwali)"
+        ],
+        "Diwali selfie emoticon": [
+            "(diwaliselfie)"
+        ],
+        "Steve Aoki emoticon": [
+            "(steveaoki)"
+        ],
+        "Aoki jump emoticon": [
+            "(aokijump)"
+        ],
+        "Cake throw emoticon": [
+            "(cakethrow)"
+        ],
+        "Kolony emoticon": [
+            "(kolony)"
+        ],
+        "Joy emoticon": [
+            "(joy)"
+        ],
+        "Anger emoticon": [
+            "(anger)"
+        ],
+        "Sadness emoticon": [
+            "(sadness)"
+        ],
+        "Disgust emoticon": [
+            "(disgust)"
+        ],
+        "Fear emoticon": [
+            "(fear)"
+        ],
+        "Heston facepalm emoticon": [
+            "(hestonfacepalm)"
+        ],
+        "Heston Blumenthal emoticon": [
+            "(heston)"
+        ],
+        "Storm trooper emoticon": [
+            "(stormtrooper)"
+        ],
+        "Kylo Ren emoticon": [
+            "(kyloren)"
+        ],
+        "Captain Phasma emoticon": [
+            "(captainphasma)"
+        ],
+        "malthe emoticon": [
+            "(malthe)"
+        ],
+        "Lady Vampire emoticon": [
+            "(ladyvamp)",
+            "(ladyvampire)"
+        ],
+        "Vampire emoticon": [
+            "(vampire)"
+        ],
+        "Pumpkin emoticon": [
+            "(pumpkin)",
+            "(halloween)"
+        ],
+        "Santa emoticon": [
+            "(santa)",
+            "(xmas)",
+            "(christmas)"
+        ],
+        "Xmas crying with laughter": [
+            "(xmascwl)"
+        ],
+        "Festive party emoticon": [
+            "(festiveparty)",
+            "(partyxmas)"
+        ],
+        "Holiday spirit emoticon": [
+            "(holidayspirit)",
+            "(crazyxmas)",
+            "(crazychristmas)"
+        ],
+        "Surprised Rudolf emoticon": [
+            "(rudolfsurprise)",
+            "(rudolphsurprise)"
+        ],
+        "Rudolf idea emoticon": [
+            "(rudolfidea)",
+            "(rudolphidea)"
+        ],
+        "Xmas sarcastic emoticon": [
+            "(xmassarcastic)"
+        ],
+        "Xmas cry emoticon": [
+            "(xmascry)",
+            "(xmascrying)"
+        ]
+    },
+    "Hand Gestures": {
+        "Waving hand emoticon": [
+            "(wavinghand)"
+        ],
+        "Raised back of hand emoticon": [
+            "(raisedbackofhand)"
+        ],
+        "Hand with fingers splayed emoticon": [
+            "(handwithfingerssplayed)"
+        ],
+        "Raised hand emoticon": [
+            "(raisedhand)"
+        ],
+        "Vulcan salute emoticon": [
+            "(vulcansalute)"
+        ],
+        "Ok emoticon": [
+            "(ok)",
+            "(OK)",
+            "(okay)"
+        ],
+        "Pinching hand emoticon": [
+            "(pinchinghand)"
+        ],
+        "Victory emoticon": [
+            "(victory)"
+        ],
+        "Crossed fingers emoticon": [
+            "(crossedfingers)"
+        ],
+        "Love you gesture emoticon": [
+            "(loveyougesture)"
+        ],
+        "Sign of the horns emoticon": [
+            "(signofthehorns)"
+        ],
+        "Call me hand emoticon": [
+            "(callmehand)"
+        ],
+        "Backhand index pointing left emoticon": [
+            "(pointleftindex)",
+            "(pointleftindexfinger)"
+        ],
+        "Backhand Index Pointing Right emoticon": [
+            "(pointrightindex)",
+            "(pointrightindexfinger)"
+        ],
+        "Backhand Index Pointing Down emoticon": [
+            "(backhandindexpointingup)"
+        ],
+        "Middle finger emoticon": [
+            "(middlefinger)"
+        ],
+        "backhand index pointing down emoticon": [
+            "(pointdownindex)",
+            "(pointdownindexfinger)"
+        ],
+        "Index pointing up emoticon": [
+            "(pointupindex)",
+            "(pointupindexfinger)"
+        ],
+        "Yes emoticon": [
+            "(y)",
+            "(Y)",
+            "(yes)"
+        ],
+        "No emoticon": [
+            "(n)",
+            "(no)"
+        ],
+        "On coming fist emoticon": [
+            "(oncomingfist)"
+        ],
+        "Left facing fist emoticon": [
+            "(leftfacingfist)"
+        ],
+        "Right facing fist emoticon": [
+            "(rightfacingfist)"
+        ],
+        "Clapping hands emoticon": [
+            "(applause)",
+            "(clappinghands)"
+        ],
+        "Hands celebrating emoticon": [
+            "(celebrate)",
+            "(celebration)",
+            "(handsinair)",
+            "(hia)"
+        ],
+        "Open hands emoticon": [
+            "(openhands)"
+        ],
+        "Palms up together emoticon": [
+            "(palmsuptogether)"
+        ],
+        "handshake emoticon": [
+            "(handshake)"
+        ],
+        "Praying emoticon": [
+            "(pray)",
+            "(praying)",
+            "(namaste)"
+        ],
+        "Writing hand emoticon": [
+            "(writinghand)"
+        ],
+        "Nail polish emoticon": [
+            "(nailpolish)"
+        ],
+        "Selfie emoticon": [
+            "(selfie)"
+        ],
+        "Muscle emoticon": [
+            "(flex)",
+            "(muscle)"
+        ],
+        "Mechanical arm emoticon": [
+            "(mechanicalarm)"
+        ],
+        "Mechanical leg emoticon": [
+            "(mechanicalleg)"
+        ],
+        "Leg emoticon": [
+            "(leg)"
+        ],
+        "Foot emoticon": [
+            "(foot)"
+        ],
+        "Ear emoticon": [
+            "(ear)"
+        ],
+        "Ear with hearing aid emoticon": [
+            "(earwithhearingaid)"
+        ],
+        "Nose emoticon": [
+            "(nose)"
+        ],
+        "Brain emoticon": [
+            "(brain)"
+        ],
+        "Tooth emoticon": [
+            "(tooth)"
+        ],
+        "Bone emoticon": [
+            "(bone)"
+        ],
+        "Eyes emoticon": [
+            "(eyes)"
+        ],
+        "Eye emoticon": [
+            "(eye)"
+        ],
+        "Tongue emoticon": [
+            "(tongue)"
+        ],
+        "Mouth emoticon": [
+            "(mouth)"
+        ],
+        "Ukraine handshake emoticon": [
+            "(ukrainehandshake)"
+        ],
+        "Ukraine pray emoticon": [
+            "(ukrainepray)"
+        ]
+    },
+    "Hand Gestures - Skype Unique": {
+        "Hi emoticon": [
+            "(wave)",
+            "(hi)",
+            "(HI)",
+            "(bye)",
+            "(BYE)"
+        ],
+        "High five emoticon": [
+            "(highfive)",
+            "(hifive)(h5)"
+        ],
+        "Clapping emoticon": [
+            "(clap)"
+        ],
+        "Sarcastic emoticon": [
+            "(sarcastic)",
+            "(sarcasm)",
+            "(slowclap)"
+        ],
+        "Facepalm emoticon": [
+            "(facepalm)",
+            "(fail)"
+        ],
+        "Rock emoticon": [
+            "(rock)"
+        ],
+        "Fingers crossed emoticon": [
+            "(yn)",
+            "(fingers)",
+            "(fingerscrossed)",
+            "(crossedfingers)"
+        ],
+        "Listening emoticon": [
+            "(listening)"
+        ],
+        "Wait emoticon": [
+            "(wait)"
+        ],
+        "Relieved emoticon": [
+            "(whew)",
+            "(phew)"
+        ],
+        "Too much information emoticon": [
+            "(tmi)"
+        ],
+        "Call emoticon": [
+            "(call)"
+        ],
+        "Punch emoticon": [
+            "(punch)",
+            "*|",
+            "*-|"
+        ],
+        "Talk to the hand emoticon": [
+            "(talktothehand)"
+        ],
+        "Whistle emoticon": [
+            "(whistle)",
+            "(seeti)"
+        ],
+        "Slap emoticon": [
+            "(slap)",
+            "(thappad)"
+        ],
+        "Lalala emoticon": [
+            "(lalala)",
+            "(notlistening)"
+        ],
+        "Poke emoticon": [
+            "(poke)",
+            "(nudge)"
+        ],
+        "Woman of the year emoticon": [
+            "(woty)"
+        ],
+        "Glass ceiling emoticon": [
+            "(glassceiling)"
+        ],
+        "Dead yes emoticon": [
+            "(deadyes)"
+        ],
+        "Xmas yes emoticon": [
+            "(xmasyes)"
+        ],
+        "Drop the mic emoticon": [
+            "(dropthemic)"
+        ]
+    },
+    "People": {
+        "Smile baby emoticon": [
+            "(smilebaby)"
+        ],
+        "Smile boy emoticon": [
+            "(smileboy)"
+        ],
+        "Smile girl emoticon": [
+            "(smilegirl)"
+        ],
+        "Smile man emoticon": [
+            "(smileman)"
+        ],
+        "Smile woman emoticon": [
+            "(smilewoman)"
+        ],
+        "Woman curly hair emoticon": [
+            "(womancurlyhair)"
+        ],
+        "Woman white hair emoticon": [
+            "(womanwhitehair)"
+        ],
+        "Person white hair emoticon": [
+            "(personwhitehair)"
+        ],
+        "Woman blond hair emoticon": [
+            "(womanblondhair)"
+        ],
+        "Man blond hair emoticon": [
+            "(manblondhair)"
+        ],
+        "Dancing gran emoticon": [
+            "(gran)"
+        ],
+        "Person frowning emoticon": [
+            "(frowning)"
+        ],
+        "Man frowning emoticon": [
+            "(manfrowning)"
+        ],
+        "Woman frowning emoticon": [
+            "(womanfrowning)"
+        ],
+        "Pouting face emoticon": [
+            "(poutingface)"
+        ],
+        "Man pouting emoticon": [
+            "(manpouting)"
+        ],
+        "Woman pouting emoticon": [
+            "(womanpouting)"
+        ],
+        "Face with no good gesture emoticon": [
+            "(facewithnogoodgesture)"
+        ],
+        "Man gesturing no emoticon": [
+            "(mangesturingnotok)"
+        ],
+        "Woman gesturing no emoticon": [
+            "(womangesturingno)"
+        ],
+        "Person gesturing ok emoticon": [
+            "(persongesturingok)"
+        ],
+        "Man gesturing OK emoticon": [
+            "(mangesturingok)"
+        ],
+        "Woman gesturing OK emoticon": [
+            "(womangesturingok)"
+        ],
+        "Person tipping hand emoticon": [
+            "(persontippinghand)"
+        ],
+        "Man tipping hand emoticon": [
+            "(mantippinghand)"
+        ],
+        "Woman tipping hand emoticon": [
+            "(womantippinghand)"
+        ],
+        "Person raising hand emoticon": [
+            "(happypersonraisingonehand)"
+        ],
+        "Man raising hand emoticon": [
+            "(manraisinghand)"
+        ],
+        "Woman raising hand emoticon": [
+            "(womanraisinghand)"
+        ],
+        "Deaf person emoticon": [
+            "(persondeaf)"
+        ],
+        "Man deaf emoticon": [
+            "(mandeaf)"
+        ],
+        "Woman deaf emoticon": [
+            "(womandeaf)"
+        ],
+        "Person bowing emoticon": [
+            "(bowing)"
+        ],
+        "Bowing emoticon": [
+            "(bow)"
+        ],
+        "Thanks emoticon": [
+            "(thanks)"
+        ],
+        "Person facepalming emoticon": [
+            "(personfacepalming)"
+        ],
+        "Man facepalming emoticon": [
+            "(manfacepalming)"
+        ],
+        "Woman facepalming emoticon": [
+            "(womanfacepalming)"
+        ],
+        "Woman shrug emoticon": [
+            "(womanshrug)",
+            "(wshrug)",
+            "(fshrug)"
+        ],
+        "Man shrug emoticon": [
+            "(manshrug)",
+            "(mshrug)"
+        ],
+        "Man health worker emoticon": [
+            "(manhealthworker)"
+        ],
+        "Woman health worker emoticon": [
+            "(womanhealthworker)"
+        ],
+        "Man graduate emoticon": [
+            "(mangraduate)"
+        ],
+        "Woman graduate emoticon": [
+            "(womangraduate)"
+        ],
+        "Man teacher emoticon": [
+            "(manteacher)"
+        ],
+        "Woman teacher emoticon": [
+            "(womanteacher)"
+        ],
+        "Man judge emoticon": [
+            "(manjudge)"
+        ],
+        "Woman judge emoticon": [
+            "(womanjudge)"
+        ],
+        "Man farmer emoticon": [
+            "(manfarmer)"
+        ],
+        "Woman farmer emoticon": [
+            "(womanfarmer)"
+        ],
+        "Man chef emoticon": [
+            "(manchef)"
+        ],
+        "Woman chef emoticon": [
+            "(womanchef)"
+        ],
+        "Man mechanic emoticon": [
+            "(manmechanic)"
+        ],
+        "Woman mechanic emoticon": [
+            "(womanmechanic)"
+        ],
+        "Man welder emoticon": [
+            "(manwelder)"
+        ],
+        "Woman welder emoticon": [
+            "(womanwelder)"
+        ],
+        "Office worker male emoticon": [
+            "(officeworkermale)"
+        ],
+        "Office worker female emoticon": [
+            "(officeworkerfemale)"
+        ],
+        "Man scientist emoticon": [
+            "(manscientist)"
+        ],
+        "Woman scientist emoticon": [
+            "(womanscientist)"
+        ],
+        "Man techie emoticon": [
+            "(mantechie)",
+            "(mandeveloper)"
+        ],
+        "Woman developer emoticon": [
+            "(womantechie)",
+            "(womandeveloper)"
+        ],
+        "Man singer emoticon": [
+            "(mansinger)"
+        ],
+        "Woman singer emoticon": [
+            "(womansinger)"
+        ],
+        "Man artist emoticon": [
+            "(manartist)"
+        ],
+        "Woman artist emoticon": [
+            "(womanartist)"
+        ],
+        "Man pilot emoticon": [
+            "(manpilot)"
+        ],
+        "Woman pilot emoticon": [
+            "(womanpilot)"
+        ],
+        "Man astronaut emoticon": [
+            "(manastronaut)"
+        ],
+        "Woman astronaut emoticon": [
+            "(womanastronaut)"
+        ],
+        "Man firefighter emoticon": [
+            "(manfirefighter)"
+        ],
+        "Woman firefighter emoticon": [
+            "(womanfirefighter)"
+        ],
+        "Man police officer emoticon": [
+            "(manpoliceofficer)"
+        ],
+        "Woman police officer emoticon": [
+            "(womanpoliceofficer)"
+        ],
+        "Detective emoticon": [
+            "(detective)"
+        ],
+        "Man detective emoticon": [
+            "(mandetective)"
+        ],
+        "Woman detective emoticon": [
+            "(womandetective)"
+        ],
+        "Man guard emoticon": [
+            "(manguard)"
+        ],
+        "Woman guard emoticon": [
+            "(womanguard)"
+        ],
+        "Ninja emoticon": [
+            "(ninja)"
+        ],
+        "Construction worker emoticon": [
+            "(constructionworker)"
+        ],
+        "Man construction worker emoticon": [
+            "(manconstructionworker)"
+        ],
+        "Woman construction worker emoticon": [
+            "(womanconstructionworker)"
+        ],
+        "Prince emoticon": [
+            "(prince)"
+        ],
+        "Princess emoticon": [
+            "(princess)"
+        ],
+        "Person wearing turban emoticon": [
+            "(personwearingturban)"
+        ],
+        "Man wearing turban emoticon": [
+            "(man_wearing_turban)"
+        ],
+        "Woman wearing turban emoticon": [
+            "(womanwearingturban)"
+        ],
+        "Man with Chinese cap emoticon": [
+            "(man_with_chinese_cap)"
+        ],
+        "Woman with head scarf emoticon": [
+            "(woman_with_head_scarf)"
+        ],
+        "Man in tuxedo emoticon": [
+            "(manintuxedo)"
+        ],
+        "Woman with veil emoticon": [
+            "(womanwithveil)"
+        ],
+        "Woman pregnant emoticon": [
+            "(womanpregnant)"
+        ],
+        "Breastfeeding emoticon": [
+            "(breastfeeding)"
+        ],
+        "Woman holding baby emoticon": [
+            "(womanholdingbaby)"
+        ],
+        "Man holding baby emoticon": [
+            "(manholdingbaby)"
+        ],
+        "Baby angel emoticon": [
+            "(babyangel)",
+            "(cupid)"
+        ],
+        "Santa emoticon": [
+            "(santa)",
+            "(xmas)",
+            "(christmas)"
+        ],
+        "Mrs claus emoticon": [
+            "(mother_christmas)"
+        ],
+        "Man super hero emoticon": [
+            "(mansuperhero)"
+        ],
+        "Super mum emoticon": [
+            "(hero)",
+            "(womansuperhero)"
+        ],
+        "Supervillain emoticon": [
+            "(supervillain)"
+        ],
+        "Man supervillain emoticon": [
+            "(mansupervillain)"
+        ],
+        "Woman supervillain emoticon": [
+            "(womansupervillain)"
+        ],
+        "Mage emoticon": [
+            "(mage)",
+            "(wizard)"
+        ],
+        "Woman mage emoticon": [
+            "(womanmage)",
+            "(sorceress)"
+        ],
+        "Fairy emoticon": [
+            "(fairy)"
+        ],
+        "Man fairy emoticon": [
+            "(manfairy)"
+        ],
+        "Woman fairy emoticon": [
+            "(womanfairy)"
+        ],
+        "Lady Vampire emoticon": [
+            "(ladyvamp)",
+            "(ladyvampire)"
+        ],
+        "Hammer Dracula emoticon": [
+            "(dracula)"
+        ],
+        "Merperson emoticon": [
+            "(merperson)"
+        ],
+        "Merman emoticon": [
+            "(merman)"
+        ],
+        "Mermaid emoticon": [
+            "(mermaid)"
+        ],
+        "Elf emoticon": [
+            "(elf)"
+        ],
+        "Man elf emoticon": [
+            "(manelf)"
+        ],
+        "woman elf emoticon": [
+            "(womanelf)"
+        ],
+        "Genie emoticon": [
+            "(genie)"
+        ],
+        "Man genie emoticon": [
+            "(mangenie)"
+        ],
+        "Woman genie emoticon": [
+            "(womangenie)"
+        ],
+        "Zombie emoticon": [
+            "(zombie)"
+        ],
+        "Person getting massage emoticon": [
+            "(persongettingfacemassage)",
+            "(facemassage)"
+        ],
+        "Man getting massage emoticon": [
+            "(mangettingfacemassage)"
+        ],
+        "Getting haircut emoticon": [
+            "(persongettinghaircut)"
+        ],
+        "Man getting haircut emoticon": [
+            "(mangettinghaircut)"
+        ],
+        "Woman getting haircut emoticon": [
+            "(womangettinghaircut)"
+        ],
+        "Pedestrian emoticon": [
+            "(pedestrian)"
+        ],
+        "Man walking emoticon": [
+            "(manwalking)",
+            "(manpedestrian)"
+        ],
+        "Woman walking emoticon": [
+            "(womanwalking)",
+            "(womanpedestrian)"
+        ],
+        "Standing emoticon": [
+            "(standing)",
+            "(nonbinarystanding)"
+        ],
+        "Man standing emoticon": [
+            "(manstanding)"
+        ],
+        "Woman standing emoticon": [
+            "(womanstanding)"
+        ],
+        "Person kneeling emoticon": [
+            "(personkneeling)"
+        ],
+        "Man kneeling emoticon": [
+            "(mankneeling)"
+        ],
+        "Woman kneeling emoticon": [
+            "(womankneeling)"
+        ],
+        "Person with probing cane emoticon": [
+            "(personwithprobingcane)"
+        ],
+        "Man probing cane emoticon": [
+            "(manprobingcane)"
+        ],
+        "Woman probing cane emoticon": [
+            "(womanprobingcane)"
+        ],
+        "Person in motorized wheelchair emoticon": [
+            "(personinmotorizedwheelchair)"
+        ],
+        "Man in motorized wheelchair emoticon": [
+            "(maninmotorizedwheelchair)"
+        ],
+        "Woman in motorized wheelchair emoticon": [
+            "(womaninmotorizedwheelchair)"
+        ],
+        "Man in manual wheelchair emoticon": [
+            "(maninmanualwheelchair)"
+        ],
+        "Woman in manual wheelchair emoticon": [
+            "(womaninmanualwheelchair)"
+        ],
+        "Runner emoticon": [
+            "(runner)"
+        ],
+        "Got to run emoticon": [
+            "(gottarun)",
+            "(gtr)",
+            "(run)"
+        ],
+        "Running emoticon": [
+            "(running)"
+        ],
+        "Woman dancing emoticon": [
+            "(womandancing)"
+        ],
+        "Dancing emoticon": [
+            "(dance)",
+            "\\o/",
+            "\\:D/",
+            "\\:d/"
+        ],
+        "Man in suit levitating emoticon": [
+            "(maninsuitlevitating)"
+        ],
+        "Persons with bunny ears emoticon": [
+            "(people_with_bunny_ears)"
+        ],
+        "Men with bunny ears emoticon": [
+            "(men_with_bunny_ears)"
+        ],
+        "Women with bunny ears emoticon": [
+            "(women_with_bunny_ears)"
+        ],
+        "Person steam room emoticon": [
+            "(steam_room)"
+        ],
+        "Man in steamy room emoticon": [
+            "(man_steam_room)"
+        ],
+        "Woman steam room emoticon": [
+            "(woman_steam_room)"
+        ],
+        "Person climbing emoticon": [
+            "(climber)"
+        ],
+        "Man climbing emoticon": [
+            "(manclimbing)"
+        ],
+        "Woman climbing emoticon": [
+            "(womanclimbing)"
+        ],
+        "Woman fencer emoticon": [
+            "(womanfencer)"
+        ],
+        "Horse racing emoticon": [
+            "(horseracing)"
+        ],
+        "Skier emoticon": [
+            "(skier)"
+        ],
+        "Snowboarder emoticon": [
+            "(snowboarder)"
+        ],
+        "Person golfing emoticon": [
+            "(golfer)"
+        ],
+        "Man golfing emoticon": [
+            "(mangolfing)"
+        ],
+        "Woman golfer emoticon": [
+            "(womangolfer)"
+        ],
+        "Person surfing emoticon": [
+            "(personsurfing)"
+        ],
+        "Man surfer emoticon": [
+            "(mansurfer)",
+            "(msurfer)"
+        ],
+        "Woman surfer emoticon": [
+            "(womansurfer)",
+            "(wsurfer)",
+            "(fsurfer)"
+        ],
+        "Man rowing boat emoticon": [
+            "(manrowingboat)"
+        ],
+        "Woman rowing boat emoticon": [
+            "(womanrowingboat)"
+        ],
+        "Man swimming emoticon": [
+            "(manswimming)"
+        ],
+        "Woman swimmer emoticon": [
+            "(womanswimmer)"
+        ],
+        "Person bouncing ball emoticon": [
+            "(bouncingball)"
+        ],
+        "Man bouncing ball emoticon": [
+            "(manbouncingball)"
+        ],
+        "Woman bouncing ball emoticon": [
+            "(womanbouncingball)"
+        ],
+        "Person lifting weights emoticon": [
+            "(weightlifter)"
+        ],
+        "Man lifting weights emoticon": [
+            "(manliftingweights)"
+        ],
+        "Woman weight lifter emoticon": [
+            "(womanweightlifter)"
+        ],
+        "Person biking emoticon": [
+            "(1f6b4_personbiking)"
+        ],
+        "Bicycle emoticon": [
+            "(bike)",
+            "(bicycle)",
+            "(sander)"
+        ],
+        "Woman riding bike emoticon": [
+            "(womanridingbike)"
+        ],
+        "Man mountain biking emoticon": [
+            "(manmountainbiking)"
+        ],
+        "Woman mountain biking emoticon": [
+            "(womanmountainbiking)"
+        ],
+        "Person cartwheeling emoticon": [
+            "(personcartwheeling)"
+        ],
+        "Man cartwheeling emoticon": [
+            "(mancartwheeling)"
+        ],
+        "Woman cartwheeling emoticon": [
+            "(womancartwheeling)"
+        ],
+        "Men wrestling emoticon": [
+            "(menwrestling)"
+        ],
+        "Woman wrestling emoticon": [
+            "(womanwrestling)"
+        ],
+        "Man playing water polo emoticon": [
+            "(manplayingwaterpolo)"
+        ],
+        "Woman playing water polo emoticon": [
+            "(womanplayingwaterpolo)"
+        ],
+        "Man playing handball emoticon": [
+            "(manplayinghandball)"
+        ],
+        "Woman playing handball emoticon": [
+            "(womanplayinghandball)"
+        ],
+        "Man juggling emoticon": [
+            "(manjuggling)"
+        ],
+        "Woman juggling emoticon": [
+            "(womanjuggling)"
+        ],
+        "Person in lotus position emoticon": [
+            "(lotusposition)"
+        ],
+        "Man in lotus position emoticon": [
+            "(maninlotusposition)"
+        ],
+        "Yoga emoticon": [
+            "(yoga)"
+        ],
+        "Woman bath emoticon": [
+            "(womanbath)"
+        ],
+        "Person in bed emoticon": [
+            "(personinbed)"
+        ],
+        "Couple holding hands emoticon": [
+            "(holdinghands)",
+            "(coupleholdinghands)",
+            "(nonbinarynonbinaryholdinghands)"
+        ],
+        "Woman woman holding hands emoticon": [
+            "(womanwomanholdinghands)"
+        ],
+        "Man woman holding hands emoticon": [
+            "(manwomanholdinghands)"
+        ],
+        "Man man holding hands emoticon": [
+            "(manmanholdinghands)"
+        ],
+        "Couple kiss emoticon": [
+            "(kissing)",
+            "(couplekissing)",
+            "(nonbinarynonbinarykiss)"
+        ],
+        "Man woman kiss emoticon": [
+            "(manwomankiss)"
+        ],
+        "Woman woman kiss emoticon": [
+            "(womanwomankiss)",
+            "(womanwomankissing)"
+        ],
+        "Man man kiss emoticon": [
+            "(manmankiss)",
+            "(manmankissing)"
+        ],
+        "Couple with heart emoticon": [
+            "(coupleheart)",
+            "(nonbinarynonbinaryheart)"
+        ],
+        "Male woman heart emoticon": [
+            "(manwomanheart)"
+        ],
+        "Woman woman heart emoticon": [
+            "(womanwomanheart)"
+        ],
+        "Man man heart emoticon": [
+            "(manmanheart)"
+        ],
+        "Family emoticon": [
+            "(family)"
+        ],
+        "Family man woman girl emoticon": [
+            "(familymanwomangirl)"
+        ],
+        "Family man woman girl boy emoticon": [
+            "(familymanwomangirlboy)"
+        ],
+        "Family man woman boy boy emoticon": [
+            "(familymanwomanboyboy)"
+        ],
+        "Family man woman girl girl emoticon": [
+            "(familymanwomangirlgirl)"
+        ],
+        "Family man man boy emoticon": [
+            "(familymanmanboy)"
+        ],
+        "Family man man girl emoticon": [
+            "(familymanmangirl)"
+        ],
+        "Family man man girl boy emoticon": [
+            "(familymanmangirlboy)"
+        ],
+        "Family woman woman boy emoticon": [
+            "(familywomanwomanboy)"
+        ],
+        "Family woman woman girl emoticon": [
+            "(familywomanwomangirl)"
+        ],
+        "Family woman woman girl boy emoticon": [
+            "(familywomanwomangirlboy)"
+        ],
+        "Family woman woman boy boy emoticon": [
+            "(familywomanwomanboyboy)"
+        ],
+        "Family woman woman girl girl emoticon": [
+            "(familywomanwomangirlgirl)"
+        ],
+        "Family man boy emoticon": [
+            "(familymanboy)"
+        ],
+        "Family man boy boy emoticon": [
+            "(familymanboyboy)"
+        ],
+        "Family man girl emoticon": [
+            "(familymangirl)"
+        ],
+        "Family man girl boy emoticon": [
+            "(familymangirlboy)"
+        ],
+        "Family man girl girl emoticon": [
+            "(familymangirlgirl)"
+        ],
+        "Family woman boy emoticon": [
+            "(familywomanboy)"
+        ],
+        "Family woman boy boy emoticon": [
+            "(familywomanboyboy)"
+        ],
+        "Mum and daughter emoticon": [
+            "(mumanddaughter)",
+            "(womanandgirl)"
+        ],
+        "Family woman girl boy emoticon": [
+            "(familywomangirlboy)"
+        ],
+        "Family woman girl girl emoticon": [
+            "(familywomangirlgirl)"
+        ],
+        "Speaking head emoticon": [
+            "(speakingheadinsilhouette)"
+        ],
+        "Busts in Silhouette emoticon": [
+            "(bustsinsilhouette)"
+        ],
+        "Bust in Silhouette emoticon": [
+            "(bustinsilhouette)"
+        ],
+        "Footprints emoticon": [
+            "(footprints)"
+        ]
+    },
+    "People - Skype Unique": {
+        "Bottle feeding emoticon": [
+            "(bottlefeeding)"
+        ],
+        "Man bottle feeding emoticon": [
+            "(manbottlefeeding)"
+        ],
+        "Busy day emoticon": [
+            "(busyday)"
+        ],
+        "Man busy day emoticon": [
+            "(manbusyday)"
+        ],
+        "Woman blow kiss emoticon": [
+            "(womanblowkiss)"
+        ],
+        "Man blow kiss emoticon": [
+            "(manblowkiss)"
+        ],
+        "woman award emoticon": [
+            "(womanaward)"
+        ],
+        "Man award emoticon": [
+            "(manaward)"
+        ],
+        "Woman sign love emoticon": [
+            "(womansignlove)"
+        ],
+        "Man sign love emoticon": [
+            "(mansignlove)"
+        ],
+        "Love cat (female) emoticon": [
+            "(womanholdingcat)"
+        ],
+        "Love cat (male) emoticon": [
+            "(manholdingcat)"
+        ],
+        "Love dog (female) emoticon": [
+            "(womanholdingdog)"
+        ],
+        "Love dog (male)": [
+            "(manholdingdog)"
+        ],
+        "Cheerleader emoticon": [
+            "(cheerleader)"
+        ],
+        "Keep fit emoticon": [
+            "(skip)",
+            "(skippingrope)"
+        ],
+        "Synchronized swimming emoticon": [
+            "(synchswim)"
+        ],
+        "Suryan Namaskar emoticon": [
+            "(suryannamaskar)"
+        ],
+        "Trampoline emoticon": [
+            "(trampoline)"
+        ],
+        "muscle and fat guy emoticon": [
+            "(muscleman)"
+        ],
+        "Podium emoticon": [
+            "(winner)"
+        ],
+        "Woman playing basketball emoticon": [
+            "(womanslamdunk)"
+        ],
+        "Basketball emoticon": [
+            "(slamdunk)"
+        ],
+        "Skate emoticon": [
+            "(skate)"
+        ],
+        "Woman motorbike emoticon": [
+            "(womanmotorbike)"
+        ],
+        "Man motorbike emoticon": [
+            "(manmotorbike)"
+        ],
+        "Woman playing football emoticon": [
+            "(womanfootball)"
+        ],
+        "Bartlett emoticon": [
+            "(football)",
+            "(bartlett)"
+        ],
+        "pull shot emoticon": [
+            "(pullshot)",
+            "(shot)",
+            "(chauka)"
+        ],
+        "Bowled emoticon": [
+            "(bowled)",
+            "(out)",
+            "(wicket)"
+        ],
+        "Falling in love emoticon": [
+            "(fallinlove)"
+        ],
+        "Tennis fail emoticon": [
+            "(tennisfail)"
+        ],
+        "Target emoticon": [
+            "(target)"
+        ],
+        "Football fail emoticon": [
+            "(footballfail)"
+        ],
+        "Man taking a photo emoticon": [
+            "(zilmer)",
+            "(priidu)"
+        ],
+        "A man and his dog emoticon": [
+            "(toivo)"
+        ],
+        "Granny scooter emoticon": [
+            "(grannyscooter)"
+        ],
+        "Forever love emoticon": [
+            "(foreverlove)"
+        ],
+        "Disco dancer emoticon": [
+            "(disco)",
+            "(discodancer)"
+        ],
+        "Bhangra emoticon": [
+            "(bhangra)"
+        ],
+        "Mariachi love emoticon": [
+            "(mariachilove)"
+        ],
+        "Skipping emoticon": [
+            "(skipping)"
+        ],
+        "Man skipping emoticon": [
+            "(manskipping)"
+        ],
+        "Woman emoticon": [
+            "(woman)",
+            "(female)",
+            "(girl)"
+        ],
+        "Man emoticon": [
+            "(man)",
+            "(male)",
+            "(boy)"
+        ],
+        "Computer rage emoticon": [
+            "(computerrage)",
+            "(typingrage)"
+        ],
+        "TV binge zombie emoticon": [
+            "(tvbinge)"
+        ],
+        "Bolly love emoticon": [
+            "(bollylove)"
+        ],
+        "nan": [
+            "(shopping)",
+            "(shopper)"
+        ],
+        "No! emoticon": [
+            "(nahi)",
+            "(naa)"
+        ],
+        "Slipper emoticon": [
+            "(chappal)",
+            "(slipper)"
+        ],
+        "Promise emoticon": [
+            "(promise)",
+            "(kasamse)"
+        ],
+        "Sorry emoticon": [
+            "(kaanpakadna)",
+            "(sorry)",
+            "(maafi)"
+        ],
+        "Witch emoticon": [
+            "(witch)"
+        ],
+        "Zombie emoticon": [
+            "(mummywalk)"
+        ],
+        "Zombie wave emoticon": [
+            "(zombiewave)"
+        ],
+        "Stop emoticon": [
+            "(stop)"
+        ],
+        "Dad time emoticon": [
+            "(dadtime)"
+        ],
+        "Mom-melo emoticon": [
+            "(hotchocolate)"
+        ],
+        "Feeling sweet! emoticon": [
+            "(cupcake)"
+        ],
+        "Jane Goodall emoticon": [
+            "(janegoodall)"
+        ],
+        "Frost wizard emoticon": [
+            "(dedmoroz)",
+            "(frostwizard)"
+        ],
+        "Auld emoticon": [
+            "(auld)"
+        ],
+        "Lang emoticon": [
+            "(lang)"
+        ],
+        "syne emoticon": [
+            "(syne)"
+        ],
+        "Xmas woman emoticon": [
+            "(xmaswoman)"
+        ],
+        "Xmas man emoticon": [
+            "(xmasman)"
+        ],
+        "Ant-man emoticon": [
+            "(antman)"
+        ],
+        "Wasp emoticon": [
+            "(amwasp)"
+        ],
+        "Ant-Man Ghost emoticon": [
+            "(amghost)"
+        ],
+        "Hank Pym emoticon": [
+            "(hankpym)"
+        ],
+        "Flying ant emoticon": [
+            "(amflyingant)"
+        ],
+        "Truck riding emoticon": [
+            "(amtruck)"
+        ],
+        "Wasp grow emoticon": [
+            "(amwaspgrow)"
+        ],
+        "L3-37 emoticon": [
+            "(l3-37)",
+            "(l337)"
+        ],
+        "Lando emoticon": [
+            "(lando)"
+        ],
+        "Enfys Nest emoticon": [
+            "(enfysnest)"
+        ],
+        "Qi'ra emoticon": [
+            "(qi'ra)",
+            "(qira)"
+        ],
+        "Beckett emoticon": [
+            "(beckett)"
+        ],
+        "Solo emoticon": [
+            "(solo)"
+        ],
+        "Chewie emoticon": [
+            "(chewie)"
+        ]
+    },
+    "Animals and Nature": {
+        "Monkey emoticon": [
+            "(monkey)",
+            "(ape)",
+            ":(|)"
+        ],
+        "Gorilla emoticon": [
+            "(gorilla)"
+        ],
+        "Orangutan scratching emoticon": [
+            "(orangutanscratch)",
+            "(orangutanscratching)"
+        ],
+        "Dog emoticon": [
+            "(dog)",
+            ":o3",
+            "(and)"
+        ],
+        "Guidedog emoticon": [
+            "(guidedog)"
+        ],
+        "Service Dog emoticon": [
+            "(servicedog)"
+        ],
+        "Poodle emoticon": [
+            "(poodle)"
+        ],
+        "Wolf Face emoticon": [
+            "(wolfface)"
+        ],
+        "Fox hug emoticon": [
+            "(foxhug)"
+        ],
+        "Cat emoticon": [
+            "(cat)",
+            "(@)",
+            "(meow)",
+            "(kitty)"
+        ],
+        "Lion emoticon": [
+            "(lion)"
+        ],
+        "Tiger emoticon": [
+            "(tiger)"
+        ],
+        "Leopard emoticon": [
+            "(leopard)"
+        ],
+        "Horse Face emoticon": [
+            "(horseface)"
+        ],
+        "Horse emoticon": [
+            "(horse)"
+        ],
+        "Unicorn head emoticon": [
+            "(unicornhead)"
+        ],
+        "Zebra emoticon": [
+            "(zebra)"
+        ],
+        "Reindeer emoticon": [
+            "(reindeer)"
+        ],
+        "Cow Face emoticon": [
+            "(cowface)"
+        ],
+        "Ox emoticon": [
+            "(ox)"
+        ],
+        "Water Buffalo emoticon": [
+            "(waterbuffalo)"
+        ],
+        "Cow emoticon": [
+            "(cow)"
+        ],
+        "Pig Face Emoticon": [
+            "(pigface)"
+        ],
+        "Pig emoticon": [
+            "(pig)"
+        ],
+        "Boar emoticon": [
+            "(boar)"
+        ],
+        "Pig Nose emoticon": [
+            "(pignose)",
+            "(snout)"
+        ],
+        "Ram emoticon": [
+            "(Ram)"
+        ],
+        "Lamb emoticon": [
+            "(lamb)"
+        ],
+        "Goat emoticon": [
+            "(goat)"
+        ],
+        "Camel emoticon": [
+            "(camel)"
+        ],
+        "Two humped Camel emoticon": [
+            "(twohumpcamel)"
+        ],
+        "Llama emoticon": [
+            "(llama)"
+        ],
+        "Giraffe emoticon": [
+            "(giraffe)"
+        ],
+        "elephant emoticon": [
+            "(elephant)"
+        ],
+        "Rhinoceros emoticon": [
+            "(rhino)"
+        ],
+        "Hippopotamus emoticon": [
+            "(hippo)"
+        ],
+        "Mouse Face emoticon": [
+            "(mouseface)"
+        ],
+        "Mouse emoticon": [
+            "(mouse)"
+        ],
+        "Rat emoticon": [
+            "(rat)"
+        ],
+        "Hamster Face emoticon": [
+            "(hamsterface)"
+        ],
+        "Bunny hug emoticon": [
+            "(bunnyhug)"
+        ],
+        "bunny emoticon": [
+            "(bunny)",
+            "(lovebunny)",
+            "(rabbit)"
+        ],
+        "Chipmunk emoticon": [
+            "(chipmunk)"
+        ],
+        "Hedgehog hug emoticon": [
+            "(hedgehoghug)"
+        ],
+        "Bat smile emoticon": [
+            "(batsmile)",
+            "(bat)"
+        ],
+        "Bear Face emoticon": [
+            "(bearface)"
+        ],
+        "Koala emoticon": [
+            "(koala)"
+        ],
+        "Panda emoticon": [
+            "(panda)"
+        ],
+        "Sloth emoticon": [
+            "(sloth)"
+        ],
+        "Otter emoticon": [
+            "(otter)"
+        ],
+        "Skunk emoticon": [
+            "(skunk)"
+        ],
+        "Kangaroo emoticon": [
+            "(kangaroo)"
+        ],
+        "Badger emoticon": [
+            "(badger)"
+        ],
+        "Paw Prints emoticon": [
+            "(pawprints)"
+        ],
+        "Turkey emoticon": [
+            "(turkeybird)"
+        ],
+        "Chicken emoticon": [
+            "(chicken)"
+        ],
+        "Rooster emoticon": [
+            "(rooster)"
+        ],
+        "Hatching Chick emoticon": [
+            "(hatchingchick)"
+        ],
+        "Baby Chick emoticon": [
+            "(babychick)"
+        ],
+        "Front Facing Baby Chick emoticon": [
+            "(frontfacingbabychick)"
+        ],
+        "Bird emoticon": [
+            "(bird)"
+        ],
+        "Dancing penguin emoticon": [
+            "(penguin)",
+            "(dancingpenguin)",
+            "(penguindance)"
+        ],
+        "Dove emoticon": [
+            "(dove)",
+            "(doveofpeace)"
+        ],
+        "Eagle emoticon": [
+            "(eagle)"
+        ],
+        "Duck emoticon": [
+            "(duck)"
+        ],
+        "Swan emoticon": [
+            "(swan)"
+        ],
+        "Owl emoticon": [
+            "(owl)"
+        ],
+        "Flamingo emoticon": [
+            "(flamingo)"
+        ],
+        "Peacock emoticon": [
+            "(peacock)"
+        ],
+        "Parrot emoticon": [
+            "(parrot)"
+        ],
+        "Frog Face emoticon": [
+            "(frogface)"
+        ],
+        "Crocodile emoticon": [
+            "(crocodile)"
+        ],
+        "Tortoise emoticon": [
+            "(tortoise)"
+        ],
+        "Lizard emoticon": [
+            "(lizard)"
+        ],
+        "Snake emoticon": [
+            "(snake)"
+        ],
+        "Dragon Face emoticon": [
+            "(dragonface)"
+        ],
+        "Dragon emoticon": [
+            "(dragon)"
+        ],
+        "Dinosaur emoticon": [
+            "(dinosaur)"
+        ],
+        "Spouting Whale emoticon": [
+            "(spoutingwhale)"
+        ],
+        "Whale emoticon": [
+            "(whale)"
+        ],
+        "Dolphin emoticon": [
+            "(dolphin)"
+        ],
+        "Fish emoticon": [
+            "(fish)"
+        ],
+        "Tropical fish emoticon": [
+            "(tropicalfish)"
+        ],
+        "Blowfish emoticon": [
+            "(puffer)"
+        ],
+        "Shark emoticon": [
+            "(shark)",
+            "(jaws)"
+        ],
+        "Octopus emoticon": [
+            "(octopus)"
+        ],
+        "Spiralshell emoticon": [
+            "(spiralshell)",
+            "(shell)",
+            "(seashell)"
+        ],
+        "snail emoticon": [
+            "(snail)",
+            "(sn)",
+            "(SN)"
+        ],
+        "Butterfly emoticon": [
+            "(butterfly)"
+        ],
+        "Bug emoticon": [
+            "(bug)"
+        ],
+        "Ant emoticon": [
+            "(ant)"
+        ],
+        "Bee emoticon": [
+            "(bee)"
+        ],
+        "Ladybird emoticon": [
+            "(ladybird)",
+            "(ladybug)"
+        ],
+        "Cricket emoticon": [
+            "(cricket)"
+        ],
+        "Spider emoticon": [
+            "(spider)"
+        ],
+        "Web emoticon": [
+            "(web)",
+            "(cobweb)",
+            "(spiderweb)"
+        ],
+        "Scorpion emoticon": [
+            "(scorpion)"
+        ],
+        "Mosquito emoticon": [
+            "(mosquito)"
+        ],
+        "Microbe emoticon": [
+            "(microbe)",
+            "(virus)"
+        ],
+        "Bouquet emoticon": [
+            "(bouquet)"
+        ],
+        "Cherry blossom emoticon": [
+            "(cherryblossom)"
+        ],
+        "White Flower emoticon": [
+            "(whiteflower)"
+        ],
+        "Rosette emoticon": [
+            "(rosette)"
+        ],
+        "Rose emoticon": [
+            "(rose)"
+        ],
+        "Wilted flower emoticon": [
+            "(wiltedflower)",
+            "(w)"
+        ],
+        "Hibiscus emoticon": [
+            "(hibiscus)"
+        ],
+        "Sunflower emoticon": [
+            "(sunflower)"
+        ],
+        "Flower emoticon": [
+            "(flower)"
+        ],
+        "Tulip emoticon": [
+            "(tulip)"
+        ],
+        "Seedling emoticon": [
+            "(seedling)"
+        ],
+        "Evergreen tree emoticon": [
+            "(evergreentree)"
+        ],
+        "Deciduous tree emoticon": [
+            "(deciduoustree)",
+            "(treedeciduous)"
+        ],
+        "Cactus emoticon": [
+            "(cactus)"
+        ],
+        "Sheaf of rice emoticon": [
+            "(earofrice)"
+        ],
+        "Herb emoticon": [
+            "(herb)"
+        ],
+        "Shamrock emoticon": [
+            "(shamrock)"
+        ],
+        "Good luck emoticon": [
+            "(goodluck)"
+        ],
+        "Maple leaf emoticon": [
+            "(mapleleaf)"
+        ],
+        "Fallen leaf emoticon": [
+            "(fallenleaf)"
+        ],
+        "Falling leaf emoticon": [
+            "(fallingleaf)"
+        ]
+    },
+    "Animals and Nature - Skype Unique": {
+        "Penguin kiss emoticon": [
+            "(penguinkiss)"
+        ],
+        "Hug emoticon": [
+            "(hug)",
+            "(bear)"
+        ],
+        "raccoon emoticon": [
+            "(raccoon)"
+        ],
+        "Seal emoticon": [
+            "(seal)"
+        ],
+        "Unicorn emoticon": [
+            "(unicorn)"
+        ],
+        "Stingray emoticon": [
+            "(stingray)"
+        ],
+        "Orangutan wave emoticon": [
+            "(orangutanwave)"
+        ],
+        "Monkey giggle emoticon": [
+            "(monkeygiggle)"
+        ],
+        "See no evil monkey emoticon": [
+            "(seenoevil)"
+        ],
+        "Hear no evil monkey emoticon": [
+            "(hearnoevil)"
+        ],
+        "Speak no evil monkey emoticon": [
+            "(speaknoevil)"
+        ],
+        "Smile monkey emoticon": [
+            "(smilemonkey)"
+        ],
+        "Heart eyes monkey emoticon": [
+            "(hearteyesmonkey)"
+        ],
+        "Sad monkey emoticon": [
+            "(sadmonkey)"
+        ],
+        "Laugh monkey emoticon": [
+            "(laughmonkey)"
+        ],
+        "Cool monkey emoticon": [
+            "(coolmonkey)"
+        ],
+        "Polar bear emoticon": [
+            "(polarbear)",
+            "(polarbearhug)"
+        ],
+        "Moving home emoticon": [
+            "(movinghome)"
+        ],
+        "Donkey emoticon": [
+            "(donkey)",
+            "(gadha)"
+        ],
+        "Love bite emoticon": [
+            "(lovebites)"
+        ],
+        "Angry red emoticon": [
+            "(red)"
+        ],
+        "Dancing hen emoticon": [
+            "(hendance)"
+        ],
+        "Rock chick emoticon": [
+            "(rockchick)"
+        ],
+        "Hedgehog emoticon": [
+            "(hedgehog)"
+        ],
+        "Squirrel emoticon": [
+            "(squirrel)",
+            "(heidy)"
+        ],
+        "Acorn emoticon": [
+            "(acorn)"
+        ],
+        "Hungry cat emoticon": [
+            "(hungrycat)"
+        ],
+        "Ganesh emoticon": [
+            "(ganesh)"
+        ],
+        "Bat cry emoticon": [
+            "(batcry)"
+        ],
+        "Werewolf howl emoticon": [
+            "(werewolfhowl)"
+        ],
+        "Snow angel emoticon": [
+            "(snowangel)"
+        ],
+        "Snegovik emoticon": [
+            "(snegovik)",
+            "(snowbuddie)"
+        ],
+        "Ginger keep fit emoticon": [
+            "(gingerkeepfit)"
+        ],
+        "Year of the Monkey emoticon": [
+            "(yotm)",
+            "(monkeyyear)"
+        ],
+        "Year of the fire rooster emoticon": [
+            "(yotfr)"
+        ],
+        "Year of the dog emoticon": [
+            "(yotd)"
+        ],
+        "Year of the pig emoticon": [
+            "(yotp)"
+        ],
+        "Year of the rat emoticon": [
+            "(yotr)"
+        ],
+        "Porg emoticon": [
+            "(porg)"
+        ],
+        "Porg surprised emoticon": [
+            "(porgsurprised)"
+        ],
+        "Chewbacca emoticon": [
+            "(chewbacca)"
+        ],
+        "Shrimp emoticon": [
+            "(shrimp)"
+        ],
+        "Squid emoticon": [
+            "(squid)"
+        ],
+        "Lobster emoticon": [
+            "(lobster)"
+        ],
+        "Crab emoticon": [
+            "(crab)"
+        ],
+        "Turtle emoticon": [
+            "(turtle)"
+        ]
+    },
+    "Food": {
+        "Grapes emoticon": [
+            "(grapes)"
+        ],
+        "Melon emoticon": [
+            "(melon)",
+            "(cantaloupe)"
+        ],
+        "Watermelon emoticon": [
+            "(watermelon)"
+        ],
+        "Orange emoticon": [
+            "(orange)"
+        ],
+        "Lemon emoticon": [
+            "(lemon)"
+        ],
+        "Banana emoticon": [
+            "(banana)"
+        ],
+        "Pineapple emoticon": [
+            "(pineapple)"
+        ],
+        "Mango emoticon": [
+            "(mango)"
+        ],
+        "apple emoticon": [
+            "(apple)"
+        ],
+        "Green apple emoticon": [
+            "(greenapple)"
+        ],
+        "Pear emoticon": [
+            "(pear)"
+        ],
+        "Peach emoticon": [
+            "(peach)"
+        ],
+        "Cherries emoticon": [
+            "(cherries)"
+        ],
+        "Strawberry emoticon": [
+            "(strawberry)"
+        ],
+        "Kiwi fruit emoticon": [
+            "(kiwi)"
+        ],
+        "Tomato emoticon": [
+            "(tomato)"
+        ],
+        "Coconut emoticon": [
+            "(coconut)"
+        ],
+        "Avocado love emoticon": [
+            "(avocadolove)"
+        ],
+        "Eggplant emoticon": [
+            "(aubergine)(eggplant)"
+        ],
+        "Potato emoticon": [
+            "(potato)"
+        ],
+        "Carrot emoticon": [
+            "(carrot)"
+        ],
+        "Corn emoticon": [
+            "(corn)"
+        ],
+        "Chili pepper emoticon": [
+            "(chilipepper)"
+        ],
+        "Cucumber emoticon": [
+            "(cucumber)",
+            "(gherkin)"
+        ],
+        "Lettuce emoticon": [
+            "(lettuce)"
+        ],
+        "Broccoli emoticon": [
+            "(broccoli)"
+        ],
+        "Garlic emoticon": [
+            "(garlic)"
+        ],
+        "Onion emoticon": [
+            "(onion)"
+        ],
+        "Mushroom emoticon": [
+            "(mushroom)"
+        ],
+        "Peanuts emoticon": [
+            "(nuts)",
+            "(peanuts)"
+        ],
+        "Chestnut emoticon": [
+            "(chestnut)"
+        ],
+        "Bread emoticon": [
+            "(bread)"
+        ],
+        "Croissant emoticon": [
+            "(croissant)"
+        ],
+        "Baguette emoticon": [
+            "(baguette)"
+        ],
+        "Pretzel emoticon": [
+            "(pretzel)"
+        ],
+        "Bagel emoticon": [
+            "(bagel)"
+        ],
+        "Pancake emoticon": [
+            "(pancake)"
+        ],
+        "Waffle emoticon": [
+            "(waffle)"
+        ],
+        "Cheese emoticon": [
+            "(cheese)",
+            "(stink)"
+        ],
+        "Meat on bone emoticon": [
+            "(meatonbone)",
+            "(anoniku)"
+        ],
+        "Chicken leg emoticon": [
+            "(chickenleg)"
+        ],
+        "Steak emoticon": [
+            "(steak)"
+        ],
+        "Bacon emoticon": [
+            "(bacon)"
+        ],
+        "Burgers emoticon": [
+            "(burger)"
+        ],
+        "Fries emoticon": [
+            "(fries)"
+        ],
+        "Pizza emoticon": [
+            "(pi)",
+            "(pizza)"
+        ],
+        "Hot dog emoticon": [
+            "(hotdog)"
+        ],
+        "Sandwich emoticon": [
+            "(sandwich)"
+        ],
+        "Taco emoticon": [
+            "(taco)"
+        ],
+        "Burrito emoticon": [
+            "(burrito)"
+        ],
+        "Pita bread emoticon": [
+            "(pitabread)"
+        ],
+        "Falafel emoticon": [
+            "(falafel)"
+        ],
+        "Egg emoticon": [
+            "(egg)"
+        ],
+        "Cooking emoticon": [
+            "(cooking)",
+            "(friedegg)"
+        ],
+        "Paella emoticon": [
+            "(paella)"
+        ],
+        "Stew emoticon": [
+            "(stew)",
+            "(casserole)"
+        ],
+        "Bowl with spoon emoticon": [
+            "(bowlwithspoon)"
+        ],
+        "Salad emoticon": [
+            "(salad)"
+        ],
+        "Popcorn emoticon": [
+            "(popcorn)"
+        ],
+        "Butter emoticon": [
+            "(butter)"
+        ],
+        "Salt emoticon": [
+            "(salt)"
+        ],
+        "Tin can emoticon": [
+            "(tincan)",
+            "(campbell)"
+        ],
+        "Bento box emoticon": [
+            "(bento)"
+        ],
+        "Rice cracker emoticon": [
+            "(ricecracker)"
+        ],
+        "Rice ball emoticon": [
+            "(riceball)"
+        ],
+        "Rice emoticon": [
+            "(rice)"
+        ],
+        "Curry emoticon": [
+            "(curry)",
+            "(curryandrice)"
+        ],
+        "Noodles emoticon": [
+            "(noodles)"
+        ],
+        "Spaghetti emoticon": [
+            "(spaghetti)"
+        ],
+        "Sweet potato emoticon": [
+            "(sweetpotato)",
+            "(batata)",
+            "(yam)"
+        ],
+        "Oden emoticon": [
+            "(oden)"
+        ],
+        "Sushi emoticon": [
+            "(sushi)"
+        ],
+        "Fried shrimp emoticon": [
+            "(friedshrimp)"
+        ],
+        "Fishcake emoticon": [
+            "(fishcake)"
+        ],
+        "Moon cake emoticon": [
+            "(mooncake)"
+        ],
+        "Dango emoticon": [
+            "(dango)"
+        ],
+        "Dumpling emoticon": [
+            "(dumpling)"
+        ],
+        "Fortune cookie emoticon": [
+            "(fortunecookie)"
+        ],
+        "Takeout box emoticon": [
+            "(takeoutbox)"
+        ],
+        "Crab emoticon": [
+            "(crab)"
+        ],
+        "Lobster emoticon": [
+            "(lobster)"
+        ],
+        "Shrimp emoticon": [
+            "(shrimp)"
+        ],
+        "Squid emoticon": [
+            "(squid)"
+        ],
+        "Oyster emoticon": [
+            "(oyster)"
+        ],
+        "Ice cream emoticon": [
+            "(sundae)"
+        ],
+        "Shaved ice emoticon": [
+            "(shavedice)"
+        ],
+        "Doughnut emoticon": [
+            "(doughnut)",
+            "(donut)"
+        ],
+        "Cookies emoticon": [
+            "(cookies)"
+        ],
+        "Cake emoticon": [
+            "(cake)"
+        ],
+        "Cake slice emoticon": [
+            "(cakeslice)"
+        ],
+        "Feeling sweet! emoticon": [
+            "(cupcake)"
+        ],
+        "Pie emoticon": [
+            "(pie)"
+        ],
+        "Chocolate emoticon": [
+            "(chocolate)"
+        ],
+        "Candy emoticon": [
+            "(candy)"
+        ],
+        "Lollipop emoticon": [
+            "(lollipop)"
+        ],
+        "Custard emoticon": [
+            "(custard)"
+        ],
+        "Honey emoticon": [
+            "(honey)"
+        ],
+        "Baby bottle emoticon": [
+            "(babybottle)"
+        ],
+        "Milk emoticon": [
+            "(milk)"
+        ],
+        "Coffee emoticon": [
+            "(coffee)"
+        ],
+        "Tea emoticon": [
+            "(chai)",
+            "(tea)"
+        ],
+        "Sake emoticon": [
+            "(sake)"
+        ],
+        "Champagne emoticon": [
+            "(champagne)(sparkling)"
+        ],
+        "Red wine emoticon": [
+            "(redwine)"
+        ],
+        "Drink emoticon": [
+            "(drink)"
+        ],
+        "Tropical drink emoticon": [
+            "(tropicaldrink)",
+            "(fruitpunch)"
+        ],
+        "Beer emoticon": [
+            "(beer)",
+            "(bricklayers)"
+        ],
+        "Beer mugs emoticon": [
+            "(beermugs)",
+            "(beers)"
+        ],
+        "Cheers emoticon": [
+            "(cheers)"
+        ],
+        "Tumbler glass emoticon": [
+            "(tumbler)",
+            "(whiskey)"
+        ],
+        "Cup with straw emoticon": [
+            "(cupwithstraw)"
+        ],
+        "Juice box emoticon": [
+            "(juicebox)"
+        ],
+        "Yerba mate emoticon": [
+            "(yerbamate)",
+            "(mate)"
+        ],
+        "Ice cube emoticon": [
+            "(icecube)"
+        ],
+        "Chopsticks emoticon": [
+            "(chopsticks)"
+        ],
+        "Dinner emoticon": [
+            "(dinner)"
+        ],
+        "Cutlery emoticon": [
+            "(cutlery)",
+            "(forkandknife)"
+        ],
+        "Spoon emoticon": [
+            "(spoon)"
+        ],
+        "Kitchen knife emoticon": [
+            "(kitchenknife)"
+        ],
+        "Amphora emoticon": [
+            "(amphora)"
+        ]
+    },
+    "Food - Skype Unique": {
+        "Great pear emoticon": [
+            "(greatpear)"
+        ],
+        "Pizza slice emoticon": [
+            "(pizzaslice)"
+        ],
+        "Sweet emoticon": [
+            "(laddu)"
+        ],
+        "Tandoori chicken emoticon": [
+            "(tandoori)(tandoorichicken)"
+        ],
+        "Turkey emoticon": [
+            "(turkey)",
+            "(turkeydance)"
+        ],
+        "Fool emoticon": [
+            "(dhakkan)",
+            "(fool)"
+        ]
+    },
+    "Travel and Places": {
+        "Earth globe Europe Africa emoticon": [
+            "(earthglobeeuropeafrica)"
+        ],
+        "Earth globe Americas emoticon": [
+            "(earthglobeamericas)"
+        ],
+        "Earth globe Asia Australia emoticon": [
+            "(earthglobeasiaaustralia)"
+        ],
+        "Globe with meridians emoticon": [
+            "(globewithmeridians)"
+        ],
+        "World map emoticon": [
+            "(worldmap)"
+        ],
+        "Silhouette of Japan emoticon": [
+            "(silhouetteofjapan)"
+        ],
+        "Compass emoticon": [
+            "(compass)"
+        ],
+        "Snow capped mountain emoticon": [
+            "(snowcappedmountain)"
+        ],
+        "Mountain emoticon": [
+            "(mountain)"
+        ],
+        "Volcano emoticon": [
+            "(volcano)"
+        ],
+        "Camping emoticon": [
+            "(mountfuji)"
+        ],
+        "Beach with umbrella emoticon": [
+            "(beachwithumbrella)"
+        ],
+        "Desert emoticon": [
+            "(desert)"
+        ],
+        "Island emoticon": [
+            "(island)",
+            "(ip)"
+        ],
+        "National park emoticon": [
+            "(nationalpark)"
+        ],
+        "Stadium emoticon": [
+            "(stadium)"
+        ],
+        "Classical building emoticon": [
+            "(classicalbuilding)"
+        ],
+        "Building construction emoticon": [
+            "(buildingconstruction)"
+        ],
+        "Bricks emoticon": [
+            "(bricks)"
+        ],
+        "House building emoticon": [
+            "(housebuildings)"
+        ],
+        "Derelict house emoticon": [
+            "(derelicthouse)"
+        ],
+        "House emoticon": [
+            "(house)",
+            "(home)"
+        ],
+        "House with garden emoticon": [
+            "(housewithgarden)"
+        ],
+        "Office building emoticon": [
+            "(officebuilding)"
+        ],
+        "Post office emoticon": [
+            "(japanesepostoffice)"
+        ],
+        "European post office emoticon": [
+            "(europeanpostoffice)"
+        ],
+        "Hospital emoticon": [
+            "(hospital)"
+        ],
+        "Bank emoticon": [
+            "(bank)"
+        ],
+        "Hotel emoticon": [
+            "(hotel)"
+        ],
+        "Love hotel emoticon": [
+            "(lovehotel)"
+        ],
+        "Convenience store emoticon": [
+            "(conveniencestore)"
+        ],
+        "School emoticon": [
+            "(school)"
+        ],
+        "Department store emoticon": [
+            "(departmentstore)"
+        ],
+        "Factory emoticon": [
+            "(factory)"
+        ],
+        "Castle emoticon": [
+            "(japanesecastle)"
+        ],
+        "European castle emoticon": [
+            "(europeancastle)"
+        ],
+        "Wedding emoticon": [
+            "(wedding)"
+        ],
+        "Tokyo tower emoticon": [
+            "(tokyotower)"
+        ],
+        "Statue of liberty emoticon": [
+            "(statueofliberty)"
+        ],
+        "Church emoticon": [
+            "(church)"
+        ],
+        "Mosque emoticon": [
+            "(mosque)"
+        ],
+        "Hindu temple emoticon": [
+            "(hindutemple)"
+        ],
+        "Synagogue emoticon": [
+            "(Synagogue)"
+        ],
+        "Shinto shrine emoticon": [
+            "(shintoshrine)"
+        ],
+        "Kaaba emoticon": [
+            "(kaaba)"
+        ],
+        "Fountain emoticon": [
+            "(fountain)"
+        ],
+        "Tent emoticon": [
+            "(tent)"
+        ],
+        "Foggy emoticon": [
+            "(foggy)"
+        ],
+        "Night with stars emoticon": [
+            "(nightwithstars)"
+        ],
+        "City scape emoticon": [
+            "(cityscape)"
+        ],
+        "Sunrise over mountains emoticon": [
+            "(sunriseovermountains)"
+        ],
+        "Sunrise emoticon": [
+            "(sunrise)"
+        ],
+        "City scape at dusk emoticon": [
+            "(cityscapeatdusk)"
+        ],
+        "Sunset over buildings emoticon": [
+            "(sunsetoverbuildings)"
+        ],
+        "Bridge at night emoticon": [
+            "(bridgeatnight)"
+        ],
+        "Hot springs emoticon": [
+            "(hotsprings)"
+        ],
+        "Carousel horse emoticon": [
+            "(carouselhorse)"
+        ],
+        "Ferris wheel emoticon": [
+            "(ferriswheel)"
+        ],
+        "Rollercoaster emoticon": [
+            "(rollercoaster)"
+        ],
+        "Barber pole emoticon": [
+            "(barberpole)"
+        ],
+        "Circus tent emoticon": [
+            "(circustent)"
+        ],
+        "Steam train emoticon": [
+            "(steamtrain)",
+            "(train)"
+        ],
+        "Railway car emoticon": [
+            "(railwaycar)"
+        ],
+        "High speed train emoticon": [
+            "(highspeedtrain)"
+        ],
+        "Bullet train emoticon": [
+            "(bulletrain)"
+        ],
+        "Train emoticon": [
+            "(passengertrain)"
+        ],
+        "Light rail emoticon": [
+            "(lightrail)"
+        ],
+        "Station emoticon": [
+            "(station)"
+        ],
+        "Tram emoticon": [
+            "(tram)"
+        ],
+        "Monorail emoticon": [
+            "(monorail)"
+        ],
+        "Mountain railway emoticon": [
+            "(mountainrailway)"
+        ],
+        "Tram car emoticon": [
+            "(tramcar)"
+        ],
+        "Bus emoticon": [
+            "(bus)"
+        ],
+        "Oncoming bus emoticon": [
+            "(oncomingbus)"
+        ],
+        "Trolley bus emoticon": [
+            "(trolleybus)"
+        ],
+        "Minibus emoticon": [
+            "(minibus)"
+        ],
+        "Ambulance emoticon": [
+            "(ambulance)"
+        ],
+        "Fire engine emoticon": [
+            "(fireengine)"
+        ],
+        "Police car emoticon": [
+            "(policecar)"
+        ],
+        "Oncoming police car emoticon": [
+            "(oncomingpolicecar)"
+        ],
+        "Taxi emoticon": [
+            "(taxi)"
+        ],
+        "Oncoming taxi emoticon": [
+            "(oncomingtaxi)"
+        ],
+        "Car emoticon": [
+            "(car)",
+            "(au)"
+        ],
+        "Oncoming automobile emoticon": [
+            "(oncomingautomobile)"
+        ],
+        "Sports utility vehicle emoticon": [
+            "(suv)",
+            "(offroad)",
+            "(recreationalvehicle)"
+        ],
+        "Truck emoticon": [
+            "(truck)"
+        ],
+        "Articulated lorry emoticon": [
+            "(articulatedlorry)"
+        ],
+        "Tractor emoticon": [
+            "(tractor)"
+        ],
+        "Racing car emoticon": [
+            "(racingcar)"
+        ],
+        "Man motorbike emoticon": [
+            "(manmotorbike)"
+        ],
+        "Scooter emoticon": [
+            "(scooter)"
+        ],
+        "Manual wheelchair emoticon": [
+            "(manualwheelchair)"
+        ],
+        "Motorized wheelchair emoticon": [
+            "(motorizedwheelchair)"
+        ],
+        "Push bike emoticon": [
+            "(pushbike)"
+        ],
+        "Skate emoticon": [
+            "(skate)"
+        ],
+        "Bus stop emoticon": [
+            "(busstop)"
+        ],
+        "Motorway emoticon": [
+            "(motorway)"
+        ],
+        "Railway track emoticon": [
+            "(railwaytrack)"
+        ],
+        "Oil drum emoticon": [
+            "(oildrum)"
+        ],
+        "Fuel pump emoticon": [
+            "(fuelpump)"
+        ],
+        "Police car light emoticon": [
+            "(policecarsrevolvinglight)"
+        ],
+        "Horizontal traffic light emoticon": [
+            "(horizontaltrafficlight)"
+        ],
+        "Vertical traffic light emoticon": [
+            "(verticaltrafficlight)"
+        ],
+        "Stop emoticon": [
+            "(stop)"
+        ],
+        "Construction sign emoticon": [
+            "(constructionsign)"
+        ],
+        "Anchor emoticon": [
+            "(anchor)"
+        ],
+        "Sailboat emoticon": [
+            "(sailboat)"
+        ],
+        "Canoe emoticon": [
+            "(canoe)"
+        ],
+        "Speedboat emoticon": [
+            "(speedboat)"
+        ],
+        "Passenger ship emoticon": [
+            "(passengership)"
+        ],
+        "Ferry emoticon": [
+            "(ferry)"
+        ],
+        "Motor boat emoticon": [
+            "(motorboat)"
+        ],
+        "Ship emoticon": [
+            "(ship)"
+        ],
+        "Plane emoticon": [
+            "(plane)",
+            "(ap)",
+            "(airplane)",
+            "(aeroplane)",
+            "(aircraft)",
+            "(jet)"
+        ],
+        "Small airplane emoticon": [
+            "(smallairplane)"
+        ],
+        "Airplane departure emoticon": [
+            "(airplanedeparture)"
+        ],
+        "Airplane arriving emoticon": [
+            "(airplanearriving)"
+        ],
+        "Parachute emoticon": [
+            "(parachute)"
+        ],
+        "Seat emoticon": [
+            "(seat)"
+        ],
+        "Helicopter emoticon": [
+            "(helicopter)"
+        ],
+        "Suspension railway emoticon": [
+            "(suspensionrailway)"
+        ],
+        "Mountain cableway emoticon": [
+            "(mountaincableway)"
+        ],
+        "Aerial tramway emoticon": [
+            "(aerialtramway)"
+        ],
+        "Satellite emoticon": [
+            "(satellite)"
+        ],
+        "Rocket launch emoticon": [
+            "(launch)",
+            "(rocket)",
+            "(shuttle)"
+        ],
+        "Flying saucer emoticon": [
+            "(flyingsaucer)"
+        ],
+        "Bellhop bell emoticon": [
+            "(bellhopbell)"
+        ],
+        "Luggage emoticon": [
+            "(luggage)"
+        ],
+        "Hour glass done emoticon": [
+            "(hourglassdone)"
+        ],
+        "Watch emoticon": [
+            "(watch)"
+        ],
+        "Alarm clock emoticon": [
+            "(alarmclock)"
+        ],
+        "Stop watch emoticon": [
+            "(stopwatch)"
+        ],
+        "Timer clock emoticon": [
+            "(timerclock)"
+        ],
+        "Mantel piece clock emoticon": [
+            "(mantelpiececlock)"
+        ],
+        "Twelve o'clock emoticon": [
+            "(twelveoclock)",
+            "(clock12)"
+        ],
+        "Twelve thirty emoticon": [
+            "(twelvethirty)",
+            "(clock1230)"
+        ],
+        "One o'clock emoticon": [
+            "(oneoclock)",
+            "(clock1)"
+        ],
+        "One thirty emoticon": [
+            "(onethirty)",
+            "(clock130)"
+        ],
+        "Two o'clock emoticon": [
+            "(twooclock)",
+            "(clock2)"
+        ],
+        "Two thirty emoticon": [
+            "(twothirty)",
+            "(clock230)"
+        ],
+        "Three o'clock emoticon": [
+            "(threeoclock)",
+            "(clock3)"
+        ],
+        "Three thirty emoticon": [
+            "(threethirty)",
+            "(clock330)"
+        ],
+        "Four o'clock emoticon": [
+            "(fouroclock)",
+            "(clock4)"
+        ],
+        "Four thirty emoticon": [
+            "(fourthirty)",
+            "(clock430)"
+        ],
+        "Five o'clock emoticon": [
+            "(fiveoclock)",
+            "(clock5)"
+        ],
+        "Five thirty emoticon": [
+            "(fivethirty)",
+            "(clock530)"
+        ],
+        "Six o'clock emoticon": [
+            "(sixoclock)",
+            "(clock6)"
+        ],
+        "Six thirty emoticon": [
+            "(sixthirty)",
+            "(clock630)"
+        ],
+        "Seven o'clock emoticon": [
+            "(sevenoclock)",
+            "(clock7)"
+        ],
+        "Seven thirty emoticon": [
+            "(seventhirty)",
+            "(clock730)"
+        ],
+        "Eight o'clock emoticon": [
+            "(eightoclock)",
+            "(clock8)"
+        ],
+        "Eight thirty emoticon": [
+            "(eightthirty)",
+            "(clock830)"
+        ],
+        "Nine o'clock emoticon": [
+            "(nineoclock)",
+            "(clock9)"
+        ],
+        "Nine thirty emoticon": [
+            "(ninethirty)",
+            "(clock930)"
+        ],
+        "Ten o'clock emoticon": [
+            "(tenoclock)",
+            "(clock10)"
+        ],
+        "Ten thirty emoticon": [
+            "(tenthirty)",
+            "(clock1030)"
+        ],
+        "Eleven o'clock emoticon": [
+            "(elevenoclock)",
+            "(clock11)"
+        ],
+        "Eleven thirty emoticon": [
+            "(eleventhirty)",
+            "(clock1130)"
+        ],
+        "New moon symbol emoticon": [
+            "(newmoonsymbol)"
+        ],
+        "Waxing crescent moon symbol emoticon": [
+            "(waxingcrescentmoonsymbol)"
+        ],
+        "First quarter moon symbol emoticon": [
+            "(firstquartermoonsymbol)"
+        ],
+        "Waxing gibbous moon system emoticon": [
+            "(waxinggibbousmoonsymbol)"
+        ],
+        "Full moon symbol emoticon": [
+            "(fullmoonsymbol)"
+        ],
+        "Waning gibbous moon symbol emoticon": [
+            "(waninggibbousmoonsymbol)"
+        ],
+        "Last quarter moon symbol emoticon": [
+            "(lastquartermoonsymbol)"
+        ],
+        "Waning crescent moon symbol emoticon": [
+            "(waningcrescentmoonsymbol)"
+        ],
+        "Crescent moon emoticon": [
+            "(crescentmoon)"
+        ],
+        "Thermometer emoticon": [
+            "(thermometer)"
+        ],
+        "Sun with rays emoticon": [
+            "(sunwithrays)"
+        ],
+        "Ringed planet emoticon": [
+            "(saturn)",
+            "(ringedplanet)"
+        ],
+        "Star emoticon": [
+            "(star)",
+            "(*)"
+        ],
+        "Glowing star emoticon": [
+            "(glowingstar)"
+        ],
+        "Shooting star emoticon": [
+            "(shootingstar)"
+        ],
+        "Milky way emoticon": [
+            "(milkyway)"
+        ],
+        "Cloud emoticon": [
+            "(cloud)"
+        ],
+        "Sun behind cloud emoticon": [
+            "(sunbehindcloud)"
+        ],
+        "Cloud with lightning and rain emoticon": [
+            "(cloudwithlightningandrain)"
+        ],
+        "Sun behind small cloud emoticon": [
+            "(sunbehindsmallcloud)"
+        ],
+        "Sun behind large cloud emoticon": [
+            "(sunbehindlargecloud)"
+        ],
+        "Sun behind rain cloud": [
+            "(sunbehindraincloud)"
+        ],
+        "Raining emoticon": [
+            "(rain)",
+            "(london)",
+            "(st)"
+        ],
+        "Cloud with snow emoticon": [
+            "(cloudwithsnow)"
+        ],
+        "Cloud with lightning emoticon": [
+            "(cloudwithlightning)"
+        ],
+        "Tornado emoticon": [
+            "(cloudwithtornado)"
+        ],
+        "Fog emoticon": [
+            "(fog)"
+        ],
+        "Wind face emoticon": [
+            "(windblowingface)"
+        ],
+        "Cyclone emoticon": [
+            "(cyclone)"
+        ],
+        "Rainbow emoticon": [
+            "(rainbow)"
+        ],
+        "Closed Umbrella emoticon": [
+            "(closedumbrella)"
+        ],
+        "Umbrella emoticon": [
+            "(umbrella)",
+            "(um)"
+        ],
+        "Beach umbrella emoticon": [
+            "(beachumbrella)"
+        ],
+        "High voltage emoticon": [
+            "(highvoltage)",
+            "(thunderbolt)"
+        ],
+        "Snowflake emoticon": [
+            "(snowflake)"
+        ],
+        "Snegovik emoticon": [
+            "(snegovik)",
+            "(snowbuddie)"
+        ],
+        "Snowman without snow emoticon": [
+            "(snowmanwithoutsnow)"
+        ],
+        "Comet emoticon": [
+            "(comet)"
+        ],
+        "Fire emoticon": [
+            "(fire)"
+        ],
+        "Droplets emoticon": [
+            "(droplets)"
+        ],
+        "Water wave emoticon": [
+            "(waterwave)",
+            "(waves)"
+        ]
+    },
+    "Travel and Places - Skype Unique": {
+        "Xmas car emoticon": [
+            "(xmascar)"
+        ],
+        "Rickshaw emoticon": [
+            "(rickshaw)(rikshaw)",
+            "(ricksha)"
+        ],
+        "Millennium Falcon emoticon": [
+            "(millenniumfalcon)"
+        ],
+        "X-wing emoticon": [
+            "(xwing)"
+        ],
+        "TIE fighter emoticon": [
+            "(tiefighter)"
+        ]
+    },
+    "Activities": {
+        "Pumpkin emoticon": [
+            "(pumpkin)",
+            "(halloween)"
+        ],
+        "Xmas car emoticon": [
+            "(xmascar)"
+        ],
+        "Fireworks emoticon": [
+            "(fireworks)"
+        ],
+        "Sparkler emoticon": [
+            "(sparkler)"
+        ],
+        "Dynamite emoticon": [
+            "(dynamite)",
+            "(tnt)",
+            "(firecracker)"
+        ],
+        "Sparkles emoticon": [
+            "(sparkles)"
+        ],
+        "Balloon emoticon": [
+            "(balloon)"
+        ],
+        "Party popper emoticon": [
+            "(partypopper)"
+        ],
+        "Confetti ball emoticon": [
+            "(confettiball)"
+        ],
+        "Tanabata tree emoticon": [
+            "(tanabatatree)"
+        ],
+        "Pine decoration emoticon": [
+            "(pinedecoration)",
+            "(kadomatsu)"
+        ],
+        "Japanese dolls emoticon": [
+            "(japanesedolls)"
+        ],
+        "Carp steamer emoticon": [
+            "(carpsteamer)",
+            "(koinobori)"
+        ],
+        "Wind chime emoticon": [
+            "(windchime)"
+        ],
+        "Harvest Moon emoticon": [
+            "(harvestmoon)",
+            "(tsukimi)"
+        ],
+        "Red envelope emoticon": [
+            "(redenvelope)",
+            "(giftenvelope)",
+            "(angpao)",
+            "(hongbao)"
+        ],
+        "Ribbon emoticon": [
+            "(ribbon)"
+        ],
+        "Gift emoticon": [
+            "(gift)"
+        ],
+        "Admission tickets emoticon": [
+            "(admissiontickets)"
+        ],
+        "Ticket emoticon": [
+            "(ticket)"
+        ],
+        "Military medal emoticon": [
+            "(militarymedal)"
+        ],
+        "Trophy emoticon": [
+            "(trophy)"
+        ],
+        "Sports medal emoticon": [
+            "(sportsmedal)"
+        ],
+        "Gold medal emoticon": [
+            "(goldmedal)"
+        ],
+        "Silver medal emoticon": [
+            "(silvermedal)"
+        ],
+        "Bronze medal emoticon": [
+            "(bronzemedal)"
+        ],
+        "Soccer Ball emoticon": [
+            "(soccerball)"
+        ],
+        "Baseball emoticon": [
+            "(baseball)"
+        ],
+        "Softball emoticon": [
+            "(softball)"
+        ],
+        "Basketball emoticon": [
+            "(basketball)"
+        ],
+        "Volley ball emoticon": [
+            "(volleyball)"
+        ],
+        "American football emoticon": [
+            "(americanfootball)"
+        ],
+        "Rugby Ball emoticon": [
+            "(rugbyball)"
+        ],
+        "Tennis Ball emoticon": [
+            "(tennisball)"
+        ],
+        "Frisbee emoticon": [
+            "(frisbee)"
+        ],
+        "Bowling Ball emoticon": [
+            "(bowlingball)"
+        ],
+        "Field hockey emoticon": [
+            "(fieldhockeystick)"
+        ],
+        "Ice hockey emoticon": [
+            "(icehockeystick)"
+        ],
+        "Lacrosse emoticon": [
+            "(lacrosse)"
+        ],
+        "Table tennis emoticon": [
+            "(tabletennisbat)",
+            "(pingpongbat)"
+        ],
+        "Badminton emoticon": [
+            "(badminton)"
+        ],
+        "Martial arts uniform emoticon": [
+            "(martialartsuniform)"
+        ],
+        "Goal emoticon": [
+            "(goal)"
+        ],
+        "Flag in hole emoticon": [
+            "(flaginhole)",
+            "(golfball)"
+        ],
+        "Ice skate emoticon": [
+            "(iceskate)"
+        ],
+        "Fishing rod emoticon": [
+            "(fishingrod)"
+        ],
+        "Diving mask emoticon": [
+            "(divingmask)",
+            "(snorkel)"
+        ],
+        "Running shirt emoticon": [
+            "(runningshirt)"
+        ],
+        "Ski and skiboot emoticon": [
+            "(skiandskiboot)"
+        ],
+        "Sled emoticon": [
+            "(sled)"
+        ],
+        "Curling stone emoticon": [
+            "(curlingstone)"
+        ],
+        "Target emoticon": [
+            "(target)"
+        ],
+        "Yo-yo emoticon": [
+            "(yoyo)"
+        ],
+        "Kite emoticon": [
+            "(kite)"
+        ],
+        "Pool Eight Ball emoticon": [
+            "(eightball)"
+        ],
+        "Crystal ball emoticon": [
+            "(crystalball)"
+        ],
+        "Nazar amulet emoticon": [
+            "(nazaramulet)"
+        ],
+        "Games emoticon": [
+            "(games)",
+            "(ply)",
+            "(play)",
+            "(playbox)"
+        ],
+        "Joystick emoticon": [
+            "(joystick)"
+        ],
+        "Slot machine emoticon": [
+            "(slotmachine)"
+        ],
+        "Jigsaw emoticon": [
+            "(jigsaw)"
+        ],
+        "Hug emoticon": [
+            "(hug)",
+            "(bear)"
+        ],
+        "Spades emoticon": [
+            "(spades)"
+        ],
+        "Hearts emoticon": [
+            "(hearts)"
+        ],
+        "Diamonds emoticon": [
+            "(diamonds)"
+        ],
+        "Clubs emoticon": [
+            "(clubs)"
+        ],
+        "Chess pawn emoticon": [
+            "(chesspawn)"
+        ],
+        "Joker emoticon": [
+            "(joker)"
+        ],
+        "Mahjong emoticon": [
+            "(mahjong)"
+        ],
+        "Flower playing cards emoticon": [
+            "(flowerplayingcards)",
+            "(hanafuda)",
+            "(hwatu)"
+        ],
+        "Performing arts emoticon": [
+            "(performingarts)",
+            "(drama)"
+        ],
+        "Painting emoticon": [
+            "(painting)",
+            "(pictureframe)",
+            "(ninjacatpainting)"
+        ],
+        "Artist palette emoticon": [
+            "(palette)",
+            "(artistpalette)"
+        ],
+        "Thread emoticon": [
+            "(thread)"
+        ],
+        "Ball of yarn emoticon": [
+            "(yarn)",
+            "(ballofyarn)"
+        ]
+    },
+    "Activities - Skype Unique": {
+        "American football emoticon": [
+            "(americanfootballeyes)",
+            "(americanfootballbounce)"
+        ]
+    },
+    "Objects": {
+        "Glasses emoticon": [
+            "(glasses)"
+        ],
+        "Sunglasses emoticon": [
+            "(sunglasses)"
+        ],
+        "Goggles emoticon": [
+            "(goggles)"
+        ],
+        "Labcoat emoticon": [
+            "(labcoat)"
+        ],
+        "Safety vest emoticon": [
+            "(safetyvest)"
+        ],
+        "Neck tie emoticon": [
+            "(necktie)"
+        ],
+        "T-shirt emoticon": [
+            "(tshirt)"
+        ],
+        "Jeans emoticon": [
+            "(jeans)",
+            "(denim)"
+        ],
+        "Scarf emoticon": [
+            "(scarf)"
+        ],
+        "Gloves emoticon": [
+            "(gloves)"
+        ],
+        "Coat emoticon": [
+            "(coat)"
+        ],
+        "Socks emoticon": [
+            "(socks)"
+        ],
+        "Dress emoticon": [
+            "(dress)"
+        ],
+        "Kimono emoticon": [
+            "(kimono)"
+        ],
+        "Sari emoticon": [
+            "(sari)"
+        ],
+        "Swimming suit emoticon": [
+            "(swimsuit)"
+        ],
+        "Briefs emoticon": [
+            "(briefs)"
+        ],
+        "Shorts emoticon": [
+            "(shorts)"
+        ],
+        "Bikini emoticon": [
+            "(bikini)"
+        ],
+        "Blouse emoticon": [
+            "(blouse)",
+            "(womansclothes)"
+        ],
+        "Purse emoticon": [
+            "(purse)"
+        ],
+        "Handbag emoticon": [
+            "(handbag)"
+        ],
+        "Pouch emoticon": [
+            "(pouch)"
+        ],
+        "nan": [
+            "(shopping)",
+            "(shopper)"
+        ],
+        "Backpack emoticon": [
+            "(backback)"
+        ],
+        "Mans shoe emoticon": [
+            "(mansshoe)"
+        ],
+        "Sneaker emoticon": [
+            "(sneaker)",
+            "(trainer)",
+            "(athleticshoe)"
+        ],
+        "Hiking boot emoticon": [
+            "(hikingboot)"
+        ],
+        "Womans flat shoe emoticon": [
+            "(womansflatshoe)"
+        ],
+        "High heels emoticon": [
+            "(stiletto)",
+            "(highheels)",
+            "(highheeledshoe)"
+        ],
+        "Womans sandal emoticon": [
+            "(womanssandal)"
+        ],
+        "Ballet shoes emoticon": [
+            "(balletshoes)"
+        ],
+        "Womans boot emoticon": [
+            "(womansboot)"
+        ],
+        "Crown emoticon": [
+            "(crown)"
+        ],
+        "Womans hat emoticon": [
+            "(womanshat)"
+        ],
+        "Top hat emoticon": [
+            "(tophat)"
+        ],
+        "Graduate emoticon": [
+            "(graduate)",
+            "(graduationcap)"
+        ],
+        "Baseball cap emoticon": [
+            "(baseballcap)"
+        ],
+        "Rescue helmet emoticon": [
+            "(rescuehelmet)"
+        ],
+        "Prayer beads emoticon": [
+            "(prayerbeads)",
+            "(rosarybeads)"
+        ],
+        "Ring emoticon": [
+            "(ring)"
+        ],
+        "Diamond emoticon": [
+            "(diamond)"
+        ],
+        "Mute emoticon": [
+            "(mute)"
+        ],
+        "Speaker emoticon": [
+            "(speaker)",
+            "(speakerlow)"
+        ],
+        "Medium volume emoticon": [
+            "(speakermedium)"
+        ],
+        "High volume emoticon": [
+            "(speakerhigh)"
+        ],
+        "PA loudspeaker emoticon": [
+            "(paloudspeaker)",
+            "(pasystem)"
+        ],
+        "Megaphone emoticon": [
+            "(megaphone)"
+        ],
+        "Postal horn emoticon": [
+            "(postalhorn)"
+        ],
+        "Bell emoticon": [
+            "(bell)",
+            "(ghanta)"
+        ],
+        "Muted bell emoticon": [
+            "(mutedbell)"
+        ],
+        "Musical score emoticon": [
+            "(musicalscore)"
+        ],
+        "Music emoticon": [
+            "(music)"
+        ],
+        "Multiple musical notes emoticon": [
+            "(multiplemusicalnotes)",
+            "(1f3b6_multiplemusicalnotes)"
+        ],
+        "Studio microphone emoticon": [
+            "(studiomicrophone)"
+        ],
+        "Level slider emoticon": [
+            "(levelslider)"
+        ],
+        "Control knobs emoticon": [
+            "(controlknobs)"
+        ],
+        "Microphone emoticon": [
+            "(microphone)",
+            "(mic)"
+        ],
+        "Radio emoticon": [
+            "(radio)"
+        ],
+        "Saxophone emoticon": [
+            "(saxophone)"
+        ],
+        "Musical keyboard emoticon": [
+            "(musicalkeyboard)"
+        ],
+        "Trumpet emoticon": [
+            "(trumpet)"
+        ],
+        "Violin emoticon": [
+            "(violin)"
+        ],
+        "Banjo emoticon": [
+            "(banjo)"
+        ],
+        "Drum emoticon": [
+            "(drum)"
+        ],
+        "Phone emoticon": [
+            "(mp)",
+            "(ph)",
+            "(phone)"
+        ],
+        "Mobile phone with arrow emoticon": [
+            "(mobilephonewitharrow)"
+        ],
+        "Telephone emoticon": [
+            "(telephone)"
+        ],
+        "Pager emoticon": [
+            "(pager)"
+        ],
+        "Fax machine emoticon": [
+            "(fax)"
+        ],
+        "Battery emoticon": [
+            "(battery)"
+        ],
+        "Electric plug emoticon": [
+            "(electricplug)"
+        ],
+        "Computer emoticon": [
+            "(desktopcomputer)",
+            "(desktop)"
+        ],
+        "Printer emoticon": [
+            "(printer)"
+        ],
+        "Keyboard emoticon": [
+            "(keyboard)"
+        ],
+        "Mouse emoticon": [
+            "(computermouse)"
+        ],
+        "Track ball emoticon": [
+            "(trackball)"
+        ],
+        "Mini disc emoticon": [
+            "(minidisc)"
+        ],
+        "Floppy disk emoticon": [
+            "(floppy)",
+            "(floppydisk)"
+        ],
+        "CD emoticon": [
+            "(cd)",
+            "(opticaldisc)"
+        ],
+        "Dvd emoticon": [
+            "(dvd)"
+        ],
+        "Abacus emoticon": [
+            "(abacus)"
+        ],
+        "Movie camera emoticon": [
+            "(filmcamera)",
+            "(moviecamera)"
+        ],
+        "Film frames emoticon": [
+            "(filmframes)",
+            "(movieframes)"
+        ],
+        "Film projector emoticon": [
+            "(filmprojector)"
+        ],
+        "Movie emoticon": [
+            "(film)",
+            "(movie)"
+        ],
+        "Television emoticon": [
+            "(television)",
+            "(tv)"
+        ],
+        "Camera emoticon": [
+            "(camera)",
+            "(camerawithflash)"
+        ],
+        "Video camera emoticon": [
+            "(videocamera)"
+        ],
+        "Video cassette emoticon": [
+            "(videocassette)"
+        ],
+        "Magnifying glass left emoticon": [
+            "(magnifyingglassleft)"
+        ],
+        "Magnifying glass right emoticon": [
+            "(magnifyingglassright)"
+        ],
+        "Candle emoticon": [
+            "(candle)"
+        ],
+        "Electric light bulb emoticon": [
+            "(bulb)"
+        ],
+        "Torch emoticon": [
+            "(flashlight)",
+            "(torch)"
+        ],
+        "Izakaya lantern emoticon": [
+            "(izakayalantern)"
+        ],
+        "Diya lamp emoticon": [
+            "(diyalamp)"
+        ],
+        "Decorative notebook emoticon": [
+            "(decorativenotebook)"
+        ],
+        "Red book emoticon": [
+            "(redbook)"
+        ],
+        "Open book emoticon": [
+            "(openbook)"
+        ],
+        "Green book emoticon": [
+            "(greenbook)"
+        ],
+        "Blue book emoticon": [
+            "(bluebook)"
+        ],
+        "Orange book emoticon": [
+            "(orangebook)"
+        ],
+        "Books emoticon": [
+            "(books)"
+        ],
+        "Notebook emoticon": [
+            "(notebook)"
+        ],
+        "Binder emoticon": [
+            "(ledger)",
+            "(binder)"
+        ],
+        "Curled page emoticon": [
+            "(curledpage)"
+        ],
+        "Scroll emoticon": [
+            "(scroll)"
+        ],
+        "Page emoticon": [
+            "(page)"
+        ],
+        "Newspaper emoticon": [
+            "(newspaper)"
+        ],
+        "Rolled up newspaper emoticon": [
+            "(rollednewspaper)",
+            "(rolledupnewspaper)"
+        ],
+        "Bookmark tabs emoticon": [
+            "(bookmarktabs)"
+        ],
+        "Bookmark emoticon": [
+            "(bookmark)"
+        ],
+        "Label tag emoticon": [
+            "(labeltag)"
+        ],
+        "moneybag emoticon": [
+            "(moneybag)"
+        ],
+        "Yen emoticon": [
+            "(yen)"
+        ],
+        "Dollar emoticon": [
+            "(dollar)"
+        ],
+        "Euro emoticon": [
+            "(euro)"
+        ],
+        "Pound emoticon": [
+            "(pound)",
+            "(quid)"
+        ],
+        "Flying money emoticon": [
+            "(flyingmoney)",
+            "(moneywithwings)"
+        ],
+        "Credit card emoticon": [
+            "(creditcard)"
+        ],
+        "Receipt emoticon": [
+            "(receipt)"
+        ],
+        "Yen graph emoticon": [
+            "(yengraph)"
+        ],
+        "Red envelope emoticon": [
+            "(redenvelope)",
+            "(giftenvelope)",
+            "(angpao)",
+            "(hongbao)"
+        ],
+        "Email emoticon": [
+            "(email)"
+        ],
+        "Income envelope emoticon": [
+            "(incomingenvelope)"
+        ],
+        "Envelope with arrow emoticon": [
+            "(envelopewitharrow)"
+        ],
+        "Outbox emoticon": [
+            "(outbox)"
+        ],
+        "Inbox emoticon": [
+            "(inbox)"
+        ],
+        "Package emoticon": [
+            "(package)",
+            "(parcel)"
+        ],
+        "Closed mailbox with flag emoticon": [
+            "(closedmailboxwithflag)"
+        ],
+        "Closed mailbox emoticon": [
+            "(closedmailbox)"
+        ],
+        "Open mailbox with flag emoticon": [
+            "(openmailboxwithflag)"
+        ],
+        "Open mailbox emoticon": [
+            "(openmailbox)"
+        ],
+        "Post box emoticon": [
+            "(postbox)"
+        ],
+        "Ballot box emoticon": [
+            "(ballotbox)"
+        ],
+        "Pencil emoticon": [
+            "(pencil)"
+        ],
+        "Black nib emoticon": [
+            "(blacknib)"
+        ],
+        "Fountain pen emoticon": [
+            "(fountainpen)"
+        ],
+        "Ball point pen emoticon": [
+            "(ballpointpen)"
+        ],
+        "Paint brush emoticon": [
+            "(paintbrush)"
+        ],
+        "Crayon emoticon": [
+            "(crayon)"
+        ],
+        "Memo emoticon": [
+            "(memo)"
+        ],
+        "Briefcase emoticon": [
+            "(briefcase)"
+        ],
+        "Folder emoticon": [
+            "(folder)"
+        ],
+        "Open folder emoticon": [
+            "(openfolder)"
+        ],
+        "Folder dividers emoticon": [
+            "(folderdividers)"
+        ],
+        "Calendar emoticon": [
+            "(1f4c5_calendar)"
+        ],
+        "Tear off calendar emoticon": [
+            "(tearoffcalendar)"
+        ],
+        "Spiral notepad emoticon": [
+            "(spiralnotepad)"
+        ],
+        "Rolodex emoticon": [
+            "(rolodex)"
+        ],
+        "Positive graph emoticon": [
+            "(positivegraph)",
+            "(upwardstrend)"
+        ],
+        "Negative graph emoticon": [
+            "(negativegraph)",
+            "(downwardstrend)"
+        ],
+        "Bar chart emoticon": [
+            "(barchart)",
+            "(bargraph)"
+        ],
+        "Clipboard emoticon": [
+            "(clipboard)"
+        ],
+        "Pin emoticon": [
+            "(mappin)",
+            "(roundpin)",
+            "(roundpushpin)"
+        ],
+        "Paperclip emoticon": [
+            "(paperclip",
+            "(clippy)"
+        ],
+        "Paper clips emoticon": [
+            "(paperclips)"
+        ],
+        "Ruler emoticon": [
+            "(rule)"
+        ],
+        "Triangular ruler emoticon": [
+            "(triangularruler)"
+        ],
+        "Scissors emoticon": [
+            "(scissors)"
+        ],
+        "File box emoticon": [
+            "(filebox)"
+        ],
+        "Filing cabinet emoticon": [
+            "(filingcabinet)"
+        ],
+        "Trash bin emoticon": [
+            "(trashbin)",
+            "(rubbishbin)",
+            "(cage)",
+            "(wastebasket)"
+        ],
+        "Locked emoticon": [
+            "(locked)",
+            "(closedlock)",
+            "(closedpadlock)"
+        ],
+        "Unlocked emoticon": [
+            "(unlocked)",
+            "(openlock)",
+            "(openpadlock)"
+        ],
+        "Locked with pen emoticon": [
+            "(lockwithpen)",
+            "(lockedwithpen)"
+        ],
+        "Lock and key emoticon": [
+            "(lockandkey)"
+        ],
+        "Key emoticon": [
+            "(key)"
+        ],
+        "Old key emoticon": [
+            "(oldkey)"
+        ],
+        "Hammer emoticon": [
+            "(hammer)"
+        ],
+        "Axe emoticon": [
+            "(axe)"
+        ],
+        "Pick emoticon": [
+            "(pick)"
+        ],
+        "Hammer and pick emoticon": [
+            "(hammerandpick)"
+        ],
+        "Hammer and wrench emoticon": [
+            "(hammerandwrench)"
+        ],
+        "Dagger emoticon": [
+            "(dagger)"
+        ],
+        "Swords emoticon": [
+            "(swords)"
+        ],
+        "Water pistol emoticon": [
+            "(pistol)",
+            "(waterpistol)"
+        ],
+        "Bow and arrow emoticon": [
+            "(bowandarrow)"
+        ],
+        "Shield emoticon": [
+            "(shield)"
+        ],
+        "Wrench emoticon": [
+            "(wrench)"
+        ],
+        "Bolt emoticon": [
+            "(bolt)",
+            "(nutandbolt)"
+        ],
+        "Cog emoticon": [
+            "(gear)",
+            "(cog)"
+        ],
+        "Clamp emoticon": [
+            "(clamp)"
+        ],
+        "Scales emoticon": [
+            "(scales)"
+        ],
+        "Probing cane emoticon": [
+            "(probingcane)"
+        ],
+        "Link emoticon": [
+            "(link)"
+        ],
+        "Chains emoticon": [
+            "(chains)"
+        ],
+        "Toolbox emoticon": [
+            "(toolbox)"
+        ],
+        "Magnet emoticon": [
+            "(magnet)"
+        ],
+        "Alembic emoticon": [
+            "(alembic)"
+        ],
+        "Test tube emoticon": [
+            "(testtube)"
+        ],
+        "Petri dish emoticon": [
+            "(petridish)"
+        ],
+        "DNA emoticon": [
+            "(dna)"
+        ],
+        "Microscope emoticon": [
+            "(microscope)"
+        ],
+        "Telescope emoticon": [
+            "(telescope)"
+        ],
+        "Satellite antenna emoticon": [
+            "(satelliteantenna)"
+        ],
+        "Syringe emoticon": [
+            "(syringe)"
+        ],
+        "Blood drop emoticon": [
+            "(blooddrop)"
+        ],
+        "Pill emoticon": [
+            "(pill)"
+        ],
+        "Plaster emoticon": [
+            "(plaster)",
+            "(adhesivebandage)"
+        ],
+        "Stethoscope emoticon": [
+            "(stethoscope)"
+        ],
+        "Door emoticon": [
+            "(door)"
+        ],
+        "Mirror emoticon": [
+            "(mirror)"
+        ],
+        "Bed emoticon": [
+            "(bed)"
+        ],
+        "Couch and lamp emoticon": [
+            "(couchandlamp)"
+        ],
+        "Chair emoticon": [
+            "(chair)"
+        ],
+        "Shower emoticon": [
+            "(shower)"
+        ],
+        "Bath tub emoticon": [
+            "(bathtub)"
+        ],
+        "Razor emoticon": [
+            "(razor)"
+        ],
+        "Lotion emoticon": [
+            "(lotion)"
+        ],
+        "Safety pin emoticon": [
+            "(safetypin)"
+        ],
+        "Broom emoticon": [
+            "(broom)"
+        ],
+        "Laundry basket emoticon": [
+            "(basket)"
+        ],
+        "Toilet paper emoticon": [
+            "(toiletpaper)"
+        ],
+        "Soap emoticon": [
+            "(soap)"
+        ],
+        "Sponge emoticon": [
+            "(sponge)"
+        ],
+        "Fire extinguisher emoticon": [
+            "(fireextinguisher)"
+        ],
+        "Shopping trolley emoticon": [
+            "(trolley)",
+            "(cart)"
+        ],
+        "Coffin emoticon": [
+            "(coffin)"
+        ],
+        "Funeral urn emoticon": [
+            "(funeralurn)"
+        ],
+        "Moyai emoticon": [
+            "(moyai)",
+            "(easterislandstatue)"
+        ]
+    },
+    "Objects - Skype Unique": {
+        "BB-8 emoticon": [
+            "(bb8)"
+        ],
+        "BB-9E emoticon": [
+            "(bb9e)"
+        ],
+        "Xmas heart emoticon": [
+            "(xmasheart)"
+        ],
+        "Web heart emoticon": [
+            "(webheart)"
+        ],
+        "Wind turbine emoticon": [
+            "(windturbine)"
+        ],
+        "Tumbleweed emoticon": [
+            "(tumbleweed)"
+        ],
+        "You have mail emoticon": [
+            "(mail)"
+        ],
+        "Who's this emoticon": [
+            "(whosthis)"
+        ],
+        "Can't unsee emoticon": [
+            "(unsee)"
+        ],
+        "Can you talk emoticon": [
+            "(canyoutalk)"
+        ],
+        "Time emoticon": [
+            "(time)",
+            "(clock)"
+        ],
+        "Bomb emoticon": [
+            "(bomb)",
+            "(explosion)",
+            "(explode)",
+            "@="
+        ],
+        "Confidential emoticon": [
+            "(confidential)"
+        ],
+        "Piggy bank emoticon": [
+            "(piggybank)"
+        ],
+        "Sparkler emoticon": [
+            "(sparkler)"
+        ],
+        "Fireworks emoticon": [
+            "(fireworks)"
+        ],
+        "Holi emoticon": [
+            "(holi)",
+            "(rang)"
+        ],
+        "Eid emoticon": [
+            "(eid)"
+        ],
+        "Tealight emoticon": [
+            "(diwali)",
+            "(diya)"
+        ],
+        "Dreidel emoticon": [
+            "(dreidel)"
+        ],
+        "Hanukkah emoticon": [
+            "(hanukkah)",
+            "(menorah)"
+        ],
+        "Stone wall 50 emoticon": [
+            "(stonewall50icon)"
+        ]
+    },
+    "Symbols": {
+        "ATM emoticon": [
+            "(atm)"
+        ],
+        "Litter in bin emoticon": [
+            "(litterinbin)",
+            "(trashinbin)"
+        ],
+        "Water tap emoticon": [
+            "(watertap)"
+        ],
+        "Wheelchair symbol emoticon": [
+            "(wheelchairsymbol)"
+        ],
+        "Mens symbol emoticon": [
+            "(menssymbol)"
+        ],
+        "Womans symbol emoticon": [
+            "(womenssymbol)"
+        ],
+        "Restroom emoticon": [
+            "(restroom)",
+            "(bathroom)"
+        ],
+        "Baby symbol emoticon": [
+            "(babysymbol)"
+        ],
+        "Water closet emoticon": [
+            "(wc)",
+            "(watercloset)"
+        ],
+        "Passport control emoticon": [
+            "(passportcontrol)"
+        ],
+        "Customs emoticon": [
+            "(customs)"
+        ],
+        "Baggage claim emoticon": [
+            "(baggageclaim)"
+        ],
+        "Left luggage emoticon": [
+            "(leftluggage)"
+        ],
+        "Warning emoticon": [
+            "(warning)"
+        ],
+        "Children crossing emoticon": [
+            "(childrencrossing)"
+        ],
+        "No entry emoticon": [
+            "(noentry)"
+        ],
+        "Prohibited emoticon": [
+            "(prohibited)"
+        ],
+        "No bicycles emoticon": [
+            "(nobicycles)"
+        ],
+        "No smoking emoticon": [
+            "(nosmoking)"
+        ],
+        "No littering emoticon": [
+            "(nolittering)"
+        ],
+        "No water emoticon": [
+            "(nowater)"
+        ],
+        "No pedestrians emoticon": [
+            "(nopedestrians)"
+        ],
+        "No mobile phones emoticon": [
+            "(nomobile)",
+            "(nophone)"
+        ],
+        "No one under eighteen emoticon": [
+            "(noundereighteen)",
+            "(nounder18)"
+        ],
+        "Radioactive emoticon": [
+            "(radioactive)"
+        ],
+        "Biohazard emoticon": [
+            "(biohazard)"
+        ],
+        "Up arrow emoticon": [
+            "(uparrow)"
+        ],
+        "Up right arrow emoticon": [
+            "(uprightarrow)",
+            "(northeastarrow)"
+        ],
+        "Right arrow emoticon": [
+            "(rightarrow)"
+        ],
+        "Down right arrow emoticon": [
+            "(downrightarrow)",
+            "(southeastarrow)"
+        ],
+        "Down arrow emoticon": [
+            "(downarrow)"
+        ],
+        "Down left arrow emoticon": [
+            "(downleftarrow)",
+            "(southwestarrow)"
+        ],
+        "Left arrow emoticon": [
+            "(leftarrow)"
+        ],
+        "Up left arrow emoticon": [
+            "(upleftarrow)",
+            "(northwestarrow)"
+        ],
+        "Up down arrow emoticon": [
+            "(updownarrow)"
+        ],
+        "Left right arrow emoticon": [
+            "(leftrightarrow)"
+        ],
+        "Curving left arrow emoticon": [
+            "(curvingleftarrow)"
+        ],
+        "Curving right arrow emoticon": [
+            "(curvingrightarrow)"
+        ],
+        "Arrow curving up emoticon": [
+            "(arrowcurvingup)"
+        ],
+        "Arrow curving down emoticon": [
+            "(arrowcurvingdown)"
+        ],
+        "Clockwise vertical arrows emoticon": [
+            "(repeatverticalbutton)"
+        ],
+        "Refresh emoticon": [
+            "(refresh)",
+            "(counterclockwisearrows)"
+        ],
+        "Back arrow emoticon": [
+            "(backarrow)"
+        ],
+        "End arrow emoticon": [
+            "(endarrow)"
+        ],
+        "On! Arrow emoticon": [
+            "(onarrow)"
+        ],
+        "Soon arrow emoticon": [
+            "(soonarrow)"
+        ],
+        "Top arrow emoticon": [
+            "(toparrow)"
+        ],
+        "Place of worship emoticon": [
+            "(placeofworship)"
+        ],
+        "Atom emoticon": [
+            "(atom)"
+        ],
+        "Om emoticon": [
+            "(om)"
+        ],
+        "Star of david emoticon": [
+            "(starofdavid)"
+        ],
+        "Wheel of dharma emoticon": [
+            "(wheelofdharma)",
+            "(helm)"
+        ],
+        "Yin yang emoticon": [
+            "(yinyang)"
+        ],
+        "Latin cross emoticon": [
+            "(latincross)"
+        ],
+        "Orthodox cross emoticon": [
+            "(orthodoxcross)"
+        ],
+        "Star and crescent emoticon": [
+            "(starandcrescent)"
+        ],
+        "Peace emoticon": [
+            "(peace)"
+        ],
+        "Menorah button emoticon": [
+            "(menorahbutton)"
+        ],
+        "Star with dot emoticon": [
+            "(starwithdot)"
+        ],
+        "Aries emoticon": [
+            "(aries)"
+        ],
+        "Taurus emoticon": [
+            "(taurus)"
+        ],
+        "Gemini emoticon": [
+            "(gemini)"
+        ],
+        "Cancer emoticon": [
+            "(cancer)"
+        ],
+        "Leo emoticon": [
+            "(leo)"
+        ],
+        "Virgo emoticon": [
+            "(virgo)"
+        ],
+        "Libra emoticon": [
+            "(libra)"
+        ],
+        "Scorpio emoticon": [
+            "(scorpio)"
+        ],
+        "Sagittarius emoticon": [
+            "(sagittarius)"
+        ],
+        "Capricorn emoticon": [
+            "(capricorn)"
+        ],
+        "Aquarius emoticon": [
+            "(aquarius)"
+        ],
+        "Pisces emoticon": [
+            "(pisces)"
+        ],
+        "Ophiuchus emoticon": [
+            "(ophiuchus)"
+        ],
+        "Shuffle button emoticon": [
+            "(shuffle)"
+        ],
+        "Repeat button emoticon": [
+            "(repeatbutton)"
+        ],
+        "Repeat single button emoticon": [
+            "(repeatsinglebutton)"
+        ],
+        "Play button emoticon": [
+            "(playbutton)"
+        ],
+        "Fast forward button emoticon": [
+            "(fastforwardbutton)"
+        ],
+        "Next track button emoticon": [
+            "(nexttrackbutton)"
+        ],
+        "Play or pause button emoticon": [
+            "(playpause)",
+            "(playpausebutton)"
+        ],
+        "Reverse button emoticon": [
+            "(reversebutton)"
+        ],
+        "Rewind button emoticon": [
+            "(rewindbutton)"
+        ],
+        "Last track button emoticon": [
+            "(lasttrackbutton)"
+        ],
+        "Up button emoticon": [
+            "(upwardsbutton)"
+        ],
+        "Fast up button emoticon": [
+            "(fastupbutton)"
+        ],
+        "Button down small emoticon": [
+            "(downwardsbutton)"
+        ],
+        "Fast down button emoticon": [
+            "(fastdownbutton)"
+        ],
+        "Pause button emoticon": [
+            "(pausebutton)"
+        ],
+        "Stop button emoticon": [
+            "(stopbutton)"
+        ],
+        "Record button emoticon": [
+            "(recordbutton)"
+        ],
+        "Eject button emoticon": [
+            "(ejectbutton)"
+        ],
+        "Cinema emoticon": [
+            "(cinemabutton)"
+        ],
+        "Low brightness emoticon": [
+            "(lowbrightness)"
+        ],
+        "High brightness emoticon": [
+            "(highbrightness)"
+        ],
+        "Signal strength emoticon": [
+            "(signalstrength)",
+            "(mobilesignalstrength)"
+        ],
+        "Vibration mode emoticon": [
+            "(vibrationmode)",
+            "(mobilevibrate)"
+        ],
+        "Mobile phone off emoticon": [
+            "(mobileoff)"
+        ],
+        "Female sign emoticon": [
+            "(femalesign)",
+            "(venus)"
+        ],
+        "Male sign emoticon": [
+            "(malesign)",
+            "(mars)"
+        ],
+        "Transgender Symbol emoticon": [
+            "(transgendersymbol)",
+            "(transgendersign)"
+        ],
+        "Multiplication sign emoticon": [
+            "(multiplicationsign)",
+            "(timessign)"
+        ],
+        "Plus sign emoticon": [
+            "(plussign)",
+            "(addsign)"
+        ],
+        "Minus sign emoticon": [
+            "(minussign)",
+            "(substractsign)"
+        ],
+        "Division sign emoticon": [
+            "(divisionsign)",
+            "(dividesign)"
+        ],
+        "Infinity emoticon": [
+            "(infinity)"
+        ],
+        "Double exclamation emoticon": [
+            "(doubleexclamation)",
+            "(bangbang)"
+        ],
+        "Question mark emoticon": [
+            "(questionmark)"
+        ],
+        "White question mark emoticon": [
+            "(whitequestionmark)"
+        ],
+        "White exclamation mark emoticon": [
+            "(whiteexclamationmark)"
+        ],
+        "Exclamation mark emoticon": [
+            "(exclamationmark)"
+        ],
+        "Wavy dash emoticon": [
+            "(wavydash)"
+        ],
+        "Currency exchange emoticon": [
+            "(currencyexchange)"
+        ],
+        "Cash emoticon": [
+            "(cash)",
+            "($)"
+        ],
+        "Medical symbol emoticon": [
+            "(medicalsymbol)"
+        ],
+        "Recycle emoticon": [
+            "(recycle)"
+        ],
+        "Fleur de lis emoticon": [
+            "(fleurdelis)",
+            "(scouts)"
+        ],
+        "Trident emoticon": [
+            "(trident)"
+        ],
+        "Name badge emoticon": [
+            "(namebadge)",
+            "(nametag)"
+        ],
+        "Beginner emoticon": [
+            "(beginner)",
+            "(shoshinsha)"
+        ],
+        "Red ring emoticon": [
+            "(redring)"
+        ],
+        "Checkmark button emoticon": [
+            "(checkmarkbutton)"
+        ],
+        "Checkbox emoticon": [
+            "(checkbox)"
+        ],
+        "Checkmark emoticon": [
+            "(checkmark)"
+        ],
+        "Crossmark emoticon": [
+            "(crossmark)"
+        ],
+        "Cross mark button emoticon": [
+            "(crossmarkbutton)"
+        ],
+        "Curly loop emoticon": [
+            "(curlyloop)"
+        ],
+        "Double curly loop emoticon": [
+            "(doublecurlyloop)"
+        ],
+        "Part alternation mark emoticon": [
+            "(partalternationmark)"
+        ],
+        "Asterisk emoticon": [
+            "(asterisk)"
+        ],
+        "Star button emoticon": [
+            "(starbutton)"
+        ],
+        "Sparkle emoticon": [
+            "(sparkle)"
+        ],
+        "Copyright emoticon": [
+            "(copyright)"
+        ],
+        "Registered emoticon": [
+            "(registered)"
+        ],
+        "Trademark emoticon": [
+            "(trademark)",
+            "(tm)"
+        ],
+        "Keycap number emoticon": [
+            "(keycapnumber)",
+            "(keycaphash)",
+            "(keycappound)",
+            "(keycapnumbersign)"
+        ],
+        "Keycap asterisk emoticon": [
+            "(keycapasterisk)",
+            "(keycapstar)",
+            "(keycapnumberasterisk)"
+        ],
+        "Keycap zero emoticon": [
+            "(keycapzero)",
+            "(keycapdigitzero)"
+        ],
+        "Keycap one emoticon": [
+            "(keycapone)",
+            "(keycapdigitone)"
+        ],
+        "Keycap two emoticon": [
+            "(keycaptwo)",
+            "(keycapdigittwo)"
+        ],
+        "Keycap three emoticon": [
+            "(keycapthree)",
+            "(keycapdigitthree)"
+        ],
+        "Keycap four emoticon": [
+            "(keycapfour)",
+            "(keycapdigitfour)"
+        ],
+        "Keycap five emoticon": [
+            "(keycapfive)",
+            "(keycapdigitfive)"
+        ],
+        "Keycap six emoticon": [
+            "(keycapsix)",
+            "(keycapdigitsix)"
+        ],
+        "Keycap seven emoticon": [
+            "(keycapseven)",
+            "(keycapdigitseven)"
+        ],
+        "Keycap eight emoticon": [
+            "(keycapeight)",
+            "(keycapdigiteight)"
+        ],
+        "Keycap nine emoticon": [
+            "(keycapnine)",
+            "(keycapdigitnine)"
+        ],
+        "Keycap ten emoticon": [
+            "(keycapten)"
+        ],
+        "Uppercase emoticon": [
+            "(uppercase)"
+        ],
+        "Lowercase emoticon": [
+            "(lowercase)"
+        ],
+        "Numbers emoticon": [
+            "(numbers)"
+        ],
+        "Symbols emoticon": [
+            "(symbols)"
+        ],
+        "Letters emoticon": [
+            "(letters)"
+        ],
+        "Blood type A emoticon": [
+            "(bloodtypea)"
+        ],
+        "Blood type AB emoticon": [
+            "(ab)"
+        ],
+        "Blood type B emoticon": [
+            "(bloodtypeb)"
+        ],
+        "Clear emoticon": [
+            "(clear)",
+            "(cl)"
+        ],
+        "Cool emoticon": [
+            "(coolbutton)"
+        ],
+        "Free emoticon": [
+            "(free)"
+        ],
+        "Information emoticon": [
+            "(information)",
+            "(info)"
+        ],
+        "ID emoticon": [
+            "(id)"
+        ],
+        "Circled M emoticon": [
+            "(circledm)"
+        ],
+        "New emoticon": [
+            "(new)"
+        ],
+        "NG emoticon": [
+            "(ng)"
+        ],
+        "Blood type O emoticon": [
+            "(bloodtypeo)"
+        ],
+        "OK emoticon": [
+            "(okbutton)"
+        ],
+        "Parking emoticon": [
+            "(parking)"
+        ],
+        "SOS emoticon": [
+            "(sos)"
+        ],
+        "UP! Button emoticon": [
+            "(buttonup)",
+            "(upbutton)"
+        ],
+        "VS emoticon": [
+            "(vs)"
+        ],
+        "Here emoticon": [
+            "(here)"
+        ],
+        "Service charge emoticon": [
+            "(servicecharge)"
+        ],
+        "Monthly amount emoticon": [
+            "(monthlyamount)"
+        ],
+        "Not free of charge emoticon": [
+            "(notfreeofcharge)"
+        ],
+        "Reserved emoticon": [
+            "(reserved)"
+        ],
+        "Bargain emoticon": [
+            "(bargain)"
+        ],
+        "Discount emoticon": [
+            "(discount)"
+        ],
+        "Free of charge emoticon": [
+            "(freeofcharge)"
+        ],
+        "Accept emoticon": [
+            "(accept)"
+        ],
+        "Application emoticon": [
+            "(application)"
+        ],
+        "Agreement emoticon": [
+            "(agreement)"
+        ],
+        "Vacancy emoticon": [
+            "(vacancy)"
+        ],
+        "Congratulations emoticon": [
+            "(congratulations)"
+        ],
+        "Secret emoticon": [
+            "(secret)"
+        ],
+        "Open for business emoticon": [
+            "(openforbusiness)"
+        ],
+        "No vacancy emoticon": [
+            "(novacancy)"
+        ],
+        "Red circle emoticon": [
+            "(redcircle)"
+        ],
+        "Orange circle emoticon": [
+            "(orangecircle)"
+        ],
+        "Yellow circle emoticon": [
+            "(yellowcircle)"
+        ],
+        "Green circle emoticon": [
+            "(greencircle)"
+        ],
+        "Blue circle emoticon": [
+            "(bluecircle)"
+        ],
+        "Purple circle emoticon": [
+            "(purplecircle)"
+        ],
+        "Brown circle emoticon": [
+            "(browncircle)"
+        ],
+        "Black circle emoticon": [
+            "(blackcircle)"
+        ],
+        "White circle emoticon": [
+            "(whitecircle)"
+        ],
+        "Red square emoticon": [
+            "(redsquare)"
+        ],
+        "Orange square emoticon": [
+            "(orangesquare)"
+        ],
+        "Yellow square emoticon": [
+            "(yellowsquare)"
+        ],
+        "Green square emoticon": [
+            "(greensquare)"
+        ],
+        "Blue square emoticon": [
+            "(bluesquare)"
+        ],
+        "Purple square emoticon": [
+            "(purplesquare)"
+        ],
+        "Brown square emoticon": [
+            "(brownsquare)"
+        ],
+        "Large black square emoticon": [
+            "(largeblacksquare)"
+        ],
+        "Large white square emoticon": [
+            "(largewhitesquare)"
+        ],
+        "Medium black square emoticon": [
+            "(mediumblacksquare)"
+        ],
+        "Medium white square emoticon": [
+            "(mediumwhitesquare)"
+        ],
+        "Medium small black square emoticon": [
+            "(mediumsmallblacksquare)"
+        ],
+        "Medium small white square emoticon": [
+            "(mediumsmallwhitesquare)"
+        ],
+        "Small black square emoticon": [
+            "(smallblacksquare)"
+        ],
+        "Small white square emoticon": [
+            "(smallwhitesquare)"
+        ],
+        "Large orange diamond emoticon": [
+            "(orangediamond)"
+        ],
+        "Large blue diamond emoticon": [
+            "(largebluediamond)"
+        ],
+        "Small orange diamond emoticon": [
+            "(smallorangediamond)"
+        ],
+        "Small blue diamond emoticon": [
+            "(smallbluediamond)"
+        ],
+        "Red triangle up emoticon": [
+            "(redtriangleup)"
+        ],
+        "Red triangle down emoticon": [
+            "(redtriangledown)"
+        ],
+        "Diamond flower emoticon": [
+            "(diamondflower)",
+            "(kawaii)"
+        ],
+        "Radio button emoticon": [
+            "(radiobutton)"
+        ],
+        "White square button emoticon": [
+            "(whitesquarebutton)"
+        ],
+        "Black square button emoticon": [
+            "(blacksquarebutton)"
+        ],
+        "Blue Ribbon emoticon": [
+            "(ribbonblue)"
+        ],
+        "Red Ribbon emoticon": [
+            "(ribbonred)"
+        ],
+        "Black Ribbon emoticon": [
+            "(ribbonblack)"
+        ],
+        "Pink Ribbon emoticon": [
+            "(ribbonpink)"
+        ],
+        "Green Ribbon emoticon": [
+            "(ribbongreen)"
+        ],
+        "Purple Ribbon emoticon": [
+            "(ribbonpurple)"
+        ],
+        "Orange Ribbon emoticon": [
+            "(ribbonorange)"
+        ]
+    },
+    "Symbols - Skype Unique": {
+        "Pride heart emoticon": [
+            "(prideheart)"
+        ],
+        "I heart you emoticon": [
+            "(iheartu)"
+        ],
+        "Yellow Ribbon emoticon": [
+            "(ribbonyellow)"
+        ],
+        "Pride ribbon emoticon": [
+            "(ribbonpride)"
+        ],
+        "Be right back emoticon": [
+            "(brb)",
+            "(berightback)"
+        ],
+        "What's going on emoticon": [
+            "(whatsgoingon)",
+            "(!!?)"
+        ],
+        "Confusion emoticon": [
+            "(golmaal)"
+        ],
+        "What! emoticon": [
+            "(kya)"
+        ],
+        "Oye emoticon": [
+            "(oye)"
+        ],
+        "Abe emoticon": [
+            "(abe)",
+            "(abey)"
+        ],
+        "Mum heart emoticon": [
+            "(mumheart)",
+            "(momheart)"
+        ]
+    },
+    "Hidden": {
+        "Microsoft Access emoticon": [
+            "(access)"
+        ],
+        "Bing emoticon": [
+            "(bing)"
+        ],
+        "Drunk emoticon": [
+            "(drunk)"
+        ],
+        "Microsoft Excel emoticon": [
+            "(excel)"
+        ],
+        "Finger emoticon": [
+            "(finger)"
+        ],
+        "Groupme emoticon": [
+            "(groupme)"
+        ],
+        "Internet Explorer emoticon": [
+            "(internetexplorer)"
+        ],
+        "chirag emoticon": [
+            "(chirag)"
+        ],
+        "Microsoft emoticon": [
+            "(microsoft)"
+        ],
+        "Mooning emoticon": [
+            "(mooning)"
+        ],
+        "Neil emoticon": [
+            "(neil)"
+        ],
+        "Oliver emoticon": [
+            "(oliver)"
+        ],
+        "Microsoft OneDrive emoticon": [
+            "(onedrive)"
+        ],
+        "Microsoft OneNote emoticon": [
+            "(onenote)"
+        ],
+        "On the loo emoticon": [
+            "(ontheloo)"
+        ],
+        "Microsoft Outlook emoticon": [
+            "(outlook)"
+        ],
+        "Pool party emoticon": [
+            "(poolparty)"
+        ],
+        "Poop emoticon": [
+            "(poop)"
+        ],
+        "Microsoft PowerPoint emoticon": [
+            "(powerpoint)"
+        ],
+        "Microsoft Publisher emoticon": [
+            "(publisher)"
+        ],
+        "Santa mooning emoticon": [
+            "(santamooning)"
+        ],
+        "SharePoint emoticon": [
+            "(sharepoint)"
+        ],
+        "Sheep emoticon": [
+            "(sheep)"
+        ],
+        "Skill emoticon": [
+            "(peter)",
+            "(skill)"
+        ],
+        "Skype emoticon": [
+            "(skype)"
+        ],
+        "Skype for Business emoticon": [
+            "(skypebiz)"
+        ],
+        "Smoke emoticon": [
+            "(smoke)"
+        ],
+        "Tauri emoticon": [
+            "(tauri)"
+        ],
+        "Windows 10 emoticon": [
+            "(win10)"
+        ],
+        "Microsoft Word emoticon": [
+            "(word)"
+        ],
+        "WTF emoticon": [
+            "(wtf)"
+        ],
+        "Xbox logo emoticon": [
+            "(xbox)"
+        ],
+        "Teams emoticon": [
+            "(Teams)"
+        ],
+        "Yammer emoticon": [
+            "(Yammer)"
+        ]
+    }
+}

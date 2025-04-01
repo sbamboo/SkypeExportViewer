@@ -134,3 +134,14 @@ input[type="text"] {
     width: 100%;
     overflow: hidden;
 }
+
+.additional-upload-section > .upload-left {
+    /* flex and content right aligned */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#contactsUploadBtn, #numbersUploadBtn {
+    width: 50%;
+}

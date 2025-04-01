@@ -63,6 +63,8 @@
     padding: 10px;
     overflow-y: auto;
     height: 605px;
+    display: flex;
+    flex-direction: column;
 }
 
 .message {
@@ -102,6 +104,7 @@
     background: #e0e0e0;
     color: #333;
     border-radius: 3px;
+    margin-left: 30px;
 }
 
 .message-content {
@@ -187,6 +190,31 @@
 }
 .message-event-historydisclosed-update-false > .event-initiator {
     color: #a07a7a;
+}
+
+.message {
+    width: fit-content;
+}
+
+.message:has(>.message-outgoing),
+.message:has(>.message-incomming),
+.message:has(>.message-callinfo) {
+    max-width: 90%;
+}
+.message:has(>.message-outgoing) {
+    /* Align right */
+    margin-left: auto;
+}
+
+.message:has(>.message-incomming) {
+    /* Align left */
+    margin-right: auto;
+}
+
+.message:has(>.message-callinfo) {
+    /* Align center */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* .emoticon is image make it height same as parents fontSize */

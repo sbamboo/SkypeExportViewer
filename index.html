@@ -6,9 +6,12 @@
     <title>Skype Export Viewer</title>
     
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/collapsible.css">
     <link rel="stylesheet" href="./css/tabs/messages.css">
     <link rel="stylesheet" href="./css/tabs/media.css">
     <link rel="stylesheet" href="./css/tabs/endpoints.css">
+    <link rel="stylesheet" href="./css/tabs/contacts.css">
+    <link rel="stylesheet" href="./css/tabs/numbers.css">
 
     <!-- Include the ProgressDrop-JS library from this github through CDN -->
     <script src="https://cdn.jsdelivr.net/gh/sbamboo/progressdrop_js/dist/a0.0.5/progressdrop.min.js"></script>
@@ -19,6 +22,12 @@
 
     <!-- Include the TarballJS library from this github through CDN -->
     <script src="https://cdn.jsdelivr.net/gh/sbamboo/progressdrop_js/dist/tarballjs/tarball.min.js"></script>
+
+    <!-- Include the VanillaES/CSV library from github through CDN -->
+    <script type="module">
+        import { parse } from 'https://cdn.jsdelivr.net/gh/vanillaes/csv/index.min.js';
+        window.CSV = { parse };
+    </script>
 </head>
 <body>
     <div class="container">
@@ -43,6 +52,20 @@
 
         <p class="info-text">Your data is never uploaded to a server and exists only in your web browser until the page is reloaded or closed.</p>
 
+        <hr>
+
+        <div class="upload-section additional-upload-section">
+            <div class="upload-left">
+                <button id="contactsUploadBtn">Upload a skype contacts.csv</button>
+                <input type="file" id="contactsFileInput" accept=".csv" style="display: none;">
+            </div>
+            <div class="separator"></div>
+            <div class="upload-right">
+                <button id="numbersUploadBtn">Fetch a skype numbers.csv</button>
+                <input type="file" id="numbersFileInput" accept=".csv" style="display: none;">
+            </div>
+        </div>
+
         <div id="viewerWrapper" style="display:none;">
             <hr>
 
@@ -61,10 +84,14 @@
     <script src="./js/emoticons/mappings.js"></script>
     <script src="./js/emoticons/parsers.js"></script>
 
+    <script src="./js/tabs/messages/jsonarray_appcard.js"></script>
+    <script src="./js/tabs/messages/jsonarray_engagement.js"></script>
     <script src="./js/tabs/messages_parsing.js"></script>
     <script src="./js/tabs/messages.js"></script>
     <script src="./js/tabs/media.js"></script>
     <script src="./js/tabs/endpoints.js"></script>
+    <script src="./js/tabs/contacts.js"></script>
+    <script src="./js/tabs/numbers.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

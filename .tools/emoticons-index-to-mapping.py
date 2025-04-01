@@ -17,7 +17,8 @@ def convert_json(input_json):
                 for textmoji in textmojis:
                     output_json["abbrivs"][textmoji] = shortcut
                 
-                output_json["emoticons"][shortcut] = url
+                for shortcut in shortcuts:
+                    output_json["emoticons"][shortcut] = url
     
     return output_json
 

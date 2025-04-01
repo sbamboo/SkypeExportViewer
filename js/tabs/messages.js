@@ -1,4 +1,4 @@
-function renderMessagesTab(messages_json,mediaFiles) {
+function renderMessagesTab(messages_json,mediaFiles,PARSED_MESSAGES) {
     const messagesTabWrapper = document.createElement("div");
     messagesTabWrapper.classList.add("messages-tab-wrapper");
 
@@ -39,6 +39,10 @@ function renderMessagesTab(messages_json,mediaFiles) {
     });
 
     sortedValidConversations.forEach((conv, index) => {
+    
+        // Reverse conversation.MessageList
+        conv.MessageList.reverse();
+
         const convElement = document.createElement('div');
         convElement.className = 'conversation-item';
         convElement.innerHTML = `
@@ -59,7 +63,7 @@ function renderMessagesTab(messages_json,mediaFiles) {
             convElement.classList.add('active');
 
             // Display messages
-            await displayConversationMessages(conv, messageView, mediaFiles);
+            await displayConversationMessages(messages_json.userId, conv, messageView, mediaFiles, PARSED_MESSAGES);
 
             // Replace all js-auto-replace-with-link-on-fail images with links
             document.querySelectorAll("img.js-auto-replace-with-link-on-fail").forEach(img => {
@@ -94,11 +98,8 @@ function renderMessagesTab(messages_json,mediaFiles) {
     return messagesTabWrapper;
 }
 
-async function displayConversationMessages(conversation, container, mediaFiles) {
+async function displayConversationMessages(holder, conversation, container, mediaFiles, PARSED_MESSAGES) {
     container.innerHTML = '';
-    
-    // Reverse conversation.MessageList
-    conversation.MessageList.reverse();
 
     for (const msg of conversation.MessageList) {
         if (msg.content.trim()) {
@@ -106,10 +107,27 @@ async function displayConversationMessages(conversation, container, mediaFiles) 
             messageElement.className = 'message';
             
             const rawContent = msg.content;
-            const formattedContent = await parseMessageContent(rawContent, mediaFiles);
+            const messageCacheId = conversation.id + ";" + msg.id;
+
+            let messageOwnerClass = 'message-incomming';
+            if (msg.from == holder) {
+                messageOwnerClass = 'message-outgoing';
+            }
+
+            let formattedContent;
+            if (PARSED_MESSAGES.hasOwnProperty(messageCacheId)) {
+                formattedContent = PARSED_MESSAGES[messageCacheId];
+            } else {
+                const [mocovv, formattedContent2] = await parseMessageContent(rawContent, mediaFiles);
+                if (mocovv && mocovv !== null) {
+                    messageOwnerClass = mocovv;
+                }
+                formattedContent = formattedContent2;
+                PARSED_MESSAGES[messageCacheId] = formattedContent; // Cache the parsed message
+            }
             
             messageElement.innerHTML = `
-                <div class="message-header">
+                <div class="message-header ${messageOwnerClass}">
                     <div class="message-header-left">
                         <span class="message-author">${formatUserId(msg.from)}</span>
                         <span class="message-time">${formatDate(new Date(msg.originalarrivaltime))}</span>

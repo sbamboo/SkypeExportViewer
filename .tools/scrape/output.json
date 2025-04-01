@@ -1,10 +1,10 @@
 {
-    "smilies": {
+    "Smilies": {
         "laugh": {
             "name": "Laugh",
             "shortcuts": [
                 "(laugh)",
-                "(LOL)",
+                "(lol)",
                 "(lol)"
             ],
             "textmojis": [
@@ -1212,7 +1212,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/ukraine_heart_40x40.gif"
         }
     },
-    "smilies_skype_unique": {
+    "Smilies - Skype Unique": {
         "like": {
             "name": "Like",
             "shortcuts": [
@@ -1789,7 +1789,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/xmas_cry_40x40.gif"
         }
     },
-    "hand_gestures": {
+    "Hand Gestures": {
         "waving_hand": {
             "name": "Waving hand",
             "shortcuts": [
@@ -1833,7 +1833,7 @@
         "ok": {
             "name": "Ok",
             "shortcuts": [
-                "(OK)",
+                "(ok)",
                 "(ok)",
                 "(okay)"
             ],
@@ -1935,7 +1935,7 @@
         "yes": {
             "name": "Yes",
             "shortcuts": [
-                "(Y)",
+                "(y)",
                 "(y)",
                 "(yes)"
             ],
@@ -2191,14 +2191,14 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/ukraine_pray_40x40.gif"
         }
     },
-    "hand_gestures_skype_unique": {
+    "Hand Gestures - Skype Unique": {
         "hi": {
             "name": "Hi",
             "shortcuts": [
                 "(wave)",
-                "(HI)",
                 "(hi)",
-                "(BYE)",
+                "(hi)",
+                "(bye)",
                 "(bye)"
             ],
             "textmojis": [],
@@ -2396,7 +2396,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/drop_the_mic_40x40.gif"
         }
     },
-    "people": {
+    "People": {
         "smile_baby": {
             "name": "Smile baby",
             "shortcuts": [
@@ -4337,7 +4337,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/footprints_40x40.gif"
         }
     },
-    "people_skype_unique": {
+    "People - Skype Unique": {
         "bottle_feeding": {
             "name": "Bottle feeding",
             "shortcuts": [
@@ -5009,7 +5009,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/chewie_40x40.gif"
         }
     },
-    "animals_and_nature": {
+    "Animals and Nature": {
         "monkey": {
             "name": "Monkey",
             "shortcuts": [
@@ -5730,7 +5730,7 @@
             "name": "snail",
             "shortcuts": [
                 "(snail)",
-                "(SN)",
+                "(sn)",
                 "(sn)"
             ],
             "textmojis": [],
@@ -5999,7 +5999,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/falling_leaf_40x40.gif"
         }
     },
-    "animals_and_nature_skype_unique": {
+    "Animals and Nature - Skype Unique": {
         "penguin_kiss": {
             "name": "Penguin kiss",
             "shortcuts": [
@@ -6375,7 +6375,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/turtle_40x40.gif"
         }
     },
-    "food": {
+    "Food": {
         "grapes": {
             "name": "Grapes",
             "shortcuts": [
@@ -7357,7 +7357,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/amphora_40x40.gif"
         }
     },
-    "food_skype_unique": {
+    "Food - Skype Unique": {
         "great_pear": {
             "name": "Great pear",
             "shortcuts": [
@@ -7409,7 +7409,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/fool_40x40.gif"
         }
     },
-    "travel_and_places": {
+    "Travel and Places": {
         "earth_globe_europe_africa": {
             "name": "Earth globe Europe Africa",
             "shortcuts": [
@@ -9048,7 +9048,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/water_wave_40x40.gif"
         }
     },
-    "travel_and_places_skype_unique": {
+    "Travel and Places - Skype Unique": {
         "xmas_car": {
             "name": "Xmas car",
             "shortcuts": [
@@ -9091,7 +9091,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/tie_fighter_40x40.gif"
         }
     },
-    "activities": {
+    "Activities": {
         "pumpkin": {
             "name": "Pumpkin",
             "shortcuts": [
@@ -9716,7 +9716,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/ball_of_yarn_40x40.gif"
         }
     },
-    "activities_skype_unique": {
+    "Activities - Skype Unique": {
         "american_football": {
             "name": "American football",
             "shortcuts": [
@@ -9727,7 +9727,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/american_football_40x40.gif"
         }
     },
-    "objects": {
+    "Objects": {
         "glasses": {
             "name": "Glasses",
             "shortcuts": [
@@ -11020,7 +11020,7 @@
                 "(clippy)"
             ],
             "textmojis": [
-                "(paperclip)"
+                "(paperclip"
             ],
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/paperclip_40x40.gif"
         },
@@ -11559,7 +11559,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/moyai_40x40.gif"
         }
     },
-    "objects_skype_unique": {
+    "Objects - Skype Unique": {
         "bb-8": {
             "name": "BB-8",
             "shortcuts": [
@@ -11745,7 +11745,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/stone_wall_50_40x40.gif"
         }
     },
-    "symbols": {
+    "Symbols": {
         "atm": {
             "name": "ATM",
             "shortcuts": [
@@ -13593,7 +13593,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/orange_ribbon_40x40.gif"
         }
     },
-    "symbols_skype_unique": {
+    "Symbols - Skype Unique": {
         "pride_heart": {
             "name": "Pride heart",
             "shortcuts": [
@@ -13687,7 +13687,7 @@
             "url": "https://raw.githubusercontent.com/sbamboo/SkypeExportViewer/main/assets/emoticons/mum_heart_40x40.gif"
         }
     },
-    "hidden": {
+    "Hidden": {
         "microsoft_access": {
             "name": "Microsoft Access",
             "shortcuts": [
