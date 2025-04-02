@@ -1,0 +1,12 @@
+.message-urlpreview-popup {
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ddd;
+}
+
+.message-urlpreview-popup-content-thumbnail {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+}

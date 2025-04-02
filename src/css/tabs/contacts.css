@@ -1,0 +1,166 @@
+.contacts-type-header {
+    font-size: 1.5em;
+}
+.contacts-type-header>hr {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.contacts-type-entries-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contacts-entry-wrapper {
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+.contacts-entry-persona {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts-entry-name-wrapper {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.2em;
+}
+
+.contact-entry-skype {
+    color: #50a5c7;
+}
+
+.contact-entry-name-company {
+    color: #888;
+}
+
+.contacts-entry-avatar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.contacts-entry-avatar>img,
+.contacts-entry-avatar>svg {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
+
+.contacts-entry-status-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contacts-entry-status-icons>* {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.contacts-entry-about,
+.contacts-entry-contact,
+.contacts-entry-more {
+    font-size: 1.07em;
+}
+
+.contacts-entry-about>*:first-child {
+    padding-top: 10px;
+}
+
+.contacts-entry-contact>* {
+    display: flex;
+    flex-direction: row;
+    color: #444;
+}
+.contacts-entry-contact>*>*:first-child {
+    margin-right: 5px;
+}
+
+.contacts-entry-contact>*:first-child {
+    padding-top: 5px;
+}
+
+.contacts-entry-more {
+    padding-left: 5px;
+}
+
+.contacts-entry-more>*:first-child {
+    padding-top: 10px;
+}
+
+.contacts-more-entry {
+    margin-left: 15px;
+}
+
+.contacts-more-key {
+    color: #707070;
+}
+.contacts-more-location-type {
+    color: #707070;
+}
+
+.contacts-more-info {
+    color: #707070;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.popup-overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 1.5em;
+}
+
+.popup-image {
+    height: 100%;
+    object-fit: contain;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.popup-close-btn {
+    height: 3em;
+    width: 3em;
+    position: relative;
+    left: -3.5em;
+    top: 0.5em;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-close-btn,
+.popup-close-btn:active,
+.popup-close-btn:visited {
+    background-color: rgba(70, 149, 209, 0.6);
+}
+.popup-close-btn:hover {
+    background-color: rgba(33, 104, 158, 0.6);
+}
+.popup-close-btn>p {
+    display: block;
+    font-size: 1.4em;
+}

@@ -1,7 +1,0 @@
-- For <a> tags in content check if url is at `message.properties.urlpreviews[x]["key"]` in that case use that as an opengraph-style preview.
-- Allow upload of contacts.csv or numbers.csv
-- URIObject CSS Overhaul
-- Media tab CSS Overhaul
-- Inline markdown line `~text~`
-- URIObject File.1 parsing
-- Handle URIObject Video.2/CallRecording.1

@@ -1,0 +1,41 @@
+.numbers-table {
+    width: 40%;
+    border-collapse: unset;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+}
+
+.numbers-table thead {
+    background-color: rgb(240, 241, 243);
+    color: #374151;
+}
+
+.numbers-table th {
+    padding: 0.7rem;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+}
+
+.numbers-table td {
+    padding: 0.7rem;
+    border-top: 1px solid #ddd;
+    color: #4b5563;
+}
+
+.numbers-table tbody {
+    background-color: rgb(253, 253, 253);
+}
+
+.numbers-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.numbers-table > * > tr > *:first-child {
+    border-right: 1px solid #ddd;
+}
