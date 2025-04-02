@@ -3,7 +3,6 @@
 - `<ss type="winktongueout">;p</ss>`
 - `<ss type="noworries">(noworries)</ss>`
 - Long one liner message go offscreen
-- On axow.se/tests/skype-export-viewer add warning that fetches to skype's api is unavaliable and that they should download the script.
 - Handle low-width in messages by collapsible conversation sidebar
 - Handle low-width in media by setting max-height of media-grid-box to something sensible or `fit-content`
 - Handle low-width in endpoints by changing min/max width of table
