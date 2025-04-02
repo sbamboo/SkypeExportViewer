@@ -1,0 +1,2 @@
+- Handle unicode inline (xxxxx_name) ex `(1F440_eyes)` => `U+1F440`
+- Handle URIObject of type `Video.1/Flik.1`
