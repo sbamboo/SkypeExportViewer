@@ -1,2 +1,5 @@
 - Handle unicode inline (xxxxx_name) ex `(1F440_eyes)` => `U+1F440`
 - Handle URIObject of type `Video.1/Flik.1`
+- `<ss type="winktongueout">;p</ss>`
+- `<ss type="noworries">(noworries)</ss>`
+- Long one liner message go offscreen
