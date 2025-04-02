@@ -47,7 +47,15 @@ function renderMediaTab(mediaFiles) {
     // It is either <id>.json or <id>.<i>.json
     const mediaEntries = {}; // {"<fileid>": {"json": "<json-file>", "media": {"<i>":"<media-file>",...}}}
 
-    Object.entries(mediaFiles).forEach(([file, blob]) => {
+    // Sort the files to the ones where file endswith json is first
+    const sortedFiles = Object.keys(mediaFiles).sort((a, b) => {
+        const aIsJson = a.endsWith(".json") ? 0 : 1;
+        const bIsJson = b.endsWith(".json") ? 0 : 1;
+        return aIsJson - bIsJson;
+    });
+
+    for (const file of sortedFiles) {
+        const blob = mediaFiles[file];
         // Extract filename from possible path
         const filename = file.split("/").pop();
         const fileParts = filename.split(".");
@@ -56,11 +64,11 @@ function renderMediaTab(mediaFiles) {
             const fileExt = fileParts[1];
             if (fileExt === "json") {
                 mediaEntries[fileId] = { json: blob, media: {} };
-            } else if (mediaEntries[fileId]) {
+            } else if (mediaEntries.hasOwnProperty(fileId) === true) {
                 mediaEntries[fileId].media[fileExt] = blob;
             }
         }
-    });
+    }
 
     // Iterate all mediaEntries and render them
     Object.entries(mediaEntries).forEach(async ([fileId, fileEntry]) => {

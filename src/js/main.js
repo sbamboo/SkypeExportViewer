@@ -60,6 +60,7 @@ window.onload = () => {
                 const response = await loader.fetch(url, "Downloading skype export...", true);
                 handleTarFile(await response.blob());
             } catch (error) {
+                container.innerHTML = ``;
                 console.error("Error fetching file:", error);
                 alert("Failed to fetch the file. Please check the URL and try again.");
             }

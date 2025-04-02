@@ -346,7 +346,6 @@ function renderContactsTab(contacts_csv) {
 }
 
 function showPopup(target) {
-    console.log(target);
     // Check if target is img or svg if not get parent until img or svg is found if in iteration we have no parent return early
     let visElem;
     if (target.tagName === 'IMG' || target.tagName === 'svg') {
