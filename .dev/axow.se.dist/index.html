@@ -201,11 +201,14 @@
         }
 
         /* TABS/MESSAGES */
+        .messages-outer-tab-wrapper {
+            border-radius: 15px;
+        }
+
         .messages-tab-wrapper {
             display: flex;
             flex-direction: row;
             height: 625px;
-            border-radius: 15px;
             overflow: hidden;
         }
 
@@ -476,6 +479,51 @@
             height: 1em;
             vertical-align: middle;
             margin-right: 2px;
+        }
+
+
+        .messages-search-container {
+            padding: 10px;
+            background: #f2f2f2;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .messages-search-input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .messages-search-button {
+            padding: 8px 16px;
+            background: #00aff0;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .messages-search-button:hover {
+            background: #009dd6;
+        }
+
+        .messages-search-button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .message.search-selected {
+            /*
+            border: 2px solid #00aff0;
+            box-shadow: 0 0 5px rgba(0, 175, 240, 0.3);
+            */
+            background-color: #fff3cd;
+            border-left: 3px solid #ffc107;
         }
 
 
@@ -4124,9 +4172,50 @@ function linkify(text) {
     <script>
         const MESSAGES_URLPREVIEWS = {};      // key  => data
 
+var is_search_scrolling = false;
+
 function renderMessagesTab(messages_json,mediaFiles,PARSED_MESSAGES) {
+    const messagesTabOuterWrapper = document.createElement("div");
+    messagesTabOuterWrapper.classList.add("messages-outer-tab-wrapper");
+  
     const messagesTabWrapper = document.createElement("div");
     messagesTabWrapper.classList.add("messages-tab-wrapper");
+
+    // Search container start
+    const searchContainer = document.createElement("div");
+    searchContainer.classList.add("messages-search-container");
+    
+    const searchInput = document.createElement("input");
+    searchInput.type = "text";
+    searchInput.placeholder = "Search messages...";
+    searchInput.classList.add("messages-search-input");
+    
+    const prevButton = document.createElement("button");
+    prevButton.textContent = "Previous";
+    prevButton.classList.add("messages-search-button");
+    prevButton.style.display = "none";
+    
+    const nextButton = document.createElement("button");
+    nextButton.textContent = "Next";
+    nextButton.classList.add("messages-search-button");
+    nextButton.style.display = "none";
+    
+    const clearButton = document.createElement("button");
+    clearButton.textContent = "Clear";
+    clearButton.classList.add("messages-search-button");
+    clearButton.style.display = "none";
+
+    const searchInfo = document.createElement("p");
+    searchInfo.classList.add("messages-search-info");
+    searchInfo.style.display = "none";
+
+    searchContainer.appendChild(searchInput);
+    searchContainer.appendChild(searchInfo);
+    searchContainer.appendChild(prevButton);
+    searchContainer.appendChild(nextButton);
+    searchContainer.appendChild(clearButton);
+    messagesTabOuterWrapper.appendChild(searchContainer);
+    // Search container end
 
     // Create structure
     const conversationsListWrapper = document.createElement("div");
@@ -4150,6 +4239,173 @@ function renderMessagesTab(messages_json,mediaFiles,PARSED_MESSAGES) {
 
     messagesTabWrapper.appendChild(conversationsListWrapper);
     messagesTabWrapper.appendChild(messageView);
+
+  
+    messagesTabOuterWrapper.appendChild(messagesTabWrapper);
+
+    // Search functionality
+    let currentSearchResults = [];
+    let currentSearchIndex = -1;
+    let allConversations = [];
+
+    searchInput.addEventListener("keypress", (e) => {
+        if (e.key === "Enter") {
+            performSearch(searchInput.value);
+        }
+    });
+
+    clearButton.addEventListener("click", () => {
+        searchInput.value = "";
+        clearSearch();
+    });
+
+    prevButton.addEventListener("click", () => {
+        navigateSearch(-1);
+    });
+
+    nextButton.addEventListener("click", () => {
+        navigateSearch(1);
+    });
+
+    function clearSearch() {
+        currentSearchResults = [];
+        currentSearchIndex = -1;
+        prevButton.style.display = "none";
+        nextButton.style.display = "none";
+        clearButton.style.display = "none";
+        is_search_scrolling = false;
+    
+        // Show all conversations
+        conversationsList.querySelectorAll(".conversation-item").forEach(item => {
+            item.style.display = "block";
+        });
+        
+        // Remove search-selected class from all messages
+        document.querySelectorAll(".search-selected").forEach(msg => {
+            msg.classList.remove("search-selected");
+        });
+    }
+
+    function performSearch(query) {
+        if (!query.trim()) {
+            clearSearch();
+            return;
+        }
+
+        currentSearchResults = [];
+        currentSearchIndex = -1;
+    
+        // Keep track of conversations with matches
+        const conversationsWithMatches = new Set();
+        
+        // Search through all conversations
+        sortedValidConversations.forEach((conv, convIndex) => {
+            const matchingMessages = conv.MessageList.filter((msg, msgIndex) => {
+                const content = msg.content.toLowerCase();
+                return content.includes(query.toLowerCase());
+            });
+
+            if (matchingMessages.length > 0) {
+                matchingMessages.forEach(msg => {
+                    currentSearchResults.push({
+                        conversation: conv,
+                        message: msg
+                    });
+                });
+                conversationsWithMatches.add(conv.id);
+            }
+        });
+
+        // Hide/show conversations based on matches
+        if (conversationsWithMatches.size > 0) {
+            conversationsList.querySelectorAll(".conversation-item").forEach(item => {
+                const convId = item.dataset.conversationItemId;
+                if (conversationsWithMatches.has(convId)) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        }
+
+        // Update UI based on search results
+        if (currentSearchResults.length > 0) {
+            prevButton.style.display = "block";
+            nextButton.style.display = "block";
+            clearButton.style.display = "block";
+            navigateSearch(1); // Go to first result
+        } else {
+            clearButton.style.display = "block";
+            // Step 1: Save current style.color
+            const originalColor = searchInfo.style.color;
+        
+            // Step 2: Change style.color to red
+            searchInfo.style.color = 'red';
+        
+            // Step 3: Set text to "No matches found"
+            searchInfo.textContent = 'No matches found';
+        
+            // Step 4: Set style.display to block
+            searchInfo.style.display = 'block';
+        
+            // Step 5: Wait 1 second
+            setTimeout(() => {
+                // Step 6: Reset the original style and content
+                searchInfo.style.color = originalColor;
+                searchInfo.style.display = '';  // Resetting display, which might depend on the layout ("" = default)
+                searchInfo.textContent = '';  // Reset the text content (or set to your original text if needed)
+            }, 1000); // Wait 1000 milliseconds (1 second)
+        }
+    }
+
+    function navigateSearch(direction) {
+        is_search_scrolling = true;
+        if (currentSearchResults.length === 0) return;
+
+        // Remove current selection
+        document.querySelectorAll(".search-selected").forEach(msg => {
+            msg.classList.remove("search-selected");
+        });
+
+        // Update index
+        currentSearchIndex += direction;
+        if (currentSearchIndex >= currentSearchResults.length) currentSearchIndex = 0;
+        if (currentSearchIndex < 0) currentSearchIndex = currentSearchResults.length - 1;
+
+        // Get current result
+        const result = currentSearchResults[currentSearchIndex];
+
+        // Find and click the conversation item
+        /*
+        const conversationItems = conversationsList.querySelectorAll(".conversation-item");
+        conversationItems.forEach(item => {
+            if (item.querySelector(".conversation-title").textContent === getDisplayName(result.conversation)) {
+                item.click();
+            }
+        });
+        */
+
+        const conversationItem = document.querySelector('[data-conversation-item-id="'+result.conversation.id+'"]');
+        conversationItem.click();
+
+        // Wait for messages to load
+        setTimeout(() => {
+            // Find the message and highlight it
+            /*
+            const messages = document.querySelectorAll(".message");
+            messages.forEach(msg => {
+                if (msg.querySelector(".message-content").textContent.includes(result.message.content)) {
+                    msg.classList.add("search-selected");
+                    msg.scrollIntoView({ behavior: "smooth", block: "center" });
+                }
+            });
+            */
+            const messageCacheId = result.conversation.id + ";" + result.message.id;
+            const msgElem = document.querySelector('[data-message-cache-id="'+messageCacheId+'"]');
+            msgElem.classList.add("search-selected");
+            msgElem.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 100);
+    }
 
     // Filter and display conversations
     const validConversations = messages_json.conversations.filter(conv => 
@@ -4180,6 +4436,8 @@ function renderMessagesTab(messages_json,mediaFiles,PARSED_MESSAGES) {
                     ''}
             </div>
         `;
+
+        convElement.dataset.conversationItemId = conv.id;
 
         convElement.addEventListener('click', async () => {
             // Update active state
@@ -4221,7 +4479,7 @@ function renderMessagesTab(messages_json,mediaFiles,PARSED_MESSAGES) {
     });
 
     // Return the wrapper
-    return messagesTabWrapper;
+    return messagesTabOuterWrapper;
 }
 
 async function displayConversationMessages(holder, conversation, container, mediaFiles, PARSED_MESSAGES) {
@@ -4247,6 +4505,7 @@ async function displayConversationMessages(holder, conversation, container, medi
             
             const rawContent = msg.content;
             const messageCacheId = conversation.id + ";" + msg.id;
+            messageElement.dataset.messageCacheId = messageCacheId;
 
             let messageOwnerClass = 'message-incomming';
             if (msg.from == holder) {
@@ -4404,7 +4663,9 @@ async function displayConversationMessages(holder, conversation, container, medi
     });
 
     // Scroll to the bottom of the message view
-    container.scrollTop = container.scrollHeight;
+    if (is_search_scrolling == false) {
+        container.scrollTop = container.scrollHeight;
+    }
 }
 
 function getDisplayName(conversation) {

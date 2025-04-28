@@ -1,8 +1,11 @@
+.messages-outer-tab-wrapper {
+    border-radius: 15px;
+}
+
 .messages-tab-wrapper {
     display: flex;
     flex-direction: row;
     height: 625px;
-    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -273,4 +276,49 @@
     height: 1em;
     vertical-align: middle;
     margin-right: 2px;
+}
+
+
+.messages-search-container {
+    padding: 10px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.messages-search-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.messages-search-button {
+    padding: 8px 16px;
+    background: #00aff0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.messages-search-button:hover {
+    background: #009dd6;
+}
+
+.messages-search-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.message.search-selected {
+    /*
+    border: 2px solid #00aff0;
+    box-shadow: 0 0 5px rgba(0, 175, 240, 0.3);
+    */
+    background-color: #fff3cd;
+    border-left: 3px solid #ffc107;
 }
